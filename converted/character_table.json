@@ -1,7 +1,7 @@
 {
 	"char_285_medic2": {
 		"name": "Lancet-2",
-		"description": "Heal friendly unit\nIgnore deploy limits\nLong redeployment time",
+		"description": "<@sizedown>Heal friendly unit\nIgnore deploy limits\nLong redeployment time</>",
 		"canUseGeneralPotentialItem": false,
 		"potentialItemId": "p_char_285_medic2",
 		"team": -1,
@@ -10,7 +10,7 @@
 		"appellation": "Lancet-2",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Healing\n</i></size>"
+			"Healing\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛医疗机器人Lancet-2，被工程师可露希尔派遣来执行战地医疗任务。",
@@ -273,7 +273,7 @@
 	},
 	"char_286_cast3": {
 		"name": "Castle-3",
-		"description": "Can block single enemies\nIgnore deploy limits\nLong redeployment time",
+		"description": "<@sizedown>Can block single enemies\nIgnore deploy limits\nLong redeployment time</>",
 		"canUseGeneralPotentialItem": false,
 		"potentialItemId": "p_char_286_cast3",
 		"team": -1,
@@ -282,7 +282,7 @@
 		"appellation": "Castle-3",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Supporting\n</i></size>"
+			"Supporting\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛近卫机器人Castle-3，被工程师可露希尔派遣来执行战地医疗任务。",
@@ -593,7 +593,7 @@
 	},
 	"char_502_nblade": {
 		"name": "夜刀",
-		"description": "Can block 2 enemies",
+		"description": "<@sizedown>Can block 2 enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_502_nblade",
 		"team": 1,
@@ -602,7 +602,7 @@
 		"appellation": "Yato",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Newbie\n</i></size>"
+			"Newbie\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛先锋干员夜刀，将在战场上为小队赢得可观的优势。",
@@ -845,7 +845,7 @@
 	},
 	"char_500_noirc": {
 		"name": "黑角",
-		"description": "Can block 3 enemies",
+		"description": "<@sizedown>Can block 3 enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_500_noirc",
 		"team": 1,
@@ -854,7 +854,7 @@
 		"appellation": "Noir Corne",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Newbie\n</i></size>"
+			"Newbie\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛重装干员黑角，将为队友提供坚实的防御力量。",
@@ -1101,7 +1101,7 @@
 	},
 	"char_503_rang": {
 		"name": "巡林者",
-		"description": "Prioritize attacking air units",
+		"description": "<@sizedown>Prioritize attacking air units</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_503_rang",
 		"team": 1,
@@ -1110,7 +1110,7 @@
 		"appellation": "Rangers",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Newbie\n</i></size>"
+			"Newbie\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛狙击干员巡林者，将以长弓挫败敌人攻击。",
@@ -1353,7 +1353,7 @@
 	},
 	"char_501_durin": {
 		"name": "杜林",
-		"description": "Spell damage",
+		"description": "<@sizedown>Spell damage</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_501_durin",
 		"team": 1,
@@ -1362,7 +1362,7 @@
 		"appellation": "Durin",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Newbie\n</i></size>"
+			"Newbie\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛术师干员杜林，将以源石技艺为小队构筑战略优势。",
@@ -1605,7 +1605,7 @@
 	},
 	"char_009_12fce": {
 		"name": "12F",
-		"description": "Splash Magic Damage",
+		"description": "<@sizedown>Splash Magic Damage</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_009_12fce",
 		"team": -1,
@@ -1614,7 +1614,7 @@
 		"appellation": "12F",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Newbie\n</i></size>"
+			"Newbie\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛术师干员12F，将用源石技艺为小队提供战术援助。",
@@ -1857,7 +1857,7 @@
 	},
 	"char_123_fang": {
 		"name": "芬",
-		"description": "Can block 2 enemies",
+		"description": "<@sizedown>Can block 2 enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_123_fang",
 		"team": 2,
@@ -1866,7 +1866,7 @@
 		"appellation": "Fang",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Cost Recovery\n</i></size>"
+			"Cost Recovery\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛先锋干员芬，将在战场上为小队赢得可观的优势。",
@@ -2278,7 +2278,7 @@
 	},
 	"char_240_wyvern": {
 		"name": "香草",
-		"description": "Can block 2 enemies",
+		"description": "<@sizedown>Can block 2 enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_240_wyvern",
 		"team": 13,
@@ -2287,7 +2287,7 @@
 		"appellation": "Vanilla",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Cost Recovery\n</i></size>"
+			"Cost Recovery\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "黑钢先锋干员香草，将用其专业技术为团队打开战场。",
@@ -2716,7 +2716,7 @@
 	},
 	"char_192_falco": {
 		"name": "翎羽",
-		"description": "Obtain 1 cost on every kill\nFull cost refund on retreat",
+		"description": "<@sizedown>Obtain 1 cost on every kill\nFull cost refund on retreat</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_192_falco",
 		"team": -1,
@@ -2725,8 +2725,8 @@
 		"appellation": "Plume",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>",
-			"<size=10><i>Cost Recovery\n</i></size>"
+			"DPS\n",
+			"Cost Recovery\n"
 		],
 		"displayLogo": "logo_Laterano",
 		"itemUsage": "罗德岛先锋干员翎羽，将为小队提供可靠的防御并反击敌人的攻势。",
@@ -3171,7 +3171,7 @@
 	},
 	"char_208_melan": {
 		"name": "玫兰莎",
-		"description": "Can block single enemies",
+		"description": "<@sizedown>Can block single enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_208_melan",
 		"team": 3,
@@ -3180,8 +3180,8 @@
 		"appellation": "Melantha",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>",
-			"<size=10><i>Survival\n</i></size>"
+			"DPS\n",
+			"Survival\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛近卫干员玫兰莎，将为小队提供优秀的进攻能力。",
@@ -3610,7 +3610,7 @@
 	},
 	"char_281_popka": {
 		"name": "泡普卡",
-		"description": "Attack multiple enemies equal to block count",
+		"description": "<@sizedown>Attack multiple enemies equal to block count</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_281_popka",
 		"team": 19,
@@ -3619,8 +3619,8 @@
 		"appellation": "Popukar",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Splash\n</i></size>",
-			"<size=10><i>Survival\n</i></size>"
+			"Splash\n",
+			"Survival\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛近卫干员泡普卡，拿起电锯想要赶跑威胁博士的坏人。",
@@ -4086,7 +4086,7 @@
 	},
 	"char_209_ardign": {
 		"name": "卡缇",
-		"description": "Can block 3 enemies",
+		"description": "<@sizedown>Can block 3 enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_209_ardign",
 		"team": 3,
@@ -4095,7 +4095,7 @@
 		"appellation": "Cardigan",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Protection\n</i></size>"
+			"Protection\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛重装干员卡缇，时刻奔跑在战场上为队友提供可靠的防御。",
@@ -4524,7 +4524,7 @@
 	},
 	"char_122_beagle": {
 		"name": "米格鲁",
-		"description": "Can block 3 enemies",
+		"description": "<@sizedown>Can block 3 enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_122_beagle",
 		"team": 2,
@@ -4533,7 +4533,7 @@
 		"appellation": "Beagle",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Protection\n</i></size>"
+			"Protection\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛重装干员米格鲁，将为队友提供坚实的防御力量。",
@@ -4962,7 +4962,7 @@
 	},
 	"char_284_spot": {
 		"name": "斑点",
-		"description": "Skills heal friendly unit",
+		"description": "<@sizedown>Skills heal friendly unit</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_284_spot",
 		"team": 19,
@@ -4971,8 +4971,8 @@
 		"appellation": "Spot",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Protection\n</i></size>",
-			"<size=10><i>Healing\n</i></size>"
+			"Protection\n",
+			"Healing\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛重装干员斑点，将在抵御攻击的同时为小队提供简单的医疗支援。",
@@ -5438,7 +5438,7 @@
 	},
 	"char_124_kroos": {
 		"name": "克洛丝",
-		"description": "Prioritize attacking air units",
+		"description": "<@sizedown>Prioritize attacking air units</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_124_kroos",
 		"team": 2,
@@ -5447,7 +5447,7 @@
 		"appellation": "Kroos",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>"
+			"DPS\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛狙击干员克洛丝，将以弓弩挫败敌人的攻击。",
@@ -5913,7 +5913,7 @@
 	},
 	"char_211_adnach": {
 		"name": "安德切尔",
-		"description": "Prioritize attacking air units",
+		"description": "<@sizedown>Prioritize attacking air units</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_211_adnach",
 		"team": 3,
@@ -5922,7 +5922,7 @@
 		"appellation": "Adnachiel",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>"
+			"DPS\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛狙击干员安德切尔，将以弓弩挫败敌人的攻击。",
@@ -6351,7 +6351,7 @@
 	},
 	"char_121_lava": {
 		"name": "炎熔",
-		"description": "Splash Magic Damage",
+		"description": "<@sizedown>Splash Magic Damage</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_121_lava",
 		"team": 2,
@@ -6360,7 +6360,7 @@
 		"appellation": "Lava",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Splash\n</i></size>"
+			"Splash\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛术师干员炎熔，将用源石技艺为小队开辟空间。",
@@ -6810,7 +6810,7 @@
 	},
 	"char_120_hibisc": {
 		"name": "芙蓉",
-		"description": "Heal friendly unit",
+		"description": "<@sizedown>Heal friendly unit</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_120_hibisc",
 		"team": 2,
@@ -6819,7 +6819,7 @@
 		"appellation": "Hibiscus",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Healing\n</i></size>"
+			"Healing\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛医疗干员芙蓉，将为伤员提供可靠的医疗援助。",
@@ -7248,7 +7248,7 @@
 	},
 	"char_212_ansel": {
 		"name": "安赛尔",
-		"description": "Heal friendly unit",
+		"description": "<@sizedown>Heal friendly unit</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_212_ansel",
 		"team": 3,
@@ -7257,7 +7257,7 @@
 		"appellation": "Ansel",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Healing\n</i></size>"
+			"Healing\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛医疗干员安塞尔，将为小队提供多样的急救方案。",
@@ -7707,7 +7707,7 @@
 	},
 	"char_210_stward": {
 		"name": "史都华德",
-		"description": "Spell damage",
+		"description": "<@sizedown>Spell damage</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_210_stward",
 		"team": 3,
@@ -7716,7 +7716,7 @@
 		"appellation": "Steward",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>"
+			"DPS\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛术师干员史都华德，使用源石技艺为小队开辟前路。",
@@ -8145,7 +8145,7 @@
 	},
 	"char_278_orchid": {
 		"name": "梓兰",
-		"description": "Spell damage\nSlows enemy",
+		"description": "<@sizedown>Spell damage\nSlows enemy</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_278_orchid",
 		"team": 19,
@@ -8154,7 +8154,7 @@
 		"appellation": "Orchid",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Slow\n</i></size>"
+			"Slow\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛辅助干员梓兰，将凭借源石技艺为各小队提供援助。",
@@ -8599,7 +8599,7 @@
 	},
 	"char_141_nights": {
 		"name": "夜烟",
-		"description": "Spell damage",
+		"description": "<@sizedown>Spell damage</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_141_nights",
 		"team": -1,
@@ -8608,8 +8608,8 @@
 		"appellation": "Haze",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>",
-			"<size=10><i>Debuffer\n</i></size>"
+			"DPS\n",
+			"Debuffer\n"
 		],
 		"displayLogo": "logo_victoria",
 		"itemUsage": "罗德岛术师干员夜烟，将使用源石技艺为小队提供援助。",
@@ -9317,7 +9317,7 @@
 	},
 	"char_109_fmout": {
 		"name": "远山",
-		"description": "Splash Magic Damage",
+		"description": "<@sizedown>Splash Magic Damage</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_109_fmout",
 		"team": -1,
@@ -9326,7 +9326,7 @@
 		"appellation": "Gitano",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Splash\n</i></size>"
+			"Splash\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛术师干员远山，将用源石技艺为小队谋划未来。",
@@ -10050,7 +10050,7 @@
 	},
 	"char_253_greyy": {
 		"name": "格雷伊",
-		"description": "Splash Magic Damage",
+		"description": "<@sizedown>Splash Magic Damage</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_253_greyy",
 		"team": -1,
@@ -10059,8 +10059,8 @@
 		"appellation": "Greyy",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Splash\n</i></size>",
-			"<size=10><i>Slow\n</i></size>"
+			"Splash\n",
+			"Slow\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛法术干员格雷伊，小心翼翼地使用源石技艺击退所有来犯之敌。",
@@ -10731,7 +10731,7 @@
 	},
 	"char_235_jesica": {
 		"name": "杰西卡",
-		"description": "Prioritize attacking air units",
+		"description": "<@sizedown>Prioritize attacking air units</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_235_jesica",
 		"team": 13,
@@ -10740,8 +10740,8 @@
 		"appellation": "Jessica",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>",
-			"<size=10><i>Survival\n</i></size>"
+			"DPS\n",
+			"Survival\n"
 		],
 		"displayLogo": "logo_blacksteel",
 		"itemUsage": "黑钢狙击干员杰西卡，将用其专业技术为团队提供有效的打击力量。",
@@ -11412,7 +11412,7 @@
 	},
 	"char_126_shotst": {
 		"name": "流星",
-		"description": "Prioritize attacking air units",
+		"description": "<@sizedown>Prioritize attacking air units</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_126_shotst",
 		"team": -1,
@@ -11421,8 +11421,8 @@
 		"appellation": "Meteor",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>",
-			"<size=10><i>Debuffer\n</i></size>"
+			"DPS\n",
+			"Debuffer\n"
 		],
 		"displayLogo": "logo_kazimierz",
 		"itemUsage": "罗德岛狙击干员流星，随时准备拉满弓弦。",
@@ -12114,7 +12114,7 @@
 	},
 	"char_118_yuki": {
 		"name": "白雪",
-		"description": "Physical Splash Damage",
+		"description": "<@sizedown>Physical Splash Damage</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_118_yuki",
 		"team": -1,
@@ -12123,8 +12123,8 @@
 		"appellation": "ShiraYuki",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Splash\n</i></size>",
-			"<size=10><i>Slow\n</i></size>"
+			"Splash\n",
+			"Slow\n"
 		],
 		"displayLogo": "logo_lungmen",
 		"itemUsage": "文月夫人的贴身护卫白雪，谨遵主命为你提供帮助。",
@@ -12782,7 +12782,7 @@
 	},
 	"char_198_blackd": {
 		"name": "讯使",
-		"description": "Can block 2 enemies",
+		"description": "<@sizedown>Can block 2 enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_198_blackd",
 		"team": 6,
@@ -12791,8 +12791,8 @@
 		"appellation": "Courier",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Cost Recovery\n</i></size>",
-			"<size=10><i>Protection\n</i></size>"
+			"Cost Recovery\n",
+			"Protection\n"
 		],
 		"displayLogo": "logo_kjerag",
 		"itemUsage": "喀兰贸易公司联络人讯使，将作为先锋干员为您提供服务。",
@@ -13500,7 +13500,7 @@
 	},
 	"char_149_scave": {
 		"name": "清道夫",
-		"description": "Can block 2 enemies",
+		"description": "<@sizedown>Can block 2 enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_149_scave",
 		"team": 5,
@@ -13509,8 +13509,8 @@
 		"appellation": "Scavenger",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Cost Recovery\n</i></size>",
-			"<size=10><i>DPS\n</i></size>"
+			"Cost Recovery\n",
+			"DPS\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "S.W.E.E.P执行人清道夫，时刻准备部署。",
@@ -14218,7 +14218,7 @@
 	},
 	"char_290_vigna": {
 		"name": "红豆",
-		"description": "Obtain 1 cost on every kill\nFull cost refund on retreat",
+		"description": "<@sizedown>Obtain 1 cost on every kill\nFull cost refund on retreat</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_290_vigna",
 		"team": -1,
@@ -14227,8 +14227,8 @@
 		"appellation": "Vigna",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>",
-			"<size=10><i>Cost Recovery\n</i></size>"
+			"DPS\n",
+			"Cost Recovery\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛先锋干员红豆，握紧长枪，准备着进入战场。",
@@ -14968,7 +14968,7 @@
 	},
 	"char_130_doberm": {
 		"name": "杜宾",
-		"description": "Can attack distant enemies",
+		"description": "<@sizedown>Can attack distant enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_130_doberm",
 		"team": -1,
@@ -14977,8 +14977,8 @@
 		"appellation": "Dobermann",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>",
-			"<size=10><i>Supporting\n</i></size>"
+			"DPS\n",
+			"Supporting\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛新人教官杜宾，能够随时为你提供战场上的各项建议。",
@@ -15670,7 +15670,7 @@
 	},
 	"char_289_gyuki": {
 		"name": "缠丸",
-		"description": "Can block single enemies",
+		"description": "<@sizedown>Can block single enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_289_gyuki",
 		"team": -1,
@@ -15679,8 +15679,8 @@
 		"appellation": "Matoimaru",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Survival\n</i></size>",
-			"<size=10><i>DPS\n</i></size>"
+			"Survival\n",
+			"DPS\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛近卫干员缠丸，她挥刀只为斩落你的敌人。",
@@ -16346,7 +16346,7 @@
 	},
 	"char_193_frostl": {
 		"name": "霜叶",
-		"description": "Can perform ranged attack\nHowever attack power will be reduced to 80%",
+		"description": "<@sizedown>Can perform ranged attack\nHowever attack power will be reduced to 80%</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_193_frostl",
 		"team": -1,
@@ -16355,8 +16355,8 @@
 		"appellation": "Frostleaf",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Slow\n</i></size>",
-			"<size=10><i>DPS\n</i></size>"
+			"Slow\n",
+			"DPS\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛近卫干员霜叶，只要是你的命令，她都会遵从。",
@@ -17026,7 +17026,7 @@
 	},
 	"char_127_estell": {
 		"name": "艾丝黛尔",
-		"description": "Attack multiple enemies equal to block count",
+		"description": "<@sizedown>Attack multiple enemies equal to block count</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_127_estell",
 		"team": -1,
@@ -17035,8 +17035,8 @@
 		"appellation": "Estelle",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Splash\n</i></size>",
-			"<size=10><i>Survival\n</i></size>"
+			"Splash\n",
+			"Survival\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛近卫干员艾丝黛尔，还在犹豫自己是否能帮上忙。",
@@ -17728,7 +17728,7 @@
 	},
 	"char_185_frncat": {
 		"name": "慕斯",
-		"description": "Spell damage",
+		"description": "<@sizedown>Spell damage</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_185_frncat",
 		"team": -1,
@@ -17737,7 +17737,7 @@
 		"appellation": "Mousse",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>"
+			"DPS\n"
 		],
 		"displayLogo": "logo_victoria",
 		"itemUsage": "罗德岛近卫干员慕斯，已经尽力把敌人想象成了抓板。",
@@ -18429,7 +18429,7 @@
 	},
 	"char_237_gravel": {
 		"name": "砾",
-		"description": "Greatly Decreased Redeployment Time",
+		"description": "<@sizedown>Greatly Decreased Redeployment Time</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_237_gravel",
 		"team": -1,
@@ -18438,8 +18438,8 @@
 		"appellation": "Gravel",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Quick Resurrection\n</i></size>",
-			"<size=10><i>Protection\n</i></size>"
+			"Quick Resurrection\n",
+			"Protection\n"
 		],
 		"displayLogo": "logo_kazimierz",
 		"itemUsage": "罗德岛特种干员砾，将灵活闪现在战场上抵御攻击。",
@@ -19130,7 +19130,7 @@
 	},
 	"char_236_rope": {
 		"name": "暗索",
-		"description": "Skill can displace enemy\nCan be placed on higher ground",
+		"description": "<@sizedown>Skill can displace enemy\nCan be placed on higher ground</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_236_rope",
 		"team": -1,
@@ -19139,7 +19139,7 @@
 		"appellation": "Rope",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Displacement\n</i></size>"
+			"Displacement\n"
 		],
 		"displayLogo": "logo_rim",
 		"itemUsage": "罗德岛特种干员暗索，将凭借钩索技术为小队提供便利。",
@@ -19831,7 +19831,7 @@
 	},
 	"char_117_myrrh": {
 		"name": "末药",
-		"description": "Heal friendly unit",
+		"description": "<@sizedown>Heal friendly unit</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_117_myrrh",
 		"team": -1,
@@ -19840,7 +19840,7 @@
 		"appellation": "Myrrh",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Healing\n</i></size>"
+			"Healing\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛医疗干员末药，将用草药为小队提供医疗援助。",
@@ -20532,7 +20532,7 @@
 	},
 	"char_187_ccheal": {
 		"name": "嘉维尔",
-		"description": "Heal friendly unit",
+		"description": "<@sizedown>Heal friendly unit</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_187_ccheal",
 		"team": -1,
@@ -20541,7 +20541,7 @@
 		"appellation": "Gavial",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Healing\n</i></size>"
+			"Healing\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛医疗干员嘉维尔，将用其特殊的医疗手段保障大家的生命安全。",
@@ -21265,7 +21265,7 @@
 	},
 	"char_181_flower": {
 		"name": "调香师",
-		"description": "Heal up to 3 friendly unit at once",
+		"description": "<@sizedown>Heal up to 3 friendly unit at once</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_181_flower",
 		"team": -1,
@@ -21274,7 +21274,7 @@
 		"appellation": "Perfumer",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Healing\n</i></size>"
+			"Healing\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "“疗养庭院”管理人调香师，播撒熏香为大家带来芬芳与治愈。",
@@ -21966,7 +21966,7 @@
 	},
 	"char_199_yak": {
 		"name": "角峰",
-		"description": "Can block 3 enemies",
+		"description": "<@sizedown>Can block 3 enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_199_yak",
 		"team": 6,
@@ -21975,7 +21975,7 @@
 		"appellation": "Matterhorn",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Protection\n</i></size>"
+			"Protection\n"
 		],
 		"displayLogo": "logo_kjerag",
 		"itemUsage": "喀兰贸易公司卫士角峰，将作为重装干员为您提供服务。",
@@ -22646,7 +22646,7 @@
 	},
 	"char_150_snakek": {
 		"name": "蛇屠箱",
-		"description": "Can block 3 enemies",
+		"description": "<@sizedown>Can block 3 enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_150_snakek",
 		"team": -1,
@@ -22655,7 +22655,7 @@
 		"appellation": "Cuora",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Protection\n</i></size>"
+			"Protection\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛重装干员蛇屠箱，将为小队提供坚实可靠的防御。",
@@ -23326,7 +23326,7 @@
 	},
 	"char_196_sunbr": {
 		"name": "古米",
-		"description": "Skills heal friendly unit",
+		"description": "<@sizedown>Skills heal friendly unit</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_196_sunbr",
 		"team": 8,
@@ -23335,8 +23335,8 @@
 		"appellation": "ГУМ",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Protection\n</i></size>",
-			"<size=10><i>Healing\n</i></size>"
+			"Protection\n",
+			"Healing\n"
 		],
 		"displayLogo": "logo_ursus",
 		"itemUsage": "罗德岛重装干员古米，在保护同伴的同时，治疗他们的伤口。",
@@ -24060,7 +24060,7 @@
 	},
 	"char_110_deepcl": {
 		"name": "深海色",
-		"description": "Spell damage\nCan use summons in battle",
+		"description": "<@sizedown>Spell damage\nCan use summons in battle</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_110_deepcl",
 		"team": -1,
@@ -24069,7 +24069,7 @@
 		"appellation": "Deepcolor",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Summoner\n</i></size>"
+			"Summoner\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛辅助干员深海色，使役着她的“助手”们准备加入战斗。",
@@ -24757,7 +24757,7 @@
 	},
 	"char_183_skgoat": {
 		"name": "地灵",
-		"description": "Spell damage\nSlows enemy",
+		"description": "<@sizedown>Spell damage\nSlows enemy</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_183_skgoat",
 		"team": -1,
@@ -24766,7 +24766,7 @@
 		"appellation": "Earthspirit",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Slow\n</i></size>"
+			"Slow\n"
 		],
 		"displayLogo": "logo_Leithanien",
 		"itemUsage": "罗德岛辅助干员地灵，在工作时间内为你提供可靠的战场支援。",
@@ -25440,7 +25440,7 @@
 	},
 	"char_277_sqrrel": {
 		"name": "阿消",
-		"description": "Attack multiple enemies equal to block count\nCan be placed on higher ground",
+		"description": "<@sizedown>Attack multiple enemies equal to block count\nCan be placed on higher ground</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_277_sqrrel",
 		"team": -1,
@@ -25449,7 +25449,7 @@
 		"appellation": "Shaw",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Displacement\n</i></size>"
+			"Displacement\n"
 		],
 		"displayLogo": "logo_lungmen",
 		"itemUsage": "龙门消防署警员阿消向你报道，她将会为你提供各类援助。",
@@ -26120,7 +26120,7 @@
 	},
 	"char_128_plosis": {
 		"name": "白面鸮",
-		"description": "Heal up to 3 friendly unit at once",
+		"description": "<@sizedown>Heal up to 3 friendly unit at once</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_128_plosis",
 		"team": 4,
@@ -26129,8 +26129,8 @@
 		"appellation": "Ptilopsis",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Healing\n</i></size>",
-			"<size=10><i>Supporting\n</i></size>"
+			"Healing\n",
+			"Supporting\n"
 		],
 		"displayLogo": "logo_rhine",
 		"itemUsage": "莱茵生命数据维护员白面鸮启动完成，请输入命令行进行操作。",
@@ -26806,7 +26806,7 @@
 	},
 	"char_115_headbr": {
 		"name": "凛冬",
-		"description": "Can block 2 enemies",
+		"description": "<@sizedown>Can block 2 enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_115_headbr",
 		"team": 8,
@@ -26815,8 +26815,8 @@
 		"appellation": "зима",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Cost Recovery\n</i></size>",
-			"<size=10><i>Supporting\n</i></size>"
+			"Cost Recovery\n",
+			"Supporting\n"
 		],
 		"displayLogo": "logo_ursus",
 		"itemUsage": "罗德岛先锋干员凛冬，将凭借力量为小队取得开局的优势。",
@@ -27492,7 +27492,7 @@
 	},
 	"char_102_texas": {
 		"name": "德克萨斯",
-		"description": "Can block 2 enemies",
+		"description": "<@sizedown>Can block 2 enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_102_texas",
 		"team": 11,
@@ -27501,8 +27501,8 @@
 		"appellation": "Texas",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Cost Recovery\n</i></size>",
-			"<size=10><i>Crowd Control\n</i></size>"
+			"Cost Recovery\n",
+			"Crowd Control\n"
 		],
 		"displayLogo": "logo_penguin",
 		"itemUsage": "企鹅物流职员德克萨斯，将使用源石剑为小队取得开局的优势。",
@@ -28178,7 +28178,7 @@
 	},
 	"char_308_swire": {
 		"name": "诗怀雅",
-		"description": "Can attack distant enemies",
+		"description": "<@sizedown>Can attack distant enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_308_swire",
 		"team": 12,
@@ -28187,8 +28187,8 @@
 		"appellation": "Swire",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>",
-			"<size=10><i>Supporting\n</i></size>"
+			"DPS\n",
+			"Supporting\n"
 		],
 		"displayLogo": "logo_lungmen",
 		"itemUsage": "近卫干员诗怀雅，来自龙门，愿意为你提供专业的警力协助与额外训练课程。",
@@ -28919,7 +28919,7 @@
 	},
 	"char_106_franka": {
 		"name": "芙兰卡",
-		"description": "Can block single enemies",
+		"description": "<@sizedown>Can block single enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_106_franka",
 		"team": 13,
@@ -28928,8 +28928,8 @@
 		"appellation": "Franka",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>",
-			"<size=10><i>Survival\n</i></size>"
+			"DPS\n",
+			"Survival\n"
 		],
 		"displayLogo": "logo_blacksteel",
 		"itemUsage": "黑钢防化小队近卫干员芙兰卡，正在等待你的部署。",
@@ -29605,7 +29605,7 @@
 	},
 	"char_155_tiger": {
 		"name": "因陀罗",
-		"description": "Can block single enemies",
+		"description": "<@sizedown>Can block single enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_155_tiger",
 		"team": 10,
@@ -29614,8 +29614,8 @@
 		"appellation": "Indra",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>",
-			"<size=10><i>Survival\n</i></size>"
+			"DPS\n",
+			"Survival\n"
 		],
 		"displayLogo": "logo_victoria",
 		"itemUsage": "格拉斯哥帮成员因陀罗，很高兴能够又一次痛揍不识趣的家伙。",
@@ -30328,7 +30328,7 @@
 	},
 	"char_140_whitew": {
 		"name": "拉普兰德",
-		"description": "Can perform ranged attack\nHowever attack power will be reduced to 80%",
+		"description": "<@sizedown>Can perform ranged attack\nHowever attack power will be reduced to 80%</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_140_whitew",
 		"team": -1,
@@ -30337,8 +30337,8 @@
 		"appellation": "Lappland",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>",
-			"<size=10><i>Debuffer\n</i></size>"
+			"DPS\n",
+			"Debuffer\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "干员拉普兰德，迫不及待想要切开眼前的敌人。",
@@ -31051,7 +31051,7 @@
 	},
 	"char_143_ghost": {
 		"name": "幽灵鲨",
-		"description": "Attack multiple enemies equal to block count",
+		"description": "<@sizedown>Attack multiple enemies equal to block count</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_143_ghost",
 		"team": 15,
@@ -31060,8 +31060,8 @@
 		"appellation": "Specter",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Splash\n</i></size>",
-			"<size=10><i>Survival\n</i></size>"
+			"Splash\n",
+			"Survival\n"
 		],
 		"displayLogo": "logo_abyssal",
 		"itemUsage": "深海猎人幽灵鲨，早已结束祈祷，在战场上游荡多时。",
@@ -31774,7 +31774,7 @@
 	},
 	"char_129_bluep": {
 		"name": "蓝毒",
-		"description": "Prioritize attacking air units",
+		"description": "<@sizedown>Prioritize attacking air units</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_129_bluep",
 		"team": -1,
@@ -31783,7 +31783,7 @@
 		"appellation": "Blue Poison",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>"
+			"DPS\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛狙击干员蓝毒，将运用自己的毒素对敌人进行攻击。",
@@ -32496,7 +32496,7 @@
 	},
 	"char_204_platnm": {
 		"name": "白金",
-		"description": "Prioritize attacking air units",
+		"description": "<@sizedown>Prioritize attacking air units</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_204_platnm",
 		"team": -1,
@@ -32505,7 +32505,7 @@
 		"appellation": "Platinum",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>"
+			"DPS\n"
 		],
 		"displayLogo": "logo_kazimierz",
 		"itemUsage": "卡西米尔无胄盟成员白金，将为战场提供全面的火力支援。",
@@ -33250,7 +33250,7 @@
 	},
 	"char_219_meteo": {
 		"name": "陨星",
-		"description": "Physical Splash Damage",
+		"description": "<@sizedown>Physical Splash Damage</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_219_meteo",
 		"team": -1,
@@ -33259,8 +33259,8 @@
 		"appellation": "Meteorite",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Splash\n</i></size>",
-			"<size=10><i>Debuffer\n</i></size>"
+			"Splash\n",
+			"Debuffer\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛狙击干员陨星，随时准备以炮火覆盖敌人。",
@@ -33944,7 +33944,7 @@
 	},
 	"char_002_amiya": {
 		"name": "阿米娅",
-		"description": "Spell damage",
+		"description": "<@sizedown>Spell damage</>",
 		"canUseGeneralPotentialItem": false,
 		"potentialItemId": "p_char_002_amiya",
 		"team": -1,
@@ -33953,7 +33953,7 @@
 		"appellation": "Amiya",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>"
+			"DPS\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛公开领导人阿米娅，将与你并肩作战。",
@@ -34717,7 +34717,7 @@
 	},
 	"char_166_skfire": {
 		"name": "天火",
-		"description": "Splash Magic Damage",
+		"description": "<@sizedown>Splash Magic Damage</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_166_skfire",
 		"team": -1,
@@ -34726,8 +34726,8 @@
 		"appellation": "Skyfire",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Splash\n</i></size>",
-			"<size=10><i>Crowd Control\n</i></size>"
+			"Splash\n",
+			"Crowd Control\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "“王者之杖”所属干员天火，很乐意烧尽一切拦路的恶人。",
@@ -35424,7 +35424,7 @@
 	},
 	"char_242_otter": {
 		"name": "梅尔",
-		"description": "Spell damage\nCan use summons in battle",
+		"description": "<@sizedown>Spell damage\nCan use summons in battle</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_242_otter",
 		"team": 4,
@@ -35433,8 +35433,8 @@
 		"appellation": "Mayer",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Summoner\n</i></size>",
-			"<size=10><i>Crowd Control\n</i></size>"
+			"Summoner\n",
+			"Crowd Control\n"
 		],
 		"displayLogo": "logo_rhine",
 		"itemUsage": "莱茵生命研究员梅尔，操控着她的咪波们准备加入战斗。",
@@ -36127,7 +36127,7 @@
 	},
 	"char_108_silent": {
 		"name": "赫默",
-		"description": "Heal friendly unit",
+		"description": "<@sizedown>Heal friendly unit</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_108_silent",
 		"team": 4,
@@ -36136,7 +36136,7 @@
 		"appellation": "Silence",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Healing\n</i></size>"
+			"Healing\n"
 		],
 		"displayLogo": "logo_rhine",
 		"itemUsage": "莱茵生命医疗专家赫默，会为战场带去最新的研究成果。",
@@ -36833,7 +36833,7 @@
 	},
 	"char_171_bldsk": {
 		"name": "华法琳",
-		"description": "Heal friendly unit",
+		"description": "<@sizedown>Heal friendly unit</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_171_bldsk",
 		"team": -1,
@@ -36842,8 +36842,8 @@
 		"appellation": "Warfarin",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Healing\n</i></size>",
-			"<size=10><i>Supporting\n</i></size>"
+			"Healing\n",
+			"Supporting\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛医疗干员华法琳，以维护干员生命安全为己任。",
@@ -37527,7 +37527,7 @@
 	},
 	"char_148_nearl": {
 		"name": "临光",
-		"description": "Skills heal friendly unit",
+		"description": "<@sizedown>Skills heal friendly unit</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_148_nearl",
 		"team": 9,
@@ -37536,8 +37536,8 @@
 		"appellation": "Nearl",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Protection\n</i></size>",
-			"<size=10><i>Healing\n</i></size>"
+			"Protection\n",
+			"Healing\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "前卡西米尔骑士临光，将是防御与治疗并重的战场核心。",
@@ -38234,7 +38234,7 @@
 	},
 	"char_144_red": {
 		"name": "红",
-		"description": "Greatly Decreased Redeployment Time",
+		"description": "<@sizedown>Greatly Decreased Redeployment Time</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_144_red",
 		"team": 5,
@@ -38243,8 +38243,8 @@
 		"appellation": "Projekt Red",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Quick Resurrection\n</i></size>",
-			"<size=10><i>Crowd Control\n</i></size>"
+			"Quick Resurrection\n",
+			"Crowd Control\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛特种干员、猎狼人红，即将加入狩猎。",
@@ -38941,7 +38941,7 @@
 	},
 	"char_107_liskam": {
 		"name": "雷蛇",
-		"description": "Can block 3 enemies",
+		"description": "<@sizedown>Can block 3 enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_107_liskam",
 		"team": 13,
@@ -38950,8 +38950,8 @@
 		"appellation": "Liskarm",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Protection\n</i></size>",
-			"<size=10><i>DPS\n</i></size>"
+			"Protection\n",
+			"DPS\n"
 		],
 		"displayLogo": "logo_blacksteel",
 		"itemUsage": "黑钢防化人员雷蛇，虽是重装干员，却既持有坚强的盾，又握着锐利的矛。",
@@ -39635,7 +39635,7 @@
 	},
 	"char_201_moeshd": {
 		"name": "可颂",
-		"description": "Can block 3 enemies",
+		"description": "<@sizedown>Can block 3 enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_201_moeshd",
 		"team": 11,
@@ -39644,8 +39644,8 @@
 		"appellation": "Croissant",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Protection\n</i></size>",
-			"<size=10><i>Displacement\n</i></size>"
+			"Protection\n",
+			"Displacement\n"
 		],
 		"displayLogo": "logo_penguin",
 		"itemUsage": "企鹅物流特派物流人员可颂，愿意作为重装干员，为罗德岛提供可靠的防御力量。",
@@ -40358,7 +40358,7 @@
 	},
 	"char_163_hpsts": {
 		"name": "火神",
-		"description": "Cannot be healed by friendly unit",
+		"description": "<@sizedown>Cannot be healed by friendly unit</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_163_hpsts",
 		"team": -1,
@@ -40367,9 +40367,9 @@
 		"appellation": "Vulcan",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Survival\n</i></size>",
-			"<size=10><i>Protection\n</i></size>",
-			"<size=10><i>DPS\n</i></size>"
+			"Survival\n",
+			"Protection\n",
+			"DPS\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛重装干员火神，已为你烧红火炉，随时准备开始锻造。",
@@ -41082,7 +41082,7 @@
 	},
 	"char_145_prove": {
 		"name": "普罗旺斯",
-		"description": "High precision close range shooting",
+		"description": "<@sizedown>High precision close range shooting</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_145_prove",
 		"team": -1,
@@ -41091,7 +41091,7 @@
 		"appellation": "Provence",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>"
+			"DPS\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛天灾信使普罗旺斯，时刻注意着天灾与敌人的动向。",
@@ -41820,7 +41820,7 @@
 	},
 	"char_158_milu": {
 		"name": "守林人",
-		"description": "Targets lowest defense enemy",
+		"description": "<@sizedown>Targets lowest defense enemy</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_158_milu",
 		"team": -1,
@@ -41829,8 +41829,8 @@
 		"appellation": "Firewatch",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>",
-			"<size=10><i>Burst\n</i></size>"
+			"DPS\n",
+			"Burst\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛狙击干员守林人，隐藏在掩体间伺机待发。",
@@ -42527,7 +42527,7 @@
 	},
 	"char_173_slchan": {
 		"name": "崖心",
-		"description": "Skill can displace enemy\nCan be placed on higher ground",
+		"description": "<@sizedown>Skill can displace enemy\nCan be placed on higher ground</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_173_slchan",
 		"team": 6,
@@ -42536,8 +42536,8 @@
 		"appellation": "Cliffheart",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Displacement\n</i></size>",
-			"<size=10><i>DPS\n</i></size>"
+			"Displacement\n",
+			"DPS\n"
 		],
 		"displayLogo": "logo_kjerag",
 		"itemUsage": "罗德岛干员崖心，作为特种干员，同时具备登山家的坚韧和战士的敏锐。",
@@ -43250,7 +43250,7 @@
 	},
 	"char_174_slbell": {
 		"name": "初雪",
-		"description": "Spell damage",
+		"description": "<@sizedown>Spell damage</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_174_slbell",
 		"team": 6,
@@ -43259,7 +43259,7 @@
 		"appellation": "Pramanix",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Debuffer\n</i></size>"
+			"Debuffer\n"
 		],
 		"displayLogo": "logo_kjerag",
 		"itemUsage": "喀兰圣女初雪，愿意作为辅助干员，为你献上神圣的祝福。",
@@ -43993,7 +43993,7 @@
 	},
 	"char_195_glassb": {
 		"name": "真理",
-		"description": "Spell damage\nSlows enemy",
+		"description": "<@sizedown>Spell damage\nSlows enemy</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_195_glassb",
 		"team": 8,
@@ -44002,8 +44002,8 @@
 		"appellation": "Истина",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Slow\n</i></size>",
-			"<size=10><i>DPS\n</i></size>"
+			"Slow\n",
+			"DPS\n"
 		],
 		"displayLogo": "logo_ursus",
 		"itemUsage": "乌萨斯学生自治团成员真理，从书籍中挑选合适的源石技艺痛击敌人。",
@@ -44690,7 +44690,7 @@
 	},
 	"char_101_sora": {
 		"name": "空",
-		"description": "Does not attack\nHeal all allies in range \n(Equal to 10% of attack power every second)",
+		"description": "<@sizedown>Does not attack\nHeal all allies in range \n(Equal to 10% of attack power every second)</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_101_sora",
 		"team": 11,
@@ -44699,8 +44699,8 @@
 		"appellation": "Sora",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Supporting\n</i></size>",
-			"<size=10><i>Healing\n</i></size>"
+			"Supporting\n",
+			"Healing\n"
 		],
 		"displayLogo": "logo_penguin",
 		"itemUsage": "企鹅物流职员空，将以歌声为小队提供多种战术援助。",
@@ -45384,7 +45384,7 @@
 	},
 	"char_215_mantic": {
 		"name": "狮蝎",
-		"description": "Attack all enemy in range\n50% Physical & Magical Dodge\nHarder to be targeted",
+		"description": "<@sizedown>Attack all enemy in range\n50% Physical & Magical Dodge\nHarder to be targeted</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_215_mantic",
 		"team": -1,
@@ -45393,8 +45393,8 @@
 		"appellation": "Manticore",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>",
-			"<size=10><i>Survival\n</i></size>"
+			"DPS\n",
+			"Survival\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛特种干员狮蝎，将在战场上挥舞蝎尾无声地狩猎敌人。",
@@ -46123,7 +46123,7 @@
 	},
 	"char_241_panda": {
 		"name": "食铁兽",
-		"description": "Attack multiple enemies equal to block count\nCan be placed on higher ground",
+		"description": "<@sizedown>Attack multiple enemies equal to block count\nCan be placed on higher ground</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_241_panda",
 		"team": -1,
@@ -46132,8 +46132,8 @@
 		"appellation": "FEater",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Displacement\n</i></size>",
-			"<size=10><i>Slow\n</i></size>"
+			"Displacement\n",
+			"Slow\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛特种干员食铁兽，将用自身高超的武艺，解决争端。",
@@ -46830,7 +46830,7 @@
 	},
 	"char_103_angel": {
 		"name": "能天使",
-		"description": "Prioritize attacking air units",
+		"description": "<@sizedown>Prioritize attacking air units</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_103_angel",
 		"team": 11,
@@ -46839,7 +46839,7 @@
 		"appellation": "Exusiai",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>"
+			"DPS\n"
 		],
 		"displayLogo": "logo_penguin",
 		"itemUsage": "企鹅物流职员能天使，将用铳枪为小队扫平前路。",
@@ -47660,7 +47660,7 @@
 	},
 	"char_112_siege": {
 		"name": "推进之王",
-		"description": "Can block 2 enemies",
+		"description": "<@sizedown>Can block 2 enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_112_siege",
 		"team": 10,
@@ -47669,8 +47669,8 @@
 		"appellation": "Siege",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Cost Recovery\n</i></size>",
-			"<size=10><i>DPS\n</i></size>"
+			"Cost Recovery\n",
+			"DPS\n"
 		],
 		"displayLogo": "logo_victoria",
 		"itemUsage": "格拉斯哥帮头领推进之王，将为你辟开前路。",
@@ -48495,7 +48495,7 @@
 	},
 	"char_134_ifrit": {
 		"name": "伊芙利特",
-		"description": "Super Long Range Splash Spell Damage",
+		"description": "<@sizedown>Super Long Range Splash Spell Damage</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_134_ifrit",
 		"team": 4,
@@ -48504,8 +48504,8 @@
 		"appellation": "Ifrit",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Splash\n</i></size>",
-			"<size=10><i>Debuffer\n</i></size>"
+			"Splash\n",
+			"Debuffer\n"
 		],
 		"displayLogo": "logo_rhine",
 		"itemUsage": "前莱茵生命医疗对象伊芙利特，想要烧尽赫默的敌人。",
@@ -49360,7 +49360,7 @@
 	},
 	"char_180_amgoat": {
 		"name": "艾雅法拉",
-		"description": "Spell damage",
+		"description": "<@sizedown>Spell damage</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_180_amgoat",
 		"team": -1,
@@ -49369,8 +49369,8 @@
 		"appellation": "Eyjafjalla",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>",
-			"<size=10><i>Debuffer\n</i></size>"
+			"DPS\n",
+			"Debuffer\n"
 		],
 		"displayLogo": "logo_Leithanien",
 		"itemUsage": "罗德岛术师干员艾雅法拉，一直想要倾尽全力为你做些什么。",
@@ -50191,7 +50191,7 @@
 	},
 	"char_291_aglina": {
 		"name": "安洁莉娜",
-		"description": "Spell damage\nSlows enemy",
+		"description": "<@sizedown>Spell damage\nSlows enemy</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_291_aglina",
 		"team": -1,
@@ -50200,9 +50200,9 @@
 		"appellation": "Angelina",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Slow\n</i></size>",
-			"<size=10><i>DPS\n</i></size>",
-			"<size=10><i>Supporting\n</i></size>"
+			"Slow\n",
+			"DPS\n",
+			"Supporting\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛辅助干员、信使安洁莉娜，很想用自己奇妙的源石技艺为你提供协助。",
@@ -51031,7 +51031,7 @@
 	},
 	"char_147_shining": {
 		"name": "闪灵",
-		"description": "Heal friendly unit",
+		"description": "<@sizedown>Heal friendly unit</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_147_shining",
 		"team": 9,
@@ -51040,8 +51040,8 @@
 		"appellation": "Shining",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Healing\n</i></size>",
-			"<size=10><i>Supporting\n</i></size>"
+			"Healing\n",
+			"Supporting\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "萨卡兹医师闪灵，竭尽所能为小队提供医疗支援。",
@@ -51888,7 +51888,7 @@
 	},
 	"char_179_cgbird": {
 		"name": "夜莺",
-		"description": "Heal up to 3 friendly unit at once",
+		"description": "<@sizedown>Heal up to 3 friendly unit at once</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_179_cgbird",
 		"team": 9,
@@ -51897,8 +51897,8 @@
 		"appellation": "Nightingale",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Healing\n</i></size>",
-			"<size=10><i>Supporting\n</i></size>"
+			"Healing\n",
+			"Supporting\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "萨卡兹医师夜莺，竭尽所能为小队提供医疗支援。",
@@ -52741,7 +52741,7 @@
 	},
 	"char_136_hsguma": {
 		"name": "星熊",
-		"description": "Can block 3 enemies",
+		"description": "<@sizedown>Can block 3 enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_136_hsguma",
 		"team": 12,
@@ -52750,8 +52750,8 @@
 		"appellation": "Hoshiguma",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Protection\n</i></size>",
-			"<size=10><i>DPS\n</i></size>"
+			"Protection\n",
+			"DPS\n"
 		],
 		"displayLogo": "logo_lungmen",
 		"itemUsage": "龙门近卫局特别任务组干员星熊准备完毕，等待你的指示。",
@@ -53564,7 +53564,7 @@
 	},
 	"char_202_demkni": {
 		"name": "塞雷娅",
-		"description": "Skills heal friendly unit",
+		"description": "<@sizedown>Skills heal friendly unit</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_202_demkni",
 		"team": 4,
@@ -53573,9 +53573,9 @@
 		"appellation": "Saria",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Protection\n</i></size>",
-			"<size=10><i>Healing\n</i></size>",
-			"<size=10><i>Supporting\n</i></size>"
+			"Protection\n",
+			"Healing\n",
+			"Supporting\n"
 		],
 		"displayLogo": "logo_rhine",
 		"itemUsage": "前莱茵生命研究员塞雷娅，将是防御与治疗并重的战场核心。",
@@ -54432,7 +54432,7 @@
 	},
 	"char_172_svrash": {
 		"name": "银灰",
-		"description": "Can perform ranged attack\nHowever attack power will be reduced to 80%",
+		"description": "<@sizedown>Can perform ranged attack\nHowever attack power will be reduced to 80%</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_172_svrash",
 		"team": 6,
@@ -54441,8 +54441,8 @@
 		"appellation": "SilverAsh",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>",
-			"<size=10><i>Supporting\n</i></size>"
+			"DPS\n",
+			"Supporting\n"
 		],
 		"displayLogo": "logo_kjerag",
 		"itemUsage": "喀兰贸易公司董事长，已与罗德岛签订合约，随时可以介入战场。",
@@ -55278,7 +55278,7 @@
 	},
 	"char_010_chen": {
 		"name": "陈",
-		"description": "Regular attacks deal damage twice",
+		"description": "<@sizedown>Regular attacks deal damage twice</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_010_chen",
 		"team": 12,
@@ -55287,8 +55287,8 @@
 		"appellation": "Ch'en",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Burst\n</i></size>",
-			"<size=10><i>DPS\n</i></size>"
+			"Burst\n",
+			"DPS\n"
 		],
 		"displayLogo": "logo_lungmen",
 		"itemUsage": "龙门近卫局特别督察组组长陈，正依合约前来协助罗德岛的任务。",
@@ -57973,7 +57973,7 @@
 	},
 	"char_230_savage": {
 		"name": "暴行",
-		"description": "Attack multiple enemies equal to block count",
+		"description": "<@sizedown>Attack multiple enemies equal to block count</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "",
 		"team": -1,
@@ -57982,8 +57982,8 @@
 		"appellation": "Savage",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Splash\n</i></size>",
-			"<size=10><i>Burst\n</i></size>"
+			"Splash\n",
+			"Burst\n"
 		],
 		"displayLogo": "logo_rim",
 		"itemUsage": "雷姆必拓所属近卫干员暴行，心里总是想着为你和阿米娅做些什么。",
@@ -58579,7 +58579,7 @@
 	},
 	"char_282_catap": {
 		"name": "空爆",
-		"description": "Physical Splash Damage",
+		"description": "<@sizedown>Physical Splash Damage</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_282_catap",
 		"team": 19,
@@ -58588,7 +58588,7 @@
 		"appellation": "Catapult",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>Splash\n</i></size>"
+			"Splash\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛狙击干员空爆，作为狙击干员，十分擅长对抗大批敌人。",
@@ -59000,7 +59000,7 @@
 	},
 	"char_283_midn": {
 		"name": "月见夜",
-		"description": "Can perform ranged attack\nHowever attack power will be reduced to 80%",
+		"description": "<@sizedown>Can perform ranged attack\nHowever attack power will be reduced to 80%</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_283_midn",
 		"team": 19,
@@ -59009,7 +59009,7 @@
 		"appellation": "Midnight",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>"
+			"DPS\n"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛近卫干员月见夜，将凭自己的剑术，对抗罗德岛的敌人。",
@@ -59491,7 +59491,7 @@
 	},
 	"char_137_brownb": {
 		"name": "猎蜂",
-		"description": "Can block single enemies",
+		"description": "<@sizedown>Can block single enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_137_brownb",
 		"team": -1,
@@ -59500,7 +59500,7 @@
 		"appellation": "Beehunter",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>"
+			"DPS\n"
 		],
 		"displayLogo": "logo_ursus",
 		"itemUsage": "罗德岛近卫干员猎蜂，将活用格斗技能痛击敌人。",
@@ -60208,7 +60208,7 @@
 	},
 	"char_164_nightm": {
 		"name": "夜魔",
-		"description": "Spell damage",
+		"description": "<@sizedown>Spell damage</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_164_nightm",
 		"team": -1,
@@ -60217,9 +60217,9 @@
 		"appellation": "Nightmare",
 		"position": "Ranged",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>",
-			"<size=10><i>Healing\n</i></size>",
-			"<size=10><i>Slow\n</i></size>"
+			"DPS\n",
+			"Healing\n",
+			"Slow\n"
 		],
 		"displayLogo": "logo_victoria",
 		"itemUsage": "罗德岛术师干员夜魔，两种人格都愿意使用源石技艺为你提供援助。",
@@ -60932,7 +60932,7 @@
 	},
 	"char_220_grani": {
 		"name": "格拉尼",
-		"description": "Obtain 1 cost on every kill\nFull cost refund on retreat",
+		"description": "<@sizedown>Obtain 1 cost on every kill\nFull cost refund on retreat</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_220_grani",
 		"team": -1,
@@ -60941,8 +60941,8 @@
 		"appellation": "Grani",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>Cost Recovery\n</i></size>",
-			"<size=10><i>Protection\n</i></size>"
+			"Cost Recovery\n",
+			"Protection\n"
 		],
 		"displayLogo": "logo_victoria",
 		"itemUsage": "罗德岛先锋干员、骑警格拉尼，将凭手中长枪，扫平战场上的一切阻碍。",
@@ -61655,7 +61655,7 @@
 	},
 	"char_263_skadi": {
 		"name": "斯卡蒂",
-		"description": "Can block single enemies",
+		"description": "<@sizedown>Can block single enemies</>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_263_skadi",
 		"team": 15,
@@ -61664,8 +61664,8 @@
 		"appellation": "Skadi",
 		"position": "Melee",
 		"tagList": [
-			"<size=10><i>DPS\n</i></size>",
-			"<size=10><i>Survival\n</i></size>"
+			"DPS\n",
+			"Survival\n"
 		],
 		"displayLogo": "logo_abyssal",
 		"itemUsage": "赏金猎人斯卡蒂，循着潮汐前来吞没你的敌人。",

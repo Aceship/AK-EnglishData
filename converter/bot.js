@@ -15,7 +15,7 @@ Object.keys(characterTable).forEach(element => {
     if(currchar.description){
         console.log(currchar.description)
         console.log(getSpeciality(currchar.description))
-        currchar.description = getSpeciality(currchar.description)
+        currchar.description = '<@sizedown>'+ getSpeciality(currchar.description)+'</>'
     }
     currchar.position = db.tags.find(search=>search.tag_cn==currchar.position)?db.tags.find(search=>search.tag_cn==currchar.position).tag_en : currchar.position
     if(currchar.tagList){
@@ -26,9 +26,9 @@ Object.keys(characterTable).forEach(element => {
         for(i=0;i<currchar.tagList.length;i++){
             var currtags = currchar.tagList[i]
             var replacetag = ''
-            replacetag +='<size=10><i>'
-            replacetag += (db.tags.find(search=>search.tag_cn==currtags)?db.tags.find(search=>search.tag_cn==currtags).tag_en+'\n' : currtags)
-            replacetag +='</i></size>'
+            replacetag +=''
+            replacetag += (db.tags.find(search=>search.tag_cn==currtags)?db.tags.find(search=>search.tag_cn==currtags).tag_en+'' : currtags)
+            replacetag +='\n'
             currchar.tagList[i] = replacetag
             // console.log(tags)
         }
