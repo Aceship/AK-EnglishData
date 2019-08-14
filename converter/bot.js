@@ -4,19 +4,23 @@ var db = {}
 
 db.attacktype = JSON.parse(fs.readFileSync("../json/tl-attacktype.json","utf8"))
 db.tags = JSON.parse(fs.readFileSync("../json/tl-tags.json","utf8"))
+db.talents = JSON.parse(fs.readFileSync("../json/ace/tl-talents.json","utf8"))
+db.skill = JSON.parse(fs.readFileSync("../json/ace/tl-skills.json","utf8"))
 // const datapath = "../json/excel/"
 
 var characterTable = JSON.parse(fs.readFileSync("../json/excel/character_table.json","utf8"))
+var skillTable = JSON.parse(fs.readFileSync("../json/excel/skill_table.json","utf8"))
 
 
 Object.keys(characterTable).forEach(element => {
     var currchar = characterTable[element]
-    console.log(element)
+    // console.log(element)
     if(currchar.description){
-        console.log(currchar.description)
-        console.log(getSpeciality(currchar.description))
-        currchar.description = '<@sizedown>'+ getSpeciality(currchar.description)+'</>'
+        // console.log(currchar.description)
+        // console.log(getSpeciality(currchar.description))
+        currchar.description = '<size=15>'+ getSpeciality(currchar.description)+'</size>'
     }
+    //tags
     currchar.position = db.tags.find(search=>search.tag_cn==currchar.position)?db.tags.find(search=>search.tag_cn==currchar.position).tag_en : currchar.position
     if(currchar.tagList){
         // currchar.tagList.forEach(tags => {
@@ -25,24 +29,58 @@ Object.keys(characterTable).forEach(element => {
         // });
         for(i=0;i<currchar.tagList.length;i++){
             var currtags = currchar.tagList[i]
+            var entags = (db.tags.find(search=>search.tag_cn==currtags)?db.tags.find(search=>search.tag_cn==currtags).tag_en+'' : currtags)
+
+            if(entags.length<5)entags = "  " + entags + "  "
             var replacetag = ''
-            replacetag +=''
-            replacetag += (db.tags.find(search=>search.tag_cn==currtags)?db.tags.find(search=>search.tag_cn==currtags).tag_en+'' : currtags)
+            // if(!(entags=='DPS'||entags=="Slow")&&!(i==currchar.tagList.length-1))
+            // replacetag +='  '
+            replacetag += entags
+            if(!(i==currchar.tagList.length-1))
             replacetag +='\n'
             currchar.tagList[i] = replacetag
             // console.log(tags)
         }
     }
 
+    var currtalents = db.talents[element]
+    if(currtalents){
+        // console.log(currtalents)
+    
+        for(i=0;i<currtalents.length;i++){
+            for(j=0;j<currtalents[i].length;j++){
+                currchar.talents[i].candidates[j].name = currtalents[i][j].name
+                currchar.talents[i].candidates[j].description = currtalents[i][j].desc
+            }
+        }
+    }
 });
 
+Object.keys(skillTable).forEach(element => {
+    var currskill = skillTable[element]
+    var tlskill = db.skill[element]
+    if(tlskill&&currskill){
+        for(i=0;i<currskill.levels.length;i++){
+            console.log(currskill.levels[i].name)
+            currskill.levels[i].name = tlskill.name
+            currskill.levels[i].description = "<size=15>"+tlskill.desc[i]+"</size>\n      -"
+        }
+    }
 
+})
 
 fs.writeFile(`../converted/character_table.json`, JSON.stringify(characterTable, null, '\t'), function (err) {
         if (err) {
             return console.log(err);
         }
     })
+    fs.writeFile(`../converted/skill_table.json`, JSON.stringify(skillTable, null, '\t'), function (err) {
+        if (err) {
+            return console.log(err);
+        }
+    })
+
+
 // var jbinary = require('jbinary')
 // if (process.argv.length <= 2) {
 //     console.log("Usage: " + __filename + " path/to/directory");

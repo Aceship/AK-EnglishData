@@ -1,7 +1,7 @@
 {
 	"char_285_medic2": {
 		"name": "Lancet-2",
-		"description": "<@sizedown>Heal friendly unit\nIgnore deploy limits\nLong redeployment time</>",
+		"description": "<size=15>Heal friendly unit\nIgnore deploy limits\nLong redeployment time</size>",
 		"canUseGeneralPotentialItem": false,
 		"potentialItemId": "p_char_285_medic2",
 		"team": -1,
@@ -10,7 +10,7 @@
 		"appellation": "Lancet-2",
 		"position": "Ranged",
 		"tagList": [
-			"Healing\n"
+			"Healing"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛医疗机器人Lancet-2，被工程师可露希尔派遣来执行战地医疗任务。",
@@ -89,8 +89,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "救援喷雾·I",
-						"description": "部署后立即恢复全场友方单位200点生命",
+						"name": "Healing Mist·I",
+						"description": "Immediately restore 200 HP to all allies after deployment",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -106,8 +106,8 @@
 						},
 						"requiredPotentialRank": 1,
 						"prefabKey": "1",
-						"name": "救援喷雾·II",
-						"description": "部署后立即恢复全场友方单位260点生命",
+						"name": "Healing Mist·II",
+						"description": "Immediately restore 260 HP to all allies after deployment",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -123,8 +123,8 @@
 						},
 						"requiredPotentialRank": 2,
 						"prefabKey": "1",
-						"name": "救援喷雾·III",
-						"description": "部署后立即恢复全场友方单位320点生命",
+						"name": "Healing Mist·III",
+						"description": "Immediately restore 320 HP to all allies after deployment",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -140,8 +140,8 @@
 						},
 						"requiredPotentialRank": 3,
 						"prefabKey": "1",
-						"name": "救援喷雾·IV",
-						"description": "部署后立即恢复全场友方单位380点生命",
+						"name": "Healing Mist·IV",
+						"description": "Immediately restore 380 HP to all allies after deployment",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -157,8 +157,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "救援喷雾·V",
-						"description": "部署后立即恢复全场友方单位440点生命",
+						"name": "Healing Mist·V",
+						"description": "Immediately restore 440 HP to all allies after deployment",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -174,8 +174,8 @@
 						},
 						"requiredPotentialRank": 5,
 						"prefabKey": "1",
-						"name": "救援喷雾·VI",
-						"description": "部署后立即恢复全场友方单位500点生命",
+						"name": "Healing Mist·VI",
+						"description": "Immediately restore 500 HP to all allies after deployment",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -273,7 +273,7 @@
 	},
 	"char_286_cast3": {
 		"name": "Castle-3",
-		"description": "<@sizedown>Can block single enemies\nIgnore deploy limits\nLong redeployment time</>",
+		"description": "<size=15>Can block single enemies\nIgnore deploy limits\nLong redeployment time</size>",
 		"canUseGeneralPotentialItem": false,
 		"potentialItemId": "p_char_286_cast3",
 		"team": -1,
@@ -282,7 +282,7 @@
 		"appellation": "Castle-3",
 		"position": "Melee",
 		"tagList": [
-			"Supporting\n"
+			"Supporting"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛近卫机器人Castle-3，被工程师可露希尔派遣来执行战地医疗任务。",
@@ -361,8 +361,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "战术整理·I",
-						"description": "部署后10秒内所有友方【近战位】单位的攻击力和防御力+10%",
+						"name": "Tactical Reorganization·I",
+						"description": "After deployment, all ally 【Melee】 operatives gain Attack and Defense +10% for 10 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -386,8 +386,8 @@
 						},
 						"requiredPotentialRank": 1,
 						"prefabKey": "1",
-						"name": "战术整理·II",
-						"description": "部署后12秒内所有友方【近战位】单位的攻击力和防御力+12%",
+						"name": "Tactical Reorganization·II",
+						"description": "After deployment, all ally 【Melee】 operatives gain Attack and Defense +12% for 12 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -411,8 +411,8 @@
 						},
 						"requiredPotentialRank": 2,
 						"prefabKey": "1",
-						"name": "战术整理·III",
-						"description": "部署后14秒内所有友方【近战位】单位的攻击力和防御力+14%",
+						"name": "Tactical Reorganization·III",
+						"description": "After deployment, all ally 【Melee】 operatives gain Attack and Defense +14% for 14 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -436,8 +436,8 @@
 						},
 						"requiredPotentialRank": 3,
 						"prefabKey": "1",
-						"name": "战术整理·IV",
-						"description": "部署后16秒内所有友方【近战位】单位的攻击力和防御力+16%",
+						"name": "Tactical Reorganization·IV",
+						"description": "After deployment, all ally 【Melee】 operatives gain Attack and Defense +16% for 16 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -461,8 +461,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "战术整理·V",
-						"description": "部署后18秒内所有友方【近战位】单位的攻击力和防御力+18%",
+						"name": "Tactical Reorganization·V",
+						"description": "After deployment, all ally 【Melee】 operatives gain Attack and Defense +18% for 18 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -486,8 +486,8 @@
 						},
 						"requiredPotentialRank": 5,
 						"prefabKey": "1",
-						"name": "战术整理·VI",
-						"description": "部署后20秒内所有友方【近战位】单位的攻击力和防御力+20%",
+						"name": "Tactical Reorganization·VI",
+						"description": "After deployment, all ally 【Melee】 operatives gain Attack and Defense +20% for 20 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -593,7 +593,7 @@
 	},
 	"char_502_nblade": {
 		"name": "夜刀",
-		"description": "<@sizedown>Can block 2 enemies</>",
+		"description": "<size=15>Can block 2 enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_502_nblade",
 		"team": 1,
@@ -602,7 +602,7 @@
 		"appellation": "Yato",
 		"position": "Melee",
 		"tagList": [
-			"Newbie\n"
+			"Newbie"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛先锋干员夜刀，将在战场上为小队赢得可观的优势。",
@@ -681,8 +681,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "快速重新部署",
-						"description": "再部署时间-30秒",
+						"name": "Quick Redeployment",
+						"description": "Redeployment time -30 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -845,7 +845,7 @@
 	},
 	"char_500_noirc": {
 		"name": "黑角",
-		"description": "<@sizedown>Can block 3 enemies</>",
+		"description": "<size=15>Can block 3 enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_500_noirc",
 		"team": 1,
@@ -854,7 +854,7 @@
 		"appellation": "Noir Corne",
 		"position": "Melee",
 		"tagList": [
-			"Newbie\n"
+			"Newbie"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛重装干员黑角，将为队友提供坚实的防御力量。",
@@ -933,8 +933,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "装甲改良",
-						"description": "生命上限和防御力各+12%",
+						"name": "Armor Enhancement",
+						"description": "Max HP and Defense +12%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -1101,7 +1101,7 @@
 	},
 	"char_503_rang": {
 		"name": "巡林者",
-		"description": "<@sizedown>Prioritize attacking air units</>",
+		"description": "<size=15>Prioritize attacking air units</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_503_rang",
 		"team": 1,
@@ -1110,7 +1110,7 @@
 		"appellation": "Rangers",
 		"position": "Ranged",
 		"tagList": [
-			"Newbie\n"
+			"Newbie"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛狙击干员巡林者，将以长弓挫败敌人攻击。",
@@ -1189,8 +1189,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "空射大师",
-						"description": "攻击飞行目标时，攻击力+50%",
+						"name": "Anti-air Master",
+						"description": "When attacking flying targets, Attack +50%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -1353,7 +1353,7 @@
 	},
 	"char_501_durin": {
 		"name": "杜林",
-		"description": "<@sizedown>Spell damage</>",
+		"description": "<size=15>Spell damage</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_501_durin",
 		"team": 1,
@@ -1362,7 +1362,7 @@
 		"appellation": "Durin",
 		"position": "Ranged",
 		"tagList": [
-			"Newbie\n"
+			"Newbie"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛术师干员杜林，将以源石技艺为小队构筑战略优势。",
@@ -1441,8 +1441,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "小个子的幸运",
-						"description": "获得50%的法术闪避",
+						"name": "Shorty's Luck",
+						"description": "Gain 50% magic evasion",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -1605,7 +1605,7 @@
 	},
 	"char_009_12fce": {
 		"name": "12F",
-		"description": "<@sizedown>Splash Magic Damage</>",
+		"description": "<size=15>Splash Magic Damage</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_009_12fce",
 		"team": -1,
@@ -1614,7 +1614,7 @@
 		"appellation": "12F",
 		"position": "Ranged",
 		"tagList": [
-			"Newbie\n"
+			"Newbie"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛术师干员12F，将用源石技艺为小队提供战术援助。",
@@ -1693,8 +1693,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "闪避率提升",
-						"description": "获得50%的物理闪避",
+						"name": "Evasion Increase",
+						"description": "Gain 50% physical evasion",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -1857,7 +1857,7 @@
 	},
 	"char_123_fang": {
 		"name": "芬",
-		"description": "<@sizedown>Can block 2 enemies</>",
+		"description": "<size=15>Can block 2 enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_123_fang",
 		"team": 2,
@@ -1866,7 +1866,7 @@
 		"appellation": "Fang",
 		"position": "Melee",
 		"tagList": [
-			"Cost Recovery\n"
+			"Cost Recovery"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛先锋干员芬，将在战场上为小队赢得可观的优势。",
@@ -2010,8 +2010,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "轻量化",
-						"description": "自身部署费用-1",
+						"name": "Lightening",
+						"description": "Self deployment cost -1",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -2278,7 +2278,7 @@
 	},
 	"char_240_wyvern": {
 		"name": "香草",
-		"description": "<@sizedown>Can block 2 enemies</>",
+		"description": "<size=15>Can block 2 enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_240_wyvern",
 		"team": 13,
@@ -2287,7 +2287,7 @@
 		"appellation": "Vanilla",
 		"position": "Melee",
 		"tagList": [
-			"Cost Recovery\n"
+			"Cost Recovery"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "黑钢先锋干员香草，将用其专业技术为团队打开战场。",
@@ -2431,8 +2431,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "攻击提升",
-						"description": "攻击力+4%",
+						"name": "Attack Increase",
+						"description": "Attack +4%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -2448,8 +2448,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "攻击提升",
-						"description": "攻击力+8%",
+						"name": "Attack Increase",
+						"description": "Attack +8%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -2716,7 +2716,7 @@
 	},
 	"char_192_falco": {
 		"name": "翎羽",
-		"description": "<@sizedown>Obtain 1 cost on every kill\nFull cost refund on retreat</>",
+		"description": "<size=15>Obtain 1 cost on every kill\nFull cost refund on retreat</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_192_falco",
 		"team": -1,
@@ -2725,8 +2725,8 @@
 		"appellation": "Plume",
 		"position": "Melee",
 		"tagList": [
-			"DPS\n",
-			"Cost Recovery\n"
+			"  DPS  \n",
+			"Cost Recovery"
 		],
 		"displayLogo": "logo_Laterano",
 		"itemUsage": "罗德岛先锋干员翎羽，将为小队提供可靠的防御并反击敌人的攻势。",
@@ -2886,8 +2886,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "攻击提升",
-						"description": "攻击力+4%",
+						"name": "Attack Increase",
+						"description": "Attack +4%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -2903,8 +2903,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "攻击提升",
-						"description": "攻击力+8%",
+						"name": "Attack Increase",
+						"description": "Attack +8%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -3171,7 +3171,7 @@
 	},
 	"char_208_melan": {
 		"name": "玫兰莎",
-		"description": "<@sizedown>Can block single enemies</>",
+		"description": "<size=15>Can block single enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_208_melan",
 		"team": 3,
@@ -3180,8 +3180,8 @@
 		"appellation": "Melantha",
 		"position": "Melee",
 		"tagList": [
-			"DPS\n",
-			"Survival\n"
+			"  DPS  \n",
+			"Survival"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛近卫干员玫兰莎，将为小队提供优秀的进攻能力。",
@@ -3325,8 +3325,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "攻击提升",
-						"description": "攻击力+4%",
+						"name": "Attack Increase",
+						"description": "Attack +4%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -3342,8 +3342,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "攻击提升",
-						"description": "攻击力+8%",
+						"name": "Attack Increase",
+						"description": "Attack +8%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -3610,7 +3610,7 @@
 	},
 	"char_281_popka": {
 		"name": "泡普卡",
-		"description": "<@sizedown>Attack multiple enemies equal to block count</>",
+		"description": "<size=15>Attack multiple enemies equal to block count</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_281_popka",
 		"team": 19,
@@ -3620,7 +3620,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Splash\n",
-			"Survival\n"
+			"Survival"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛近卫干员泡普卡，拿起电锯想要赶跑威胁博士的坏人。",
@@ -3764,8 +3764,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "生命攻击提升",
-						"description": "生命上限+3%，攻击力+3%",
+						"name": "Max HP & Attack Increase",
+						"description": "Max HP +3%, Attack +3%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -3785,8 +3785,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "生命攻击提升",
-						"description": "生命上限+5%<@ba.talpu>（+2%）</>，攻击力+5%<@ba.talpu>（+2%）</>",
+						"name": "Max HP & Attack Increase",
+						"description": "Max HP +5% (+2%), Attack +5% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -3806,8 +3806,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "生命攻击提升",
-						"description": "生命上限+6%，攻击力+6%",
+						"name": "Max HP & Attack Increase",
+						"description": "Max HP +6%, Attack +6%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -3827,8 +3827,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "生命攻击提升",
-						"description": "生命上限+8%<@ba.talpu>（+2%）</>，攻击力+8%<@ba.talpu>（+2%）</>",
+						"name": "Max HP & Attack Increase",
+						"description": "Max HP +8% (+2%), Attack +8% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -4086,7 +4086,7 @@
 	},
 	"char_209_ardign": {
 		"name": "卡缇",
-		"description": "<@sizedown>Can block 3 enemies</>",
+		"description": "<size=15>Can block 3 enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_209_ardign",
 		"team": 3,
@@ -4095,7 +4095,7 @@
 		"appellation": "Cardigan",
 		"position": "Melee",
 		"tagList": [
-			"Protection\n"
+			"Protection"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛重装干员卡缇，时刻奔跑在战场上为队友提供可靠的防御。",
@@ -4239,8 +4239,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "生命上限提升",
-						"description": "生命上限+6%",
+						"name": "Max HP Increase",
+						"description": "Max HP +6%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -4256,8 +4256,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "生命上限提升",
-						"description": "生命上限+12%",
+						"name": "Max HP Increase",
+						"description": "Max HP +12%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -4524,7 +4524,7 @@
 	},
 	"char_122_beagle": {
 		"name": "米格鲁",
-		"description": "<@sizedown>Can block 3 enemies</>",
+		"description": "<size=15>Can block 3 enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_122_beagle",
 		"team": 2,
@@ -4533,7 +4533,7 @@
 		"appellation": "Beagle",
 		"position": "Melee",
 		"tagList": [
-			"Protection\n"
+			"Protection"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛重装干员米格鲁，将为队友提供坚实的防御力量。",
@@ -4677,8 +4677,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "防御提升",
-						"description": "防御力+5%",
+						"name": "Defense Increase",
+						"description": "Defense +5%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -4694,8 +4694,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "防御提升",
-						"description": "防御力+10%",
+						"name": "Defense Increase",
+						"description": "Defense +10%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -4962,7 +4962,7 @@
 	},
 	"char_284_spot": {
 		"name": "斑点",
-		"description": "<@sizedown>Skills heal friendly unit</>",
+		"description": "<size=15>Skills heal friendly unit</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_284_spot",
 		"team": 19,
@@ -4972,7 +4972,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Protection\n",
-			"Healing\n"
+			"Healing"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛重装干员斑点，将在抵御攻击的同时为小队提供简单的医疗支援。",
@@ -5116,8 +5116,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "烟雾加装",
-						"description": "治疗友方单位后为其提供持续3秒的10%物理闪避",
+						"name": "Smoke Device",
+						"description": "After healing an ally, grant 10% physical evasion to them for 3 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -5137,8 +5137,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "烟雾加装",
-						"description": "治疗友方单位后为其提供持续3秒的15%<@ba.talpu>（+5%）</>物理闪避",
+						"name": "Smoke Device",
+						"description": "After healing an ally, grant 15% (+5%) physical evasion to them for 3 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -5158,8 +5158,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "烟雾加装",
-						"description": "治疗友方单位后为其提供持续3秒的20%物理闪避",
+						"name": "Smoke Device",
+						"description": "After healing an ally, grant 20% physical evasion to them for 3 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -5179,8 +5179,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "烟雾加装",
-						"description": "治疗友方单位后为其提供持续3秒的25%<@ba.talpu>（+5%）</>物理闪避",
+						"name": "Smoke Device",
+						"description": "After healing an ally, grant 25% (+5%) physical evasion to them for 3 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -5438,7 +5438,7 @@
 	},
 	"char_124_kroos": {
 		"name": "克洛丝",
-		"description": "<@sizedown>Prioritize attacking air units</>",
+		"description": "<size=15>Prioritize attacking air units</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_124_kroos",
 		"team": 2,
@@ -5447,7 +5447,7 @@
 		"appellation": "Kroos",
 		"position": "Ranged",
 		"tagList": [
-			"DPS\n"
+			"  DPS  "
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛狙击干员克洛丝，将以弓弩挫败敌人的攻击。",
@@ -5591,8 +5591,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "要害瞄准·初级",
-						"description": "攻击时，10%几率当次攻击的攻击力提升至150%",
+						"name": "Weakpoint Aiming·Beginner",
+						"description": "When attacking, 10% chance to increase Attack to 150%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -5612,8 +5612,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "要害瞄准·初级",
-						"description": "攻击时，10%几率当次攻击的攻击力提升至160%<@ba.talpu>（+10%）</>",
+						"name": "Weakpoint Aiming·Beginner",
+						"description": "When attacking, 10% chance to increase Attack to 160% (+10%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -5633,8 +5633,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "要害瞄准·初级",
-						"description": "攻击时，20%几率当次攻击的攻击力提升至150%",
+						"name": "Weakpoint Aiming·Beginner",
+						"description": "When attacking, 20% chance to increase Attack to 150%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -5654,8 +5654,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "要害瞄准·初级",
-						"description": "攻击时，20%几率当次攻击的攻击力提升至160%<@ba.talpu>（+10%）</>",
+						"name": "Weakpoint Aiming·Beginner",
+						"description": "When attacking, 20% chance to increase Attack to 160% (+10%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -5913,7 +5913,7 @@
 	},
 	"char_211_adnach": {
 		"name": "安德切尔",
-		"description": "<@sizedown>Prioritize attacking air units</>",
+		"description": "<size=15>Prioritize attacking air units</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_211_adnach",
 		"team": 3,
@@ -5922,7 +5922,7 @@
 		"appellation": "Adnachiel",
 		"position": "Ranged",
 		"tagList": [
-			"DPS\n"
+			"  DPS  "
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛狙击干员安德切尔，将以弓弩挫败敌人的攻击。",
@@ -6066,8 +6066,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "短板突破",
-						"description": "攻击速度+4，优先攻击使用远程武器的敌人",
+						"name": "Weakness Breakthrough",
+						"description": "Attack speed +4, prioritize attacking enemies using ranged weapons",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -6083,8 +6083,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "短板突破",
-						"description": "攻击速度+8，优先攻击使用远程武器的敌人",
+						"name": "Weakness Breakthrough",
+						"description": "Attack speed +8, prioritize attacking enemies using ranged weapons",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -6351,7 +6351,7 @@
 	},
 	"char_121_lava": {
 		"name": "炎熔",
-		"description": "<@sizedown>Splash Magic Damage</>",
+		"description": "<size=15>Splash Magic Damage</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_121_lava",
 		"team": 2,
@@ -6360,7 +6360,7 @@
 		"appellation": "Lava",
 		"position": "Ranged",
 		"tagList": [
-			"Splash\n"
+			"Splash"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛术师干员炎熔，将用源石技艺为小队开辟空间。",
@@ -6504,8 +6504,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "快速技能使用",
-						"description": "部署后立即获得15点技力",
+						"name": "Rapid Skill Use",
+						"description": "After deployment, immediately gain 15 SP",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -6521,8 +6521,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "快速技能使用",
-						"description": "部署后立即获得20<@ba.talpu>（+5）</>点技力",
+						"name": "Rapid Skill Use",
+						"description": "After deployment, immediately gain 20 (+5) SP",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -6538,8 +6538,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "快速技能使用",
-						"description": "部署后立即获得30点技力",
+						"name": "Rapid Skill Use",
+						"description": "After deployment, immediately gain 30 SP",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -6555,8 +6555,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "快速技能使用",
-						"description": "部署后立即获得35<@ba.talpu>（+5）</>点技力",
+						"name": "Rapid Skill Use",
+						"description": "After deployment, immediately gain 35 (+5) SP",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -6810,7 +6810,7 @@
 	},
 	"char_120_hibisc": {
 		"name": "芙蓉",
-		"description": "<@sizedown>Heal friendly unit</>",
+		"description": "<size=15>Heal friendly unit</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_120_hibisc",
 		"team": 2,
@@ -6819,7 +6819,7 @@
 		"appellation": "Hibiscus",
 		"position": "Ranged",
 		"tagList": [
-			"Healing\n"
+			"Healing"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛医疗干员芙蓉，将为伤员提供可靠的医疗援助。",
@@ -6963,8 +6963,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "治疗力提升",
-						"description": "攻击力+4%",
+						"name": "Healing Power Increase",
+						"description": "Attack +4%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -6980,8 +6980,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "治疗力提升",
-						"description": "攻击力+8%",
+						"name": "Healing Power Increase",
+						"description": "Attack +8%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -7248,7 +7248,7 @@
 	},
 	"char_212_ansel": {
 		"name": "安赛尔",
-		"description": "<@sizedown>Heal friendly unit</>",
+		"description": "<size=15>Heal friendly unit</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_212_ansel",
 		"team": 3,
@@ -7257,7 +7257,7 @@
 		"appellation": "Ansel",
 		"position": "Ranged",
 		"tagList": [
-			"Healing\n"
+			"Healing"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛医疗干员安塞尔，将为小队提供多样的急救方案。",
@@ -7401,8 +7401,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "附加治疗",
-						"description": "有7%的几率额外治疗一名友方单位",
+						"name": "Additional Healing",
+						"description": "Has 7% chance to heal an additional ally",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -7418,8 +7418,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "附加治疗",
-						"description": "有10%<@ba.talpu>（+3%）</>的几率额外治疗一名友方单位",
+						"name": "Additional Healing",
+						"description": "Has 10% (+3%) chance to heal an additional ally",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -7435,8 +7435,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "附加治疗",
-						"description": "有15%的几率额外治疗一名友方单位",
+						"name": "Additional Healing",
+						"description": "Has 15% chance to heal an additional ally",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -7452,8 +7452,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "附加治疗",
-						"description": "有18%<@ba.talpu>（+3%）</>的几率额外治疗一名友方单位",
+						"name": "Additional Healing",
+						"description": "Has 18% (+3%) chance to heal an additional ally",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -7707,7 +7707,7 @@
 	},
 	"char_210_stward": {
 		"name": "史都华德",
-		"description": "<@sizedown>Spell damage</>",
+		"description": "<size=15>Spell damage</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_210_stward",
 		"team": 3,
@@ -7716,7 +7716,7 @@
 		"appellation": "Steward",
 		"position": "Ranged",
 		"tagList": [
-			"DPS\n"
+			"  DPS  "
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛术师干员史都华德，使用源石技艺为小队开辟前路。",
@@ -7860,8 +7860,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "铠甲突破",
-						"description": "攻击力+3%，优先攻击防御力最高的敌人",
+						"name": "Armor Break",
+						"description": "Attack +3%, prioritize attacking the enemy with the highest Defense",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -7877,8 +7877,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "铠甲突破",
-						"description": "攻击力+6%，优先攻击防御力最高的敌人",
+						"name": "Armor Break",
+						"description": "Attack +6%, prioritize attacking the enemy with the highest Defense",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -8145,7 +8145,7 @@
 	},
 	"char_278_orchid": {
 		"name": "梓兰",
-		"description": "<@sizedown>Spell damage\nSlows enemy</>",
+		"description": "<size=15>Spell damage\nSlows enemy</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_278_orchid",
 		"team": 19,
@@ -8154,7 +8154,7 @@
 		"appellation": "Orchid",
 		"position": "Ranged",
 		"tagList": [
-			"Slow\n"
+			"  Slow  "
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛辅助干员梓兰，将凭借源石技艺为各小队提供援助。",
@@ -8314,8 +8314,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "施法速度提升",
-						"description": "攻击速度+5",
+						"name": "Casting Speed Increase",
+						"description": "Attack speed +5",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -8331,8 +8331,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "施法速度提升",
-						"description": "攻击速度+9",
+						"name": "Casting Speed Increase",
+						"description": "Attack speed +9",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -8599,7 +8599,7 @@
 	},
 	"char_141_nights": {
 		"name": "夜烟",
-		"description": "<@sizedown>Spell damage</>",
+		"description": "<size=15>Spell damage</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_141_nights",
 		"team": -1,
@@ -8608,8 +8608,8 @@
 		"appellation": "Haze",
 		"position": "Ranged",
 		"tagList": [
-			"DPS\n",
-			"Debuffer\n"
+			"  DPS  \n",
+			"Debuffer"
 		],
 		"displayLogo": "logo_victoria",
 		"itemUsage": "罗德岛术师干员夜烟，将使用源石技艺为小队提供援助。",
@@ -8995,8 +8995,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "黑色迷雾",
-						"description": "攻击使目标法术抗性-10%，持续1秒",
+						"name": "Black Mist",
+						"description": "Attacks inflict Magic resistance -10% for 1 second",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -9016,8 +9016,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "黑色迷雾",
-						"description": "攻击使目标法术抗性-13%<@ba.talpu>（+3%）</>，持续1秒",
+						"name": "Black Mist",
+						"description": "Attacks inflict Magic resistance -13% (+3%) for 1 second",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -9037,8 +9037,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "黑色迷雾",
-						"description": "攻击使目标法术抗性-20%，持续1秒",
+						"name": "Black Mist",
+						"description": "Attacks inflict Magic resistance -20% for 1 second",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -9058,8 +9058,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "黑色迷雾",
-						"description": "攻击使目标法术抗性-23%<@ba.talpu>（+3%）</>，持续1秒",
+						"name": "Black Mist",
+						"description": "Attacks inflict Magic resistance -23% (+3%) for 1 second",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -9317,7 +9317,7 @@
 	},
 	"char_109_fmout": {
 		"name": "远山",
-		"description": "<@sizedown>Splash Magic Damage</>",
+		"description": "<size=15>Splash Magic Damage</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_109_fmout",
 		"team": -1,
@@ -9326,7 +9326,7 @@
 		"appellation": "Gitano",
 		"position": "Ranged",
 		"tagList": [
-			"Splash\n"
+			"Splash"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛术师干员远山，将用源石技艺为小队谋划未来。",
@@ -9712,8 +9712,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "占卜",
-						"description": "部署后随机永久获得下列一项增益：攻击力+7%；攻击速度+7；生命上限+12%",
+						"name": "Divination",
+						"description": "After deployment, randomly gain one of the following effects for the rest of the battle: Attack +7%; Attack speed +7; Max HP +12%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -9737,8 +9737,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "占卜",
-						"description": "部署后随机永久获得下列一项增益：攻击力+9%<@ba.talpu>（+2%）</>；攻击速度+9<@ba.talpu>（+2）</>；生命上限+14%<@ba.talpu>（+2%）</>",
+						"name": "Divination",
+						"description": "After deployment, randomly gain one of the following effects for the rest of the battle: Attack +9% (+2%); Attack speed +9 (+2); Max HP +14% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -9762,8 +9762,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "占卜",
-						"description": "部署后随机永久获得下列一项增益：攻击力+13%；攻击速度+13；生命上限提升20%",
+						"name": "Divination",
+						"description": "After deployment, randomly gain one of the following effects for the rest of the battle: Attack +13%; Attack speed +13; Max HP +20%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -9787,8 +9787,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "占卜",
-						"description": "部署后随机永久获得下列一项增益：攻击力+15%<@ba.talpu>（+2%）</>；攻击速度+15<@ba.talpu>（+2）</>；生命上限+22%<@ba.talpu>（+2%）</>",
+						"name": "Divination",
+						"description": "After deployment, randomly gain one of the following effects for the rest of the battle: Attack +15% (+2%); Attack speed +15 (+2); Max HP +22% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -10050,7 +10050,7 @@
 	},
 	"char_253_greyy": {
 		"name": "格雷伊",
-		"description": "<@sizedown>Splash Magic Damage</>",
+		"description": "<size=15>Splash Magic Damage</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_253_greyy",
 		"team": -1,
@@ -10060,7 +10060,7 @@
 		"position": "Ranged",
 		"tagList": [
 			"Splash\n",
-			"Slow\n"
+			"  Slow  "
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛法术干员格雷伊，小心翼翼地使用源石技艺击退所有来犯之敌。",
@@ -10446,8 +10446,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "静电场",
-						"description": "攻击时对攻击目标造成0.4秒的停顿",
+						"name": "Static Field",
+						"description": "Attacks inflict 0.4 seconds of stop effect to enemies",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -10463,8 +10463,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "静电场",
-						"description": "攻击时对攻击目标造成0.6秒的停顿",
+						"name": "Static Field",
+						"description": "Attacks inflict 0.6 seconds of stop effect to enemies",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -10731,7 +10731,7 @@
 	},
 	"char_235_jesica": {
 		"name": "杰西卡",
-		"description": "<@sizedown>Prioritize attacking air units</>",
+		"description": "<size=15>Prioritize attacking air units</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_235_jesica",
 		"team": 13,
@@ -10740,8 +10740,8 @@
 		"appellation": "Jessica",
 		"position": "Ranged",
 		"tagList": [
-			"DPS\n",
-			"Survival\n"
+			"  DPS  \n",
+			"Survival"
 		],
 		"displayLogo": "logo_blacksteel",
 		"itemUsage": "黑钢狙击干员杰西卡，将用其专业技术为团队提供有效的打击力量。",
@@ -11127,8 +11127,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "快速弹匣",
-						"description": "攻击速度+6",
+						"name": "Rapid Magazine",
+						"description": "Attack speed +6",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -11144,8 +11144,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "快速弹匣",
-						"description": "攻击速度+12",
+						"name": "Rapid Magazine",
+						"description": "Attack speed +12",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -11412,7 +11412,7 @@
 	},
 	"char_126_shotst": {
 		"name": "流星",
-		"description": "<@sizedown>Prioritize attacking air units</>",
+		"description": "<size=15>Prioritize attacking air units</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_126_shotst",
 		"team": -1,
@@ -11421,8 +11421,8 @@
 		"appellation": "Meteor",
 		"position": "Ranged",
 		"tagList": [
-			"DPS\n",
-			"Debuffer\n"
+			"  DPS  \n",
+			"Debuffer"
 		],
 		"displayLogo": "logo_kazimierz",
 		"itemUsage": "罗德岛狙击干员流星，随时准备拉满弓弦。",
@@ -11808,8 +11808,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "空射专精",
-						"description": "攻击飞行目标时，攻击力+20%",
+						"name": "Anti-air Specialization",
+						"description": "When attacking flying targets, Attack +20%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -11825,8 +11825,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "空射专精",
-						"description": "攻击飞行目标时，攻击力+25%<@ba.talpu>（+5%）</>",
+						"name": "Anti-air Specialization",
+						"description": "When attacking flying targets, Attack +25% (+5%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -11842,8 +11842,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "空射专精",
-						"description": "攻击飞行目标时，攻击力+35%",
+						"name": "Anti-air Specialization",
+						"description": "When attacking flying targets, Attack +35%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -11859,8 +11859,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "空射专精",
-						"description": "攻击飞行目标时，攻击力+40%<@ba.talpu>（+5%）</>",
+						"name": "Anti-air Specialization",
+						"description": "When attacking flying targets, Attack +40% (+5%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -12114,7 +12114,7 @@
 	},
 	"char_118_yuki": {
 		"name": "白雪",
-		"description": "<@sizedown>Physical Splash Damage</>",
+		"description": "<size=15>Physical Splash Damage</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_118_yuki",
 		"team": -1,
@@ -12124,7 +12124,7 @@
 		"position": "Ranged",
 		"tagList": [
 			"Splash\n",
-			"Slow\n"
+			"  Slow  "
 		],
 		"displayLogo": "logo_lungmen",
 		"itemUsage": "文月夫人的贴身护卫白雪，谨遵主命为你提供帮助。",
@@ -12510,8 +12510,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "重型手里剑",
-						"description": "攻击间隔略微增大，但攻击力+20%",
+						"name": "Heavy Shuriken",
+						"description": "Slightly increase attack interval (+0.2 seconds), however Attack +20%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -12782,7 +12782,7 @@
 	},
 	"char_198_blackd": {
 		"name": "讯使",
-		"description": "<@sizedown>Can block 2 enemies</>",
+		"description": "<size=15>Can block 2 enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_198_blackd",
 		"team": 6,
@@ -12792,7 +12792,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Cost Recovery\n",
-			"Protection\n"
+			"Protection"
 		],
 		"displayLogo": "logo_kjerag",
 		"itemUsage": "喀兰贸易公司联络人讯使，将作为先锋干员为您提供服务。",
@@ -13178,8 +13178,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "雪境巡逻员",
-						"description": "阻挡两个及以上的敌人时，防御力+8%",
+						"name": "Snow Patroller",
+						"description": "When blocking 2 or more enemies, Defense +8%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -13199,8 +13199,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "雪境巡逻员",
-						"description": "阻挡两个及以上的敌人时，防御力+11%<@ba.talpu>（+3%）</>",
+						"name": "Snow Patroller",
+						"description": "When blocking 2 or more enemies, Defense +11% (+3%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -13220,8 +13220,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "雪境巡逻员",
-						"description": "当阻挡住两个及以上的敌人时，防御力+16%",
+						"name": "Snow Patroller",
+						"description": "When blocking 2 or more enemies, Defense +16%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -13241,8 +13241,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "雪境巡逻员",
-						"description": "阻挡两个及以上的敌人时，防御力+19%<@ba.talpu>（+3%）</>",
+						"name": "Snow Patroller",
+						"description": "When blocking 2 or more enemies, Defense +19% (+3%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -13500,7 +13500,7 @@
 	},
 	"char_149_scave": {
 		"name": "清道夫",
-		"description": "<@sizedown>Can block 2 enemies</>",
+		"description": "<size=15>Can block 2 enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_149_scave",
 		"team": 5,
@@ -13510,7 +13510,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Cost Recovery\n",
-			"DPS\n"
+			"  DPS  "
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "S.W.E.E.P执行人清道夫，时刻准备部署。",
@@ -13896,8 +13896,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "单独行动者",
-						"description": "当周围四格内没有其他友方单位时，攻击力和防御力各+5%",
+						"name": "Lone Wolf",
+						"description": "While there are no allies in the 4 adjacent tiles, Attack and Defense +5%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -13917,8 +13917,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "单独行动者",
-						"description": "当周围四格内没有其他友方单位时，攻击力和防御力各+7%<@ba.talpu>（+2%）</>",
+						"name": "Lone Wolf",
+						"description": "While there are no allies in the 4 adjacent tiles, Attack and Defense +7% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -13938,8 +13938,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "单独行动者",
-						"description": "当周围四格内没有其他友方单位时，攻击力和防御力各+11%",
+						"name": "Lone Wolf",
+						"description": "While there are no allies in the 4 adjacent tiles, Attack and Defense +11%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -13959,8 +13959,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "单独行动者",
-						"description": "当周围四格内没有其他友方单位时，攻击力和防御力各+13%<@ba.talpu>（+2%）</>",
+						"name": "Lone Wolf",
+						"description": "While there are no allies in the 4 adjacent tiles, Attack and Defense +13% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -14218,7 +14218,7 @@
 	},
 	"char_290_vigna": {
 		"name": "红豆",
-		"description": "<@sizedown>Obtain 1 cost on every kill\nFull cost refund on retreat</>",
+		"description": "<size=15>Obtain 1 cost on every kill\nFull cost refund on retreat</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_290_vigna",
 		"team": -1,
@@ -14227,8 +14227,8 @@
 		"appellation": "Vigna",
 		"position": "Melee",
 		"tagList": [
-			"DPS\n",
-			"Cost Recovery\n"
+			"  DPS  \n",
+			"Cost Recovery"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛先锋干员红豆，握紧长枪，准备着进入战场。",
@@ -14630,8 +14630,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "蛮力穿刺",
-						"description": "攻击时，10%几率当次攻击的攻击力+50%。技能中这个几率提高到30%",
+						"name": "Brute Thrust",
+						"description": "When attacking, 10% chance to increase Attack by +50%. Chance is increased to 30% while skill is active",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -14655,8 +14655,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "蛮力穿刺",
-						"description": "攻击时，10%几率当次攻击的攻击力+60%<@ba.talpu>（+10%）</>。技能中这个几率提高到30%",
+						"name": "Brute Thrust",
+						"description": "When attacking, 10% chance to increase Attack by +60% (+10%). Chance is increased to 30% while skill is active",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -14680,8 +14680,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "蛮力穿刺",
-						"description": "攻击时，10%几率当次攻击的攻击力+100%。技能中这个几率提高到30%",
+						"name": "Brute Thrust",
+						"description": "When attacking, 10% chance to increase Attack by +100%. Chance is increased to 30% while skill is active",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -14705,8 +14705,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "蛮力穿刺",
-						"description": "攻击时，10%几率当次攻击的攻击力+110%<@ba.talpu>（+10%）</>。技能中这个几率提高到30%",
+						"name": "Brute Thrust",
+						"description": "When attacking, 10% chance to increase Attack by +110% (+10%). Chance is increased to 30% while skill is active",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -14968,7 +14968,7 @@
 	},
 	"char_130_doberm": {
 		"name": "杜宾",
-		"description": "<@sizedown>Can attack distant enemies</>",
+		"description": "<size=15>Can attack distant enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_130_doberm",
 		"team": -1,
@@ -14977,8 +14977,8 @@
 		"appellation": "Dobermann",
 		"position": "Melee",
 		"tagList": [
-			"DPS\n",
-			"Supporting\n"
+			"  DPS  \n",
+			"Supporting"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛新人教官杜宾，能够随时为你提供战场上的各项建议。",
@@ -15364,8 +15364,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "新人教官",
-						"description": "所有三星干员的攻击力+5%",
+						"name": "Instructor",
+						"description": "All 3* operatives gain Attack +5%",
 						"rangeId": "x-4",
 						"blackboard": [
 							{
@@ -15381,8 +15381,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "新人教官",
-						"description": "所有三星干员的攻击力+6%<@ba.talpu>（+1%）</>",
+						"name": "Instructor",
+						"description": "All 3* operatives gain Attack +6% (+1%)",
 						"rangeId": "x-4",
 						"blackboard": [
 							{
@@ -15398,8 +15398,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "新人教官",
-						"description": "所有三星干员的攻击力+10%",
+						"name": "Instructor",
+						"description": "All 3* operatives gain Attack +10%",
 						"rangeId": "x-4",
 						"blackboard": [
 							{
@@ -15415,8 +15415,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "新人教官",
-						"description": "所有三星干员的攻击力+11%<@ba.talpu>（+1%）</>",
+						"name": "Instructor",
+						"description": "All 3* operatives gain Attack +11% (+1%)",
 						"rangeId": "x-4",
 						"blackboard": [
 							{
@@ -15670,7 +15670,7 @@
 	},
 	"char_289_gyuki": {
 		"name": "缠丸",
-		"description": "<@sizedown>Can block single enemies</>",
+		"description": "<size=15>Can block single enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_289_gyuki",
 		"team": -1,
@@ -15680,7 +15680,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Survival\n",
-			"DPS\n"
+			"  DPS  "
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛近卫干员缠丸，她挥刀只为斩落你的敌人。",
@@ -16066,8 +16066,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "恶鬼体质",
-						"description": "防御力-20%，但最大生命值+20%",
+						"name": "Demonic Constitution",
+						"description": "Defense -20%, however Max HP +20%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -16087,8 +16087,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "恶鬼体质",
-						"description": "防御力-20%，但最大生命值+23%<@ba.talpu>（+3%）</>",
+						"name": "Demonic Constitution",
+						"description": "Defense -20%, however Max HP +23% (+3%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -16346,7 +16346,7 @@
 	},
 	"char_193_frostl": {
 		"name": "霜叶",
-		"description": "<@sizedown>Can perform ranged attack\nHowever attack power will be reduced to 80%</>",
+		"description": "<size=15>Can perform ranged attack\nHowever attack power will be reduced to 80%</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_193_frostl",
 		"team": -1,
@@ -16355,8 +16355,8 @@
 		"appellation": "Frostleaf",
 		"position": "Melee",
 		"tagList": [
-			"Slow\n",
-			"DPS\n"
+			"  Slow  \n",
+			"  DPS  "
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛近卫干员霜叶，只要是你的命令，她都会遵从。",
@@ -16758,8 +16758,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "掩护打击",
-						"description": "攻击范围扩大，但攻击间隔略微增大",
+						"name": "Cover Strike",
+						"description": "Increase attack range, however attack interval slightly increases (+0.15 seconds)",
 						"rangeId": "3-1",
 						"blackboard": [
 							{
@@ -17026,7 +17026,7 @@
 	},
 	"char_127_estell": {
 		"name": "艾丝黛尔",
-		"description": "<@sizedown>Attack multiple enemies equal to block count</>",
+		"description": "<size=15>Attack multiple enemies equal to block count</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_127_estell",
 		"team": -1,
@@ -17036,7 +17036,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Splash\n",
-			"Survival\n"
+			"Survival"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛近卫干员艾丝黛尔，还在犹豫自己是否能帮上忙。",
@@ -17422,8 +17422,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "自愈能力",
-						"description": "周围8格内有敌人倒下时，恢复自身最大生命值7%的生命",
+						"name": "Self Regeneration",
+						"description": "When an enemy dies within 8 tiles of herself, recover 7% Max HP",
 						"rangeId": "x-4",
 						"blackboard": [
 							{
@@ -17439,8 +17439,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "自愈能力",
-						"description": "周围8格内有敌人倒下时，恢复自身最大生命值9%<@ba.talpu>（+2%）</>的生命",
+						"name": "Self Regeneration",
+						"description": "When an enemy dies within 8 tiles of herself, recover 9% (+2%) Max HP",
 						"rangeId": "x-4",
 						"blackboard": [
 							{
@@ -17456,8 +17456,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "自愈能力",
-						"description": "周围8格内有敌人倒下时，恢复自身最大生命值12%的生命",
+						"name": "Self Regeneration",
+						"description": "When an enemy dies within 8 tiles of herself, recover 12% Max HP",
 						"rangeId": "x-4",
 						"blackboard": [
 							{
@@ -17473,8 +17473,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "自愈能力",
-						"description": "周围8格内有敌人倒下时，恢复自身最大生命值14%<@ba.talpu>（+2%）</>的生命",
+						"name": "Self Regeneration",
+						"description": "When an enemy dies within 8 tiles of herself, recover 14% (+2%) Max HP",
 						"rangeId": "x-4",
 						"blackboard": [
 							{
@@ -17728,7 +17728,7 @@
 	},
 	"char_185_frncat": {
 		"name": "慕斯",
-		"description": "<@sizedown>Spell damage</>",
+		"description": "<size=15>Spell damage</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_185_frncat",
 		"team": -1,
@@ -17737,7 +17737,7 @@
 		"appellation": "Mousse",
 		"position": "Melee",
 		"tagList": [
-			"DPS\n"
+			"  DPS  "
 		],
 		"displayLogo": "logo_victoria",
 		"itemUsage": "罗德岛近卫干员慕斯，已经尽力把敌人想象成了抓板。",
@@ -18123,8 +18123,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "连击",
-						"description": "攻击时有10%的几率连续攻击两次",
+						"name": "Multistrike",
+						"description": "When attacking, 10% chance to attack twice",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -18140,8 +18140,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "连击",
-						"description": "攻击时有13%<@ba.talpu>（+3%）</>的几率连续攻击两次",
+						"name": "Multistrike",
+						"description": "When attacking, 13% (+3%) chance to attack twice",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -18157,8 +18157,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "连击",
-						"description": "攻击时有20%的几率连续攻击两次",
+						"name": "Multistrike",
+						"description": "When attacking, 20% chance to attack twice",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -18174,8 +18174,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "连击",
-						"description": "攻击时有23%<@ba.talpu>（+3%）</>的几率连续攻击两次",
+						"name": "Multistrike",
+						"description": "When attacking, 23% (+3%) chance to attack twice",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -18429,7 +18429,7 @@
 	},
 	"char_237_gravel": {
 		"name": "砾",
-		"description": "<@sizedown>Greatly Decreased Redeployment Time</>",
+		"description": "<size=15>Greatly Decreased Redeployment Time</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_237_gravel",
 		"team": -1,
@@ -18439,7 +18439,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Quick Resurrection\n",
-			"Protection\n"
+			"Protection"
 		],
 		"displayLogo": "logo_kazimierz",
 		"itemUsage": "罗德岛特种干员砾，将灵活闪现在战场上抵御攻击。",
@@ -18825,8 +18825,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "快速部署",
-						"description": "自身部署费用-1",
+						"name": "Quick Deployment",
+						"description": "Self deployment cost -1",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -18842,8 +18842,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1+",
-						"name": "小个子支援",
-						"description": "自身部署费用-1，所有部署费用不超过10的单位防御力提升6%",
+						"name": "Dwarfish Reinforcement",
+						"description": "Self deployment cost -1, All operatives with 10 or less cost gain Defense +6%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -18867,8 +18867,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1+",
-						"name": "小个子支援",
-						"description": "自身部署费用-1，所有部署费用不超过10的单位防御力提升8%<@ba.talpu>（+2%）</>",
+						"name": "Dwarfish Reinforcement",
+						"description": "Self deployment cost -1, All operatives with 10 or less cost gain Defense +8% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -19130,7 +19130,7 @@
 	},
 	"char_236_rope": {
 		"name": "暗索",
-		"description": "<@sizedown>Skill can displace enemy\nCan be placed on higher ground</>",
+		"description": "<size=15>Skill can displace enemy\nCan be placed on higher ground</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_236_rope",
 		"team": -1,
@@ -19139,7 +19139,7 @@
 		"appellation": "Rope",
 		"position": "Melee",
 		"tagList": [
-			"Displacement\n"
+			"Displacement"
 		],
 		"displayLogo": "logo_rim",
 		"itemUsage": "罗德岛特种干员暗索，将凭借钩索技术为小队提供便利。",
@@ -19525,8 +19525,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "听觉训练",
-						"description": "获得15%的物理闪避",
+						"name": "Auditory Training",
+						"description": "Gain 15% physical evasion",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -19542,8 +19542,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "听觉训练",
-						"description": "获得19%<@ba.talpu>（+4%）</>的物理闪避",
+						"name": "Auditory Training",
+						"description": "Gain 19% (+4%) physical evasion",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -19559,8 +19559,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "听觉训练",
-						"description": "获得30%的物理闪避",
+						"name": "Auditory Training",
+						"description": "Gain 30% physical evasion",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -19576,8 +19576,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "听觉训练",
-						"description": "获得34%<@ba.talpu>（+4%）</>的物理闪避",
+						"name": "Auditory Training",
+						"description": "Gain 34% (+4%) physical evasion",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -19831,7 +19831,7 @@
 	},
 	"char_117_myrrh": {
 		"name": "末药",
-		"description": "<@sizedown>Heal friendly unit</>",
+		"description": "<size=15>Heal friendly unit</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_117_myrrh",
 		"team": -1,
@@ -19840,7 +19840,7 @@
 		"appellation": "Myrrh",
 		"position": "Ranged",
 		"tagList": [
-			"Healing\n"
+			"Healing"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛医疗干员末药，将用草药为小队提供医疗援助。",
@@ -20226,8 +20226,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "急救包",
-						"description": "部署后立刻恢复全体友方单位的生命值，恢复量为末药攻击力的100%",
+						"name": "First Aid Kit",
+						"description": "After deployment, immediately heal all allies for 100% of Myrrh's Attack",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -20243,8 +20243,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "急救包",
-						"description": "部署后立刻恢复全体友方单位的生命值，恢复量为末药攻击力的110%<@ba.talpu>（+10%）</>",
+						"name": "First Aid Kit",
+						"description": "After deployment, immediately heal all allies for 110% (+10%) of Myrrh's Attack",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -20260,8 +20260,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "急救包",
-						"description": "部署后立刻恢复全体友方单位的生命值，恢复量为末药攻击力的150%",
+						"name": "First Aid Kit",
+						"description": "After deployment, immediately heal all allies for 150% of Myrrh's Attack",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -20277,8 +20277,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "急救包",
-						"description": "部署后立刻恢复全体友方单位的生命值，恢复量为末药攻击力的160%<@ba.talpu>（+10%）</>",
+						"name": "First Aid Kit",
+						"description": "After deployment, immediately heal all allies for 160% (+10%) of Myrrh's Attack",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -20532,7 +20532,7 @@
 	},
 	"char_187_ccheal": {
 		"name": "嘉维尔",
-		"description": "<@sizedown>Heal friendly unit</>",
+		"description": "<size=15>Heal friendly unit</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_187_ccheal",
 		"team": -1,
@@ -20541,7 +20541,7 @@
 		"appellation": "Gavial",
 		"position": "Ranged",
 		"tagList": [
-			"Healing\n"
+			"Healing"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛医疗干员嘉维尔，将用其特殊的医疗手段保障大家的生命安全。",
@@ -20927,8 +20927,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "战地医师",
-						"description": "部署后全体友方【医疗】职业干员攻击力+5%，防御力+50，持续15秒",
+						"name": "Battlefield Medic",
+						"description": "After deployment, all ally 【Medic】 operatives gain Attack +5%, Defense +50 for 15 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -20952,8 +20952,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "战地医师",
-						"description": "部署后全体友方【医疗】职业干员攻击力+7%<@ba.talpu>（+2%）</>，防御力+70<@ba.talpu>（+20）</>，持续17<@ba.talpu>（+2）</>秒",
+						"name": "Battlefield Medic",
+						"description": "After deployment, all ally 【Medic】 operatives gain Attack +7% (+2%), Defense +70 (+20) for 17 (+2) seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -20977,8 +20977,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "战地医师",
-						"description": "部署后全体友方【医疗】职业干员攻击力+10%，防御力+100，持续15秒",
+						"name": "Battlefield Medic",
+						"description": "After deployment, all ally 【Medic】 operatives gain Attack +10%, Defense +100 for 15 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -21002,8 +21002,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "战地医师",
-						"description": "部署后全体友方【医疗】职业干员攻击力+12%<@ba.talpu>（+2%）</>，防御力+120<@ba.talpu>（+20）</>，持续17<@ba.talpu>（+2）</>秒",
+						"name": "Battlefield Medic",
+						"description": "After deployment, all ally 【Medic】 operatives gain Attack +12% (+2%), Defense +120 (+20) for 17 (+2) seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -21265,7 +21265,7 @@
 	},
 	"char_181_flower": {
 		"name": "调香师",
-		"description": "<@sizedown>Heal up to 3 friendly unit at once</>",
+		"description": "<size=15>Heal up to 3 friendly unit at once</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_181_flower",
 		"team": -1,
@@ -21274,7 +21274,7 @@
 		"appellation": "Perfumer",
 		"position": "Ranged",
 		"tagList": [
-			"Healing\n"
+			"Healing"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "“疗养庭院”管理人调香师，播撒熏香为大家带来芬芳与治愈。",
@@ -21660,8 +21660,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "熏衣草",
-						"description": "在战场时全体友方单位每秒恢复相当于调香师攻击力3%的生命",
+						"name": "Lavender",
+						"description": "When deployed, heal all allies for 3% of Perfumer's Attack every second",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -21677,8 +21677,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "熏衣草",
-						"description": "在战场时全体友方单位每秒恢复相当于调香师攻击力3.5%<@ba.talpu>（+0.5%）</>的生命",
+						"name": "Lavender",
+						"description": "When deployed, heal all allies for 3.5% (+0.5%) of Perfumer's Attack every second",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -21694,8 +21694,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "熏衣香",
-						"description": "在战场时全体友方单位每秒恢复相当于调香师攻击力5%的生命",
+						"name": "Incense",
+						"description": "When deployed, heal all allies for 5% of Perfumer's Attack every second",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -21711,8 +21711,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "熏衣香",
-						"description": "在战场时全体友方单位每秒恢复相当于调香师攻击力5.5%<@ba.talpu>（+0.5%）</>的生命",
+						"name": "Incense",
+						"description": "When deployed, heal all allies for 5.5% (+0.5%) of Perfumer's Attack every second",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -21966,7 +21966,7 @@
 	},
 	"char_199_yak": {
 		"name": "角峰",
-		"description": "<@sizedown>Can block 3 enemies</>",
+		"description": "<size=15>Can block 3 enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_199_yak",
 		"team": 6,
@@ -21975,7 +21975,7 @@
 		"appellation": "Matterhorn",
 		"position": "Melee",
 		"tagList": [
-			"Protection\n"
+			"Protection"
 		],
 		"displayLogo": "logo_kjerag",
 		"itemUsage": "喀兰贸易公司卫士角峰，将作为重装干员为您提供服务。",
@@ -22361,8 +22361,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "雪原卫士",
-						"description": "法术抗性+7",
+						"name": "Snow Plain Defender",
+						"description": "Magic resistance +7",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -22378,8 +22378,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "雪原卫士",
-						"description": "法术抗性+15",
+						"name": "Snow Plain Defender",
+						"description": "Magic resistance +15",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -22646,7 +22646,7 @@
 	},
 	"char_150_snakek": {
 		"name": "蛇屠箱",
-		"description": "<@sizedown>Can block 3 enemies</>",
+		"description": "<size=15>Can block 3 enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_150_snakek",
 		"team": -1,
@@ -22655,7 +22655,7 @@
 		"appellation": "Cuora",
 		"position": "Melee",
 		"tagList": [
-			"Protection\n"
+			"Protection"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛重装干员蛇屠箱，将为小队提供坚实可靠的防御。",
@@ -23041,8 +23041,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "防御专精",
-						"description": "防御力+6%",
+						"name": "Defense Specialization",
+						"description": "Defense +6%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -23058,8 +23058,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "防御专精",
-						"description": "防御力+12%",
+						"name": "Defense Specialization",
+						"description": "Defense +12%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -23326,7 +23326,7 @@
 	},
 	"char_196_sunbr": {
 		"name": "古米",
-		"description": "<@sizedown>Skills heal friendly unit</>",
+		"description": "<size=15>Skills heal friendly unit</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_196_sunbr",
 		"team": 8,
@@ -23336,7 +23336,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Protection\n",
-			"Healing\n"
+			"Healing"
 		],
 		"displayLogo": "logo_ursus",
 		"itemUsage": "罗德岛重装干员古米，在保护同伴的同时，治疗他们的伤口。",
@@ -23722,8 +23722,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "平底锅专精",
-						"description": "攻击时，10%几率当次攻击的攻击力提升至150%，并眩晕敌人0.5秒",
+						"name": "Saucepan Specialization",
+						"description": "When attacking, 10% chance to increase Attack to 150% and stun the enemy for 0.5 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -23747,8 +23747,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "平底锅专精",
-						"description": "攻击时，13%<@ba.talpu>（+3%）</>几率当次攻击的攻击力提升至150%，并眩晕敌人0.5秒",
+						"name": "Saucepan Specialization",
+						"description": "When attacking, 13% (+3%) chance to increase Attack to 150% and stun the enemy for 0.5 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -23772,8 +23772,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "平底锅专精",
-						"description": "攻击时，15%几率当次攻击的攻击力提升至200%，并眩晕敌人1秒",
+						"name": "Saucepan Specialization",
+						"description": "When attacking, 15% chance to increase Attack to 200% and stun the enemy for 1 second",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -23797,8 +23797,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "平底锅专精",
-						"description": "攻击时，18%<@ba.talpu>（+3%）</>几率当次攻击的攻击力提升至200%，并眩晕敌人1秒",
+						"name": "Saucepan Specialization",
+						"description": "When attacking, 18% (+3%) chance to increase Attack to 200% and stun the enemy for 1 second",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -24060,7 +24060,7 @@
 	},
 	"char_110_deepcl": {
 		"name": "深海色",
-		"description": "<@sizedown>Spell damage\nCan use summons in battle</>",
+		"description": "<size=15>Spell damage\nCan use summons in battle</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_110_deepcl",
 		"team": -1,
@@ -24069,7 +24069,7 @@
 		"appellation": "Deepcolor",
 		"position": "Ranged",
 		"tagList": [
-			"Summoner\n"
+			"Summoner"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛辅助干员深海色，使役着她的“助手”们准备加入战斗。",
@@ -24455,8 +24455,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "召唤触手",
-						"description": "可以使用两个触手召唤物来协助作战",
+						"name": "Summon Tentacles",
+						"description": "Can summon 2 tentacles to assist in battle",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -24472,8 +24472,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "召唤触手",
-						"description": "可以使用三个触手召唤物来协助作战",
+						"name": "Summon Tentacles",
+						"description": "Can summon 3 tentacles to assist in battle",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -24489,8 +24489,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "召唤触手",
-						"description": "可以使用四个触手召唤物来协助作战",
+						"name": "Summon Tentacles",
+						"description": "Can summon 4 tentacles to assist in battle",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -24757,7 +24757,7 @@
 	},
 	"char_183_skgoat": {
 		"name": "地灵",
-		"description": "<@sizedown>Spell damage\nSlows enemy</>",
+		"description": "<size=15>Spell damage\nSlows enemy</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_183_skgoat",
 		"team": -1,
@@ -24766,7 +24766,7 @@
 		"appellation": "Earthspirit",
 		"position": "Ranged",
 		"tagList": [
-			"Slow\n"
+			"  Slow  "
 		],
 		"displayLogo": "logo_Leithanien",
 		"itemUsage": "罗德岛辅助干员地灵，在工作时间内为你提供可靠的战场支援。",
@@ -25168,8 +25168,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "地质勘探",
-						"description": "略微延长特性停顿的持续时间",
+						"name": "Geological Exploration",
+						"description": "Slight increase to the duration of the stop effect (+0.1)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -25185,8 +25185,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "地质勘探",
-						"description": "稍微延长特性停顿的持续时间",
+						"name": "Geological Exploration",
+						"description": "Small increase to the duration of the stop effect (+0.13)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -25440,7 +25440,7 @@
 	},
 	"char_277_sqrrel": {
 		"name": "阿消",
-		"description": "<@sizedown>Attack multiple enemies equal to block count\nCan be placed on higher ground</>",
+		"description": "<size=15>Attack multiple enemies equal to block count\nCan be placed on higher ground</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_277_sqrrel",
 		"team": -1,
@@ -25449,7 +25449,7 @@
 		"appellation": "Shaw",
 		"position": "Melee",
 		"tagList": [
-			"Displacement\n"
+			"Displacement"
 		],
 		"displayLogo": "logo_lungmen",
 		"itemUsage": "龙门消防署警员阿消向你报道，她将会为你提供各类援助。",
@@ -25835,8 +25835,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "防火护服",
-						"description": "法术抗性+7",
+						"name": "Fire-fighting Gear",
+						"description": "Magic resistance +7",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -25852,8 +25852,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "防火护服",
-						"description": "法术抗性+15",
+						"name": "Fire-fighting Gear",
+						"description": "Magic resistance +15",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -26120,7 +26120,7 @@
 	},
 	"char_128_plosis": {
 		"name": "白面鸮",
-		"description": "<@sizedown>Heal up to 3 friendly unit at once</>",
+		"description": "<size=15>Heal up to 3 friendly unit at once</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_128_plosis",
 		"team": 4,
@@ -26130,7 +26130,7 @@
 		"position": "Ranged",
 		"tagList": [
 			"Healing\n",
-			"Supporting\n"
+			"Supporting"
 		],
 		"displayLogo": "logo_rhine",
 		"itemUsage": "莱茵生命数据维护员白面鸮启动完成，请输入命令行进行操作。",
@@ -26516,8 +26516,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "技力光环",
-						"description": "在场时少量提升全场友方单位的技力回复速度",
+						"name": "Ability Aura",
+						"description": "When deployed, slightly increase the SP recovery speed of all allies (+0.15 SP/sec)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -26533,8 +26533,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "技力光环",
-						"description": "在场时较大提升全场友方单位的技力回复速度",
+						"name": "Ability Aura",
+						"description": "When deployed, largely increase the SP recovery speed of all allies (+0.3 SP/sec)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -26806,7 +26806,7 @@
 	},
 	"char_115_headbr": {
 		"name": "凛冬",
-		"description": "<@sizedown>Can block 2 enemies</>",
+		"description": "<size=15>Can block 2 enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_115_headbr",
 		"team": 8,
@@ -26816,7 +26816,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Cost Recovery\n",
-			"Supporting\n"
+			"Supporting"
 		],
 		"displayLogo": "logo_ursus",
 		"itemUsage": "罗德岛先锋干员凛冬，将凭借力量为小队取得开局的优势。",
@@ -27202,8 +27202,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "冲锋领袖",
-						"description": "自身部署费用-1",
+						"name": "Assault Leader",
+						"description": "Self deployment cost -1",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -27219,8 +27219,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1+",
-						"name": "冲锋领袖",
-						"description": "编入队伍时所有【先锋】职业干员的部署费用-1",
+						"name": "Assault Leader",
+						"description": "Deployment cost of all 【Vanguard】 operatives in the same team -1",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -27492,7 +27492,7 @@
 	},
 	"char_102_texas": {
 		"name": "德克萨斯",
-		"description": "<@sizedown>Can block 2 enemies</>",
+		"description": "<size=15>Can block 2 enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_102_texas",
 		"team": 11,
@@ -27502,7 +27502,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Cost Recovery\n",
-			"Crowd Control\n"
+			"Crowd Control"
 		],
 		"displayLogo": "logo_penguin",
 		"itemUsage": "企鹅物流职员德克萨斯，将使用源石剑为小队取得开局的优势。",
@@ -27888,8 +27888,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "战术快递",
-						"description": "编入队伍后，额外获得1点初始部署费用",
+						"name": "Tactical Delivery",
+						"description": "Obtain an additional 1 initial cost on battle start",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -27905,8 +27905,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "战术快递",
-						"description": "编入队伍后，额外获得2点初始部署费用",
+						"name": "Tactical Delivery",
+						"description": "Obtain an additional 2 initial cost on battle start",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -28178,7 +28178,7 @@
 	},
 	"char_308_swire": {
 		"name": "诗怀雅",
-		"description": "<@sizedown>Can attack distant enemies</>",
+		"description": "<size=15>Can attack distant enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_308_swire",
 		"team": 12,
@@ -28187,8 +28187,8 @@
 		"appellation": "Swire",
 		"position": "Melee",
 		"tagList": [
-			"DPS\n",
-			"Supporting\n"
+			"  DPS  \n",
+			"Supporting"
 		],
 		"displayLogo": "logo_lungmen",
 		"itemUsage": "近卫干员诗怀雅，来自龙门，愿意为你提供专业的警力协助与额外训练课程。",
@@ -28574,8 +28574,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "近距离作战指导",
-						"description": "在场时周围8格内的近战友方单位攻击力+3%",
+						"name": "Close-range Combat Guidance",
+						"description": "When deployed, melee operatives in the surrounding 8 tiles gain +3% Attack",
 						"rangeId": "x-4",
 						"blackboard": [
 							{
@@ -28591,8 +28591,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "近距离作战指导",
-						"description": "在场时周围8格内的近战友方单位攻击力+5%<@ba.talpu>（+2%）</>",
+						"name": "Close-range Combat Guidance",
+						"description": "When deployed, melee operatives in the surrounding 8 tiles gain +5% (+2%) Attack",
 						"rangeId": "x-4",
 						"blackboard": [
 							{
@@ -28608,8 +28608,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "近距离作战指导",
-						"description": "在场时周围8格内的近战友方单位攻击力+6%",
+						"name": "Close-range Combat Guidance",
+						"description": "When deployed, melee operatives in the surrounding 8 tiles gain +6% Attack",
 						"rangeId": "x-4",
 						"blackboard": [
 							{
@@ -28625,8 +28625,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "近距离作战指导",
-						"description": "在场时周围8格内的近战友方单位攻击力+8%<@ba.talpu>（+2%）</>",
+						"name": "Close-range Combat Guidance",
+						"description": "When deployed, melee operatives in the surrounding 8 tiles gain +8% (+2%) Attack",
 						"rangeId": "x-4",
 						"blackboard": [
 							{
@@ -28642,8 +28642,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "近距离作战指导",
-						"description": "在场时周围8格内的近战友方单位攻击力+10%",
+						"name": "Close-range Combat Guidance",
+						"description": "When deployed, melee operatives in the surrounding 8 tiles gain +10% Attack",
 						"rangeId": "x-4",
 						"blackboard": [
 							{
@@ -28659,8 +28659,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "近距离作战指导",
-						"description": "在场时周围8格内的近战友方单位攻击力+12%<@ba.talpu>（+2%）</>",
+						"name": "Close-range Combat Guidance",
+						"description": "When deployed, melee operatives in the surrounding 8 tiles gain +12% (+2%) Attack",
 						"rangeId": "x-4",
 						"blackboard": [
 							{
@@ -28919,7 +28919,7 @@
 	},
 	"char_106_franka": {
 		"name": "芙兰卡",
-		"description": "<@sizedown>Can block single enemies</>",
+		"description": "<size=15>Can block single enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_106_franka",
 		"team": 13,
@@ -28928,8 +28928,8 @@
 		"appellation": "Franka",
 		"position": "Melee",
 		"tagList": [
-			"DPS\n",
-			"Survival\n"
+			"  DPS  \n",
+			"Survival"
 		],
 		"displayLogo": "logo_blacksteel",
 		"itemUsage": "黑钢防化小队近卫干员芙兰卡，正在等待你的部署。",
@@ -29315,8 +29315,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "铝热剑",
-						"description": "攻击时有10%的几率无视目标的防御",
+						"name": "Thermite Blade",
+						"description": "When attacking, 10% chance to ignore the target's Defense",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -29332,8 +29332,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "铝热剑",
-						"description": "攻击时有20%的几率无视目标的防御",
+						"name": "Thermite Blade",
+						"description": "When attacking, 20% chance to ignore the target's Defense",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -29605,7 +29605,7 @@
 	},
 	"char_155_tiger": {
 		"name": "因陀罗",
-		"description": "<@sizedown>Can block single enemies</>",
+		"description": "<size=15>Can block single enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_155_tiger",
 		"team": 10,
@@ -29614,8 +29614,8 @@
 		"appellation": "Indra",
 		"position": "Melee",
 		"tagList": [
-			"DPS\n",
-			"Survival\n"
+			"  DPS  \n",
+			"Survival"
 		],
 		"displayLogo": "logo_victoria",
 		"itemUsage": "格拉斯哥帮成员因陀罗，很高兴能够又一次痛揍不识趣的家伙。",
@@ -30001,8 +30001,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "虎拳迅击",
-						"description": "有15%的概率闪避敌人的近战物理攻击，成功闪避后自身下一次攻击攻击力+80%",
+						"name": "Tiger Fist",
+						"description": "Has 15% chance to evade melee physical attacks. After a successful evade, the next attack has +80% Attack power",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -30022,8 +30022,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "虎拳迅击",
-						"description": "有18%<@ba.talpu>（+3%）</>的概率闪避敌人的近战物理攻击，成功闪避后自身下一次攻击攻击力+80%",
+						"name": "Tiger Fist",
+						"description": "Has 18% (+3%) chance to evade melee physical attacks. After a successful evade, the next attack has +80% Attack power",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -30043,8 +30043,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "虎拳迅击",
-						"description": "有30%的概率闪避敌人的近战物理攻击，成功闪避后自身下一次攻击攻击力+100%",
+						"name": "Tiger Fist",
+						"description": "Has 30% chance to evade melee physical attacks. After a successful evade, the next attack has +100% Attack power",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -30064,8 +30064,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "虎拳迅击",
-						"description": "有33%<@ba.talpu>（+3%）</>的概率闪避敌人的近战物理攻击，成功闪避后自己的下一次攻击攻击力+100%",
+						"name": "Tiger Fist",
+						"description": "Has 33% (+3%) chance to evade melee physical attacks. After a successful evade, the next attack has +100% Attack power",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -30328,7 +30328,7 @@
 	},
 	"char_140_whitew": {
 		"name": "拉普兰德",
-		"description": "<@sizedown>Can perform ranged attack\nHowever attack power will be reduced to 80%</>",
+		"description": "<size=15>Can perform ranged attack\nHowever attack power will be reduced to 80%</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_140_whitew",
 		"team": -1,
@@ -30337,8 +30337,8 @@
 		"appellation": "Lappland",
 		"position": "Melee",
 		"tagList": [
-			"DPS\n",
-			"Debuffer\n"
+			"  DPS  \n",
+			"Debuffer"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "干员拉普兰德，迫不及待想要切开眼前的敌人。",
@@ -30740,8 +30740,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "精神摧毁",
-						"description": "攻击使目标的特殊能力失效，持续1秒",
+						"name": "Mental Destruction",
+						"description": "Attacks seal the target's special abilities for 1 second",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -30757,8 +30757,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "精神摧毁",
-						"description": "攻击使目标的特殊能力失效，持续2<@ba.talpu>（+1）</>秒",
+						"name": "Mental Destruction",
+						"description": "Attacks seal the target's special abilities for 2 (+1) seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -30774,8 +30774,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "精神摧毁",
-						"description": "攻击使目标的特殊能力失效，持续5秒",
+						"name": "Mental Destruction",
+						"description": "Attacks seal the target's special abilities for 5 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -30791,8 +30791,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "精神摧毁",
-						"description": "攻击使目标的特殊能力失效，持续6<@ba.talpu>（+1）</>秒",
+						"name": "Mental Destruction",
+						"description": "Attacks seal the target's special abilities for 6 (+1) seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -31051,7 +31051,7 @@
 	},
 	"char_143_ghost": {
 		"name": "幽灵鲨",
-		"description": "<@sizedown>Attack multiple enemies equal to block count</>",
+		"description": "<size=15>Attack multiple enemies equal to block count</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_143_ghost",
 		"team": 15,
@@ -31061,7 +31061,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Splash\n",
-			"Survival\n"
+			"Survival"
 		],
 		"displayLogo": "logo_abyssal",
 		"itemUsage": "深海猎人幽灵鲨，早已结束祈祷，在战场上游荡多时。",
@@ -31447,8 +31447,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "体力上限提升",
-						"description": "生命上限+10%",
+						"name": "Max HP Increase",
+						"description": "Max HP +10%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -31468,8 +31468,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "体力上限提升",
-						"description": "生命上限+12%<@ba.talpu>（+2%）</>",
+						"name": "Max HP Increase",
+						"description": "Max HP +12% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -31489,8 +31489,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "深海再生力",
-						"description": "生命上限+10%，每秒回复最大生命2%的生命",
+						"name": "Deep Sea Regeneration",
+						"description": "Max HP +10%, Recover 2% Max HP every second",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -31510,8 +31510,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "深海再生力",
-						"description": "生命上限+12%<@ba.talpu>（+2%）</>，每秒回复最大生命2.5%<@ba.talpu>（+0.5%）</>的生命",
+						"name": "Deep Sea Regeneration",
+						"description": "Max HP +12% (+2%), Recover 2.5% (+0.5%) Max HP every second",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -31774,7 +31774,7 @@
 	},
 	"char_129_bluep": {
 		"name": "蓝毒",
-		"description": "<@sizedown>Prioritize attacking air units</>",
+		"description": "<size=15>Prioritize attacking air units</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_129_bluep",
 		"team": -1,
@@ -31783,7 +31783,7 @@
 		"appellation": "Blue Poison",
 		"position": "Ranged",
 		"tagList": [
-			"DPS\n"
+			"  DPS  "
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛狙击干员蓝毒，将运用自己的毒素对敌人进行攻击。",
@@ -32169,8 +32169,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "神经毒素",
-						"description": "攻击使目标中毒，在3秒内每秒受到30点法术伤害",
+						"name": "Neurotoxin",
+						"description": "Attacks poison the target, dealing 30 magical damage every second for 3 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -32190,8 +32190,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "神经毒素",
-						"description": "攻击使目标中毒，在3秒内每秒受到40<@ba.talpu>（+10）</>点法术伤害",
+						"name": "Neurotoxin",
+						"description": "Attacks poison the target, dealing 40 (+10) magical damage every second for 3 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -32211,8 +32211,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "神经毒素",
-						"description": "攻击使目标中毒，在3秒内每秒受到75点法术伤害",
+						"name": "Neurotoxin",
+						"description": "Attacks poison the target, dealing 75 magical damage every second for 3 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -32232,8 +32232,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "神经毒素",
-						"description": "攻击使目标中毒，在3秒内每秒受到85<@ba.talpu>（+10）</>点法术伤害",
+						"name": "Neurotoxin",
+						"description": "Attacks poison the target, dealing 85 (+10) magical damage every second for 3 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -32496,7 +32496,7 @@
 	},
 	"char_204_platnm": {
 		"name": "白金",
-		"description": "<@sizedown>Prioritize attacking air units</>",
+		"description": "<size=15>Prioritize attacking air units</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_204_platnm",
 		"team": -1,
@@ -32505,7 +32505,7 @@
 		"appellation": "Platinum",
 		"position": "Ranged",
 		"tagList": [
-			"DPS\n"
+			"  DPS  "
 		],
 		"displayLogo": "logo_kazimierz",
 		"itemUsage": "卡西米尔无胄盟成员白金，将为战场提供全面的火力支援。",
@@ -32891,8 +32891,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "蓄力攻击",
-						"description": "距离上次攻击的间隔越长，下次攻击的攻击力就越高（最长2.5秒，攻击力140%）",
+						"name": "Charged Attack",
+						"description": "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack 140%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -32920,8 +32920,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "蓄力攻击",
-						"description": "距离上次攻击的间隔越长，下次攻击的攻击力就越高（最长2.5秒，攻击力150%<@ba.talpu>（+10%）</>）",
+						"name": "Charged Attack",
+						"description": "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack 150% (+10%))",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -32949,8 +32949,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "蓄力攻击",
-						"description": "距离上次攻击的间隔越长，下次攻击的攻击力就越高（最长2.5秒，攻击力180%）",
+						"name": "Charged Attack",
+						"description": "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack 180%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -32978,8 +32978,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "蓄力攻击",
-						"description": "距离上次攻击的间隔越长，下次攻击的攻击力就越高（最长2.5秒，攻击力190%<@ba.talpu>（+10%）</>）",
+						"name": "Charged Attack",
+						"description": "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack 190% (+10%))",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -33250,7 +33250,7 @@
 	},
 	"char_219_meteo": {
 		"name": "陨星",
-		"description": "<@sizedown>Physical Splash Damage</>",
+		"description": "<size=15>Physical Splash Damage</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_219_meteo",
 		"team": -1,
@@ -33260,7 +33260,7 @@
 		"position": "Ranged",
 		"tagList": [
 			"Splash\n",
-			"Debuffer\n"
+			"Debuffer"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛狙击干员陨星，随时准备以炮火覆盖敌人。",
@@ -33646,8 +33646,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "爆破附着改装",
-						"description": "普通攻击和技能释放时，15%几率当次攻击的攻击力+60%",
+						"name": "High-explosive Modification",
+						"description": "When attacking or using skills, 15% chance to increase Attack by +60%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -33667,8 +33667,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "爆破附着改装",
-						"description": "普通攻击和技能释放时，30%几率当次攻击的攻击力+60%",
+						"name": "High-explosive Modification",
+						"description": "When attacking or using skills, 30% chance to increase Attack by +60%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -33944,7 +33944,7 @@
 	},
 	"char_002_amiya": {
 		"name": "阿米娅",
-		"description": "<@sizedown>Spell damage</>",
+		"description": "<size=15>Spell damage</size>",
 		"canUseGeneralPotentialItem": false,
 		"potentialItemId": "p_char_002_amiya",
 		"team": -1,
@@ -33953,7 +33953,7 @@
 		"appellation": "Amiya",
 		"position": "Ranged",
 		"tagList": [
-			"DPS\n"
+			"  DPS  "
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛公开领导人阿米娅，将与你并肩作战。",
@@ -34432,8 +34432,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "情绪吸收",
-						"description": "攻击敌人时额外回复2点技力，消灭敌人后额外获得8点技力",
+						"name": "Emotion Absorption",
+						"description": "Additionally recover 2 SP when attacking enemies. Gain 8 SP after killing an enemy",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -34453,8 +34453,8 @@
 						},
 						"requiredPotentialRank": 5,
 						"prefabKey": "1",
-						"name": "情绪吸收",
-						"description": "攻击敌人时额外回复3<@ba.talpu>（+1）</>点技力，消灭敌人后额外获得10<@ba.talpu>（+2）</>点技力",
+						"name": "Emotion Absorption",
+						"description": "Additionally recover 3 (+1) SP when attacking enemies. Gain 10 (+2) SP after killing an enemy",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -34717,7 +34717,7 @@
 	},
 	"char_166_skfire": {
 		"name": "天火",
-		"description": "<@sizedown>Splash Magic Damage</>",
+		"description": "<size=15>Splash Magic Damage</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_166_skfire",
 		"team": -1,
@@ -34727,7 +34727,7 @@
 		"position": "Ranged",
 		"tagList": [
 			"Splash\n",
-			"Crowd Control\n"
+			"Crowd Control"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "“王者之杖”所属干员天火，很乐意烧尽一切拦路的恶人。",
@@ -35113,8 +35113,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "法术狙击",
-						"description": "在场时，所有被阻挡的敌人受到法术伤害时提升7%",
+						"name": "Arcane Sniping",
+						"description": "When deployed, all blocked enemies receive +7% magical damage",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -35130,8 +35130,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "法术狙击",
-						"description": "在场时，所有被阻挡的敌人受到法术伤害时提升10%<@ba.talpu>（+3%）</>",
+						"name": "Arcane Sniping",
+						"description": "When deployed, all blocked enemies receive +10% (+3%) magical damage",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -35147,8 +35147,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "法术狙击",
-						"description": "在场时，所有被阻挡的敌人受到法术伤害时伤害提升15%",
+						"name": "Arcane Sniping",
+						"description": "When deployed, all blocked enemies receive +15% magical damage",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -35164,8 +35164,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "法术狙击",
-						"description": "在场时，所有被阻挡的敌人受到法术伤害时伤害提升18%<@ba.talpu>（+3%）</>",
+						"name": "Arcane Sniping",
+						"description": "When deployed, all blocked enemies receive +18% (+3%) magical damage",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -35424,7 +35424,7 @@
 	},
 	"char_242_otter": {
 		"name": "梅尔",
-		"description": "<@sizedown>Spell damage\nCan use summons in battle</>",
+		"description": "<size=15>Spell damage\nCan use summons in battle</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_242_otter",
 		"team": 4,
@@ -35434,7 +35434,7 @@
 		"position": "Ranged",
 		"tagList": [
 			"Summoner\n",
-			"Crowd Control\n"
+			"Crowd Control"
 		],
 		"displayLogo": "logo_rhine",
 		"itemUsage": "莱茵生命研究员梅尔，操控着她的咪波们准备加入战斗。",
@@ -35820,8 +35820,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "机械水獭",
-						"description": "可以使用3个机械水獭召唤物。攻击机械水獭的敌人攻击速度-10",
+						"name": "Mechanical Otters",
+						"description": "Can summon 3 mechanical otters. Inflict Attack speed -10 to enemies attacking the otters",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -35837,8 +35837,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "机械水獭",
-						"description": "可以使用4个机械水獭召唤物。攻击机械水獭的敌人攻击速度-25",
+						"name": "Mechanical Otters",
+						"description": "Can summon 4 mechanical otters. Inflict Attack speed -25 to enemies attacking the otters",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -35854,8 +35854,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "机械水獭",
-						"description": "可以使用5个机械水獭召唤物。攻击机械水獭的敌人攻击速度-25",
+						"name": "Mechanical Otters",
+						"description": "Can summon 5 mechanical otters. Inflict Attack speed -25 to enemies attacking the otters",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -36127,7 +36127,7 @@
 	},
 	"char_108_silent": {
 		"name": "赫默",
-		"description": "<@sizedown>Heal friendly unit</>",
+		"description": "<size=15>Heal friendly unit</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_108_silent",
 		"team": 4,
@@ -36136,7 +36136,7 @@
 		"appellation": "Silence",
 		"position": "Ranged",
 		"tagList": [
-			"Healing\n"
+			"Healing"
 		],
 		"displayLogo": "logo_rhine",
 		"itemUsage": "莱茵生命医疗专家赫默，会为战场带去最新的研究成果。",
@@ -36522,8 +36522,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "强化注射",
-						"description": "在场时，所有友方【医疗】职业干员攻速+6",
+						"name": "Injection Enhancement",
+						"description": "When deployed, all ally 【Medic】 operatives gain Attack speed +6",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -36539,8 +36539,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "强化注射",
-						"description": "在场时，所有友方【医疗】职业干员攻速+8<@ba.talpu>（+2）</>",
+						"name": "Injection Enhancement",
+						"description": "When deployed, all ally 【Medic】 operatives gain Attack speed +8 (+2)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -36556,8 +36556,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "强化注射",
-						"description": "在场时，所有友方【医疗】职业干员攻速+12",
+						"name": "Injection Enhancement",
+						"description": "When deployed, all ally 【Medic】 operatives gain Attack speed +12",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -36573,8 +36573,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "强化注射",
-						"description": "在场时，所有友方【医疗】职业干员攻速+14<@ba.talpu>（+2）</>",
+						"name": "Injection Enhancement",
+						"description": "When deployed, all ally 【Medic】 operatives gain Attack speed +14 (+2)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -36833,7 +36833,7 @@
 	},
 	"char_171_bldsk": {
 		"name": "华法琳",
-		"description": "<@sizedown>Heal friendly unit</>",
+		"description": "<size=15>Heal friendly unit</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_171_bldsk",
 		"team": -1,
@@ -36843,7 +36843,7 @@
 		"position": "Ranged",
 		"tagList": [
 			"Healing\n",
-			"Supporting\n"
+			"Supporting"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛医疗干员华法琳，以维护干员生命安全为己任。",
@@ -37229,8 +37229,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "血液样本回收",
-						"description": "攻击范围内有敌人倒下时，为自身和范围内随机一名友方单位回复1点技力",
+						"name": "Blood Sample Collection",
+						"description": "When an enemy dies within attack range, recover 1 SP to self and one random ally within attack range",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -37250,8 +37250,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "血液样本回收",
-						"description": "攻击范围内有敌人倒下时，为自身和范围内随机一名友方单位回复2点技力",
+						"name": "Blood Sample Collection",
+						"description": "When an enemy dies within attack range, recover 2 SP to self and one random ally within attack range",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -37527,7 +37527,7 @@
 	},
 	"char_148_nearl": {
 		"name": "临光",
-		"description": "<@sizedown>Skills heal friendly unit</>",
+		"description": "<size=15>Skills heal friendly unit</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_148_nearl",
 		"team": 9,
@@ -37537,7 +37537,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Protection\n",
-			"Healing\n"
+			"Healing"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "前卡西米尔骑士临光，将是防御与治疗并重的战场核心。",
@@ -37923,8 +37923,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "医疗效果大提升",
-						"description": "自身医疗效果提高10%",
+						"name": "Healing Effect Enhancement",
+						"description": "Healing effectiveness +10%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -37940,8 +37940,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "医疗效果大提升",
-						"description": "自身医疗效果提高12%<@ba.talpu>（+2%）</>",
+						"name": "Healing Effect Enhancement",
+						"description": "Healing effectiveness +12% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -37957,8 +37957,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1+",
-						"name": "天马光环",
-						"description": "在场时，全地图的友方单位医疗效果提高10%",
+						"name": "Pegasus Aura",
+						"description": "When deployed, all allies' healing effectiveness +10%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -37974,8 +37974,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1+",
-						"name": "天马光环",
-						"description": "在场时，全地图的友方单位医疗效果提高12%<@ba.talpu>（+2%）</>",
+						"name": "Pegasus Aura",
+						"description": "When deployed, all allies' healing effectiveness +12% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -38234,7 +38234,7 @@
 	},
 	"char_144_red": {
 		"name": "红",
-		"description": "<@sizedown>Greatly Decreased Redeployment Time</>",
+		"description": "<size=15>Greatly Decreased Redeployment Time</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_144_red",
 		"team": 5,
@@ -38244,7 +38244,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Quick Resurrection\n",
-			"Crowd Control\n"
+			"Crowd Control"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛特种干员、猎狼人红，即将加入狩猎。",
@@ -38630,8 +38630,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "刺骨",
-						"description": "每次攻击至少造成20%攻击力的伤害",
+						"name": "Bonebreaker",
+						"description": "Every attack will deal damage equal to at least 20% Attack",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -38647,8 +38647,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "刺骨",
-						"description": "每次攻击至少造成23%<@ba.talpu>（+3%）</>攻击力的伤害",
+						"name": "Bonebreaker",
+						"description": "Every attack will deal damage equal to at least 23% (+3%) Attack",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -38664,8 +38664,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "刺骨",
-						"description": "每次攻击至少造成30%攻击力的伤害",
+						"name": "Bonebreaker",
+						"description": "Every attack will deal damage equal to at least 30% Attack",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -38681,8 +38681,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "刺骨",
-						"description": "每次攻击至少造成33%<@ba.talpu>（+3%）</>攻击力的伤害",
+						"name": "Bonebreaker",
+						"description": "Every attack will deal damage equal to at least 33% (+3%) Attack",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -38941,7 +38941,7 @@
 	},
 	"char_107_liskam": {
 		"name": "雷蛇",
-		"description": "<@sizedown>Can block 3 enemies</>",
+		"description": "<size=15>Can block 3 enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_107_liskam",
 		"team": 13,
@@ -38951,7 +38951,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Protection\n",
-			"DPS\n"
+			"  DPS  "
 		],
 		"displayLogo": "logo_blacksteel",
 		"itemUsage": "黑钢防化人员雷蛇，虽是重装干员，却既持有坚强的盾，又握着锐利的矛。",
@@ -39337,8 +39337,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "战术防御",
-						"description": "受到攻击时，回复自己和周围一格内随机一名友方角色1点技力",
+						"name": "Tactical Defense",
+						"description": "When attacked, recover 1 SP to self and a random nearby ally",
 						"rangeId": "x-5",
 						"blackboard": [
 							{
@@ -39358,8 +39358,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "2",
-						"name": "雷抗",
-						"description": "法术抗性+10",
+						"name": "Lightning Resistance",
+						"description": "Magic resistance +10",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -39375,8 +39375,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "2",
-						"name": "雷抗",
-						"description": "法术抗性+13<@ba.talpu>（+3）</>",
+						"name": "Lightning Resistance",
+						"description": "Magic resistance +13 (+3)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -39635,7 +39635,7 @@
 	},
 	"char_201_moeshd": {
 		"name": "可颂",
-		"description": "<@sizedown>Can block 3 enemies</>",
+		"description": "<size=15>Can block 3 enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_201_moeshd",
 		"team": 11,
@@ -39645,7 +39645,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Protection\n",
-			"Displacement\n"
+			"Displacement"
 		],
 		"displayLogo": "logo_penguin",
 		"itemUsage": "企鹅物流特派物流人员可颂，愿意作为重装干员，为罗德岛提供可靠的防御力量。",
@@ -40031,8 +40031,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "奇迹力场",
-						"description": "有10%的几率抵挡物理和法术伤害。周围四格内的友方单位获得一半该效果",
+						"name": "Miracle Field",
+						"description": "Has 10% chance to block physical and magical damage. Allies within the adjacent 4 tiles gain half the effect",
 						"rangeId": "x-5",
 						"blackboard": [
 							{
@@ -40052,8 +40052,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "奇迹力场",
-						"description": "有13%<@ba.talpu>（+3%）</>的几率抵挡物理和法术伤害。周围四格内的友方单位获得一半该效果",
+						"name": "Miracle Field",
+						"description": "Has 13% (+3%) chance to block physical and magical damage. Allies within the adjacent 4 tiles gain half the effect",
 						"rangeId": "x-5",
 						"blackboard": [
 							{
@@ -40073,8 +40073,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "奇迹力场",
-						"description": "有20%的几率抵挡物理和法术伤害。周围四格内的友方单位获得一半该效果",
+						"name": "Miracle Field",
+						"description": "Has 20% chance to block physical and magical damage. Allies within the adjacent 4 tiles gain half the effect",
 						"rangeId": "x-5",
 						"blackboard": [
 							{
@@ -40094,8 +40094,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "奇迹力场",
-						"description": "有23%<@ba.talpu>（+3%）</>的几率抵挡物理和法术伤害。周围四格内的友方单位获得一半该效果",
+						"name": "Miracle Field",
+						"description": "Has 23% (+3%) chance to block physical and magical damage. Allies within the adjacent 4 tiles gain half the effect",
 						"rangeId": "x-5",
 						"blackboard": [
 							{
@@ -40358,7 +40358,7 @@
 	},
 	"char_163_hpsts": {
 		"name": "火神",
-		"description": "<@sizedown>Cannot be healed by friendly unit</>",
+		"description": "<size=15>Cannot be healed by friendly unit</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_163_hpsts",
 		"team": -1,
@@ -40369,7 +40369,7 @@
 		"tagList": [
 			"Survival\n",
 			"Protection\n",
-			"DPS\n"
+			"  DPS  "
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛重装干员火神，已为你烧红火炉，随时准备开始锻造。",
@@ -40755,8 +40755,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "自我防护",
-						"description": "技能开启时，每秒恢复最大生命值4%的生命",
+						"name": "Self-defense",
+						"description": "While skill is active, recover 4% Max HP every second",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -40776,8 +40776,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "自我防护",
-						"description": "技能开启时，每秒恢复最大生命值5%<@ba.talpu>（+1%）</>的生命",
+						"name": "Self-defense",
+						"description": "While skill is active, recover 5% (+1%) Max HP every second",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -40797,8 +40797,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "自我防护",
-						"description": "技能开启时，每秒恢复最大生命值4%的生命，同时获得25%的近战物理闪避",
+						"name": "Self-defense",
+						"description": "While skill is active, recover 4% Max HP every second and gain 25% melee physical evasion",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -40818,8 +40818,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "自我防护",
-						"description": "技能开启时，每秒恢复最大生命值5%<@ba.talpu>（+1%）</>的生命，同时获得30%<@ba.talpu>（+4%）</>的近战物理闪避",
+						"name": "Self-defense",
+						"description": "While skill is active, recover 5% (+1%) Max HP every second and gain 30% (+5%) melee physical evasion",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -41082,7 +41082,7 @@
 	},
 	"char_145_prove": {
 		"name": "普罗旺斯",
-		"description": "<@sizedown>High precision close range shooting</>",
+		"description": "<size=15>High precision close range shooting</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_145_prove",
 		"team": -1,
@@ -41091,7 +41091,7 @@
 		"appellation": "Provence",
 		"position": "Ranged",
 		"tagList": [
-			"DPS\n"
+			"  DPS  "
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛天灾信使普罗旺斯，时刻注意着天灾与敌人的动向。",
@@ -41477,8 +41477,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "狩猎箭头",
-						"description": "攻击时，20%几率当次攻击的攻击力提升至140%。当敌人在正前方一格时，该几率提升到50%",
+						"name": "Hunting Arrow",
+						"description": "When attacking, 20% chance to increase Attack to 140%. If the enemy is in the tile in front of Provence, the chance increases to 50%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -41502,8 +41502,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "狩猎箭头",
-						"description": "攻击时，20%几率当次攻击的攻击力提升至150%<@ba.talpu>（+10%）</>。当敌人在正前方一格时，该几率提升到50%",
+						"name": "Hunting Arrow",
+						"description": "When attacking, 20% chance to increase Attack to 150% (+10%). If the enemy is in the tile in front of Provence, the chance increases to 50%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -41527,8 +41527,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "狩猎箭头",
-						"description": "攻击时，20%几率当次攻击的攻击力提升至180%。当敌人在正前方一格时，该几率提升到50%",
+						"name": "Hunting Arrow",
+						"description": "When attacking, 20% chance to increase Attack to 180%. If the enemy is in the tile in front of Provence, the chance increases to 50%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -41552,8 +41552,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "狩猎箭头",
-						"description": "攻击时，20%几率当次攻击的攻击力提升至190%<@ba.talpu>（+10%）</>。当敌人在正前方一格时，该几率提升到50%",
+						"name": "Hunting Arrow",
+						"description": "When attacking, 20% chance to increase Attack to 190% (+10%). If the enemy is in the tile in front of Provence, the chance increases to 50%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -41820,7 +41820,7 @@
 	},
 	"char_158_milu": {
 		"name": "守林人",
-		"description": "<@sizedown>Targets lowest defense enemy</>",
+		"description": "<size=15>Targets lowest defense enemy</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_158_milu",
 		"team": -1,
@@ -41829,8 +41829,8 @@
 		"appellation": "Firewatch",
 		"position": "Ranged",
 		"tagList": [
-			"DPS\n",
-			"Burst\n"
+			"  DPS  \n",
+			"Burst"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛狙击干员守林人，隐藏在掩体间伺机待发。",
@@ -42216,8 +42216,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "暗杀者",
-						"description": "攻击使用远程武器的敌人时，攻击力提升至120%",
+						"name": "Assassin",
+						"description": "When attacking enemies wielding ranged weapons, Attack increases to 120%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -42233,8 +42233,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "暗杀者",
-						"description": "攻击使用远程武器的敌人时，攻击力提升至125%<@ba.talpu>（+5%）</>",
+						"name": "Assassin",
+						"description": "When attacking enemies wielding ranged weapons, Attack increases to 125% (+5%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -42250,8 +42250,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "暗杀者",
-						"description": "攻击使用远程武器的敌人时，攻击力提升至140%",
+						"name": "Assassin",
+						"description": "When attacking enemies wielding ranged weapons, Attack increases to 140%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -42267,8 +42267,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "暗杀者",
-						"description": "攻击使用远程武器的敌人时，攻击力提升至145%<@ba.talpu>（+5%）</>",
+						"name": "Assassin",
+						"description": "When attacking enemies wielding ranged weapons, Attack increases to 145% (+5%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -42527,7 +42527,7 @@
 	},
 	"char_173_slchan": {
 		"name": "崖心",
-		"description": "<@sizedown>Skill can displace enemy\nCan be placed on higher ground</>",
+		"description": "<size=15>Skill can displace enemy\nCan be placed on higher ground</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_173_slchan",
 		"team": 6,
@@ -42537,7 +42537,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Displacement\n",
-			"DPS\n"
+			"  DPS  "
 		],
 		"displayLogo": "logo_kjerag",
 		"itemUsage": "罗德岛干员崖心，作为特种干员，同时具备登山家的坚韧和战士的敏锐。",
@@ -42923,8 +42923,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "雪境猎手",
-						"description": "未阻挡敌人时，攻击力和防御力各+6%",
+						"name": "Snow Hunter",
+						"description": "When not blocking any enemies, Attack and Defense +6%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -42944,8 +42944,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "雪境猎手",
-						"description": "未阻挡敌人时，攻击力和防御力各+8%<@ba.talpu>（+2%）</>",
+						"name": "Snow Hunter",
+						"description": "When not blocking any enemies, Attack and Defense +8% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -42965,8 +42965,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "雪境猎手",
-						"description": "未阻挡敌人时，攻击力和防御力各+12%",
+						"name": "Snow Hunter",
+						"description": "When not blocking any enemies, Attack and Defense +12%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -42986,8 +42986,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "雪境猎手",
-						"description": "未阻挡敌人时，攻击力和防御力各+14%<@ba.talpu>（+2%）</>",
+						"name": "Snow Hunter",
+						"description": "When not blocking any enemies, Attack and Defense +14% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -43250,7 +43250,7 @@
 	},
 	"char_174_slbell": {
 		"name": "初雪",
-		"description": "<@sizedown>Spell damage</>",
+		"description": "<size=15>Spell damage</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_174_slbell",
 		"team": 6,
@@ -43259,7 +43259,7 @@
 		"appellation": "Pramanix",
 		"position": "Ranged",
 		"tagList": [
-			"Debuffer\n"
+			"Debuffer"
 		],
 		"displayLogo": "logo_kjerag",
 		"itemUsage": "喀兰圣女初雪，愿意作为辅助干员，为你献上神圣的祝福。",
@@ -43645,8 +43645,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "虚弱化",
-						"description": "攻击范围内的敌人生命少于40%时，其受到的伤害提升至115%",
+						"name": "Weakening",
+						"description": "When enemies within attack range have less than 40% HP, their damage taken is increased to 115%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -43666,8 +43666,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "虚弱化",
-						"description": "攻击范围内的敌人生命少于40%时，其受到的伤害提升至118%<@ba.talpu>（+3%）</>",
+						"name": "Weakening",
+						"description": "When enemies within attack range have less than 40% HP, their damage taken is increased to 118% (+3%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -43687,8 +43687,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "虚弱化",
-						"description": "攻击范围内的敌人生命少于40%时，其受到的伤害提升至130%",
+						"name": "Weakening",
+						"description": "When enemies within attack range have less than 40% HP, their damage taken is increased to 130%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -43708,8 +43708,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "虚弱化",
-						"description": "攻击范围内的敌人生命少于40%时，其受到的伤害提升至133%<@ba.talpu>（+3%）</>",
+						"name": "Weakening",
+						"description": "When enemies within attack range have less than 40% HP, their damage taken is increased to 133% (+3%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -43733,8 +43733,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "2",
-						"name": "双响",
-						"description": "攻击时同时攻击两个目标",
+						"name": "Echo",
+						"description": "Attacks 2 targets simultaneously",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -43993,7 +43993,7 @@
 	},
 	"char_195_glassb": {
 		"name": "真理",
-		"description": "<@sizedown>Spell damage\nSlows enemy</>",
+		"description": "<size=15>Spell damage\nSlows enemy</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_195_glassb",
 		"team": 8,
@@ -44002,8 +44002,8 @@
 		"appellation": "Истина",
 		"position": "Ranged",
 		"tagList": [
-			"Slow\n",
-			"DPS\n"
+			"  Slow  \n",
+			"  DPS  "
 		],
 		"displayLogo": "logo_ursus",
 		"itemUsage": "乌萨斯学生自治团成员真理，从书籍中挑选合适的源石技艺痛击敌人。",
@@ -44405,8 +44405,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "探知者",
-						"description": "防御力-35%，但攻击速度+18",
+						"name": "Detector",
+						"description": "Defense -35%, however Attack speed +18",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -44426,8 +44426,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "探知者",
-						"description": "防御力-35%，但攻击速度+21<@ba.talpu>（+3）</>",
+						"name": "Detector",
+						"description": "Defense -35%, however Attack speed +21 (+3)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -44690,7 +44690,7 @@
 	},
 	"char_101_sora": {
 		"name": "空",
-		"description": "<@sizedown>Does not attack\nHeal all allies in range \n(Equal to 10% of attack power every second)</>",
+		"description": "<size=15>Does not attack\nHeal all allies in range \n(Equal to 10% of attack power every second)</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_101_sora",
 		"team": 11,
@@ -44700,7 +44700,7 @@
 		"position": "Ranged",
 		"tagList": [
 			"Supporting\n",
-			"Healing\n"
+			"Healing"
 		],
 		"displayLogo": "logo_penguin",
 		"itemUsage": "企鹅物流职员空，将以歌声为小队提供多种战术援助。",
@@ -45086,8 +45086,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "安可",
-						"description": "技能结束后，50%几率立即回复25%的最大技力",
+						"name": "Encore",
+						"description": "When the skill ends, 50% chance to immediately recover 25% maximum SP",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -45107,8 +45107,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "安可",
-						"description": "技能结束后，50%几率立即回复50%的最大技力",
+						"name": "Encore",
+						"description": "When the skill ends, 50% chance to immediately recover 50% maximum SP",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -45384,7 +45384,7 @@
 	},
 	"char_215_mantic": {
 		"name": "狮蝎",
-		"description": "<@sizedown>Attack all enemy in range\n50% Physical & Magical Dodge\nHarder to be targeted</>",
+		"description": "<size=15>Attack all enemy in range\n50% Physical & Magical Dodge\nHarder to be targeted</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_215_mantic",
 		"team": -1,
@@ -45393,8 +45393,8 @@
 		"appellation": "Manticore",
 		"position": "Melee",
 		"tagList": [
-			"DPS\n",
-			"Survival\n"
+			"  DPS  \n",
+			"Survival"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛特种干员狮蝎，将在战场上挥舞蝎尾无声地狩猎敌人。",
@@ -45796,8 +45796,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "隐匿的杀手·中级",
-						"description": "平时处于隐匿状态（不会被远程攻击选为目标），攻击时会解除隐匿状态，且当次攻击的攻击力+25%。停止攻击6秒后，重新进入隐匿状态",
+						"name": "Hidden Killer·Intermediate",
+						"description": "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and grant +25% Attack power to the current attack. Regain hidden status after not attacking for 6 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -45817,8 +45817,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "隐匿的杀手·中级",
-						"description": "平时处于隐匿状态（不会被远程攻击选为目标），攻击时会解除隐匿状态，且当次攻击的攻击力+29%<@ba.talpu>（+4%）</>。停止攻击6秒后，重新进入隐匿状态",
+						"name": "Hidden Killer·Intermediate",
+						"description": "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and grant +29% (+4%) Attack power to the current attack. Regain hidden status after not attacking for 6 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -45838,8 +45838,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "隐匿的杀手·精英",
-						"description": "平时处于隐匿状态（不会被远程攻击选为目标），攻击时会解除隐匿状态，且当次攻击的攻击力+50%。停止攻击5秒后，重新进入隐匿状态",
+						"name": "Hidden Killer·Elite",
+						"description": "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and grant +50% Attack power to the current attack. Regain hidden status after not attacking for 5 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -45859,8 +45859,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "隐匿的杀手·精英",
-						"description": "平时处于隐匿状态（不会被远程攻击选为目标），攻击时会解除隐匿状态，且当次攻击的攻击力+54%<@ba.talpu>（+4%）</>。停止攻击5秒后，重新进入隐匿状态",
+						"name": "Hidden Killer·Elite",
+						"description": "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and grant +54% (+4%) Attack power to the current attack. Regain hidden status after not attacking for 5 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -46123,7 +46123,7 @@
 	},
 	"char_241_panda": {
 		"name": "食铁兽",
-		"description": "<@sizedown>Attack multiple enemies equal to block count\nCan be placed on higher ground</>",
+		"description": "<size=15>Attack multiple enemies equal to block count\nCan be placed on higher ground</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_241_panda",
 		"team": -1,
@@ -46133,7 +46133,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Displacement\n",
-			"Slow\n"
+			"  Slow  "
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛特种干员食铁兽，将用自身高超的武艺，解决争端。",
@@ -46519,8 +46519,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "功夫",
-						"description": "获得20%的物理闪避",
+						"name": "Kungfu",
+						"description": "Gain 20% physical evasion",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -46536,8 +46536,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "功夫",
-						"description": "获得23%<@ba.talpu>（+3%）</>的物理闪避",
+						"name": "Kungfu",
+						"description": "Gain 23% (+3%) physical evasion",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -46553,8 +46553,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "功夫",
-						"description": "获得40%的物理闪避",
+						"name": "Kungfu",
+						"description": "Gain 40% physical evasion",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -46570,8 +46570,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "功夫",
-						"description": "获得43%<@ba.talpu>（+3%）</>的物理闪避",
+						"name": "Kungfu",
+						"description": "Gain 43% (+3%) physical evasion",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -46830,7 +46830,7 @@
 	},
 	"char_103_angel": {
 		"name": "能天使",
-		"description": "<@sizedown>Prioritize attacking air units</>",
+		"description": "<size=15>Prioritize attacking air units</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_103_angel",
 		"team": 11,
@@ -46839,7 +46839,7 @@
 		"appellation": "Exusiai",
 		"position": "Ranged",
 		"tagList": [
-			"DPS\n"
+			"  DPS  "
 		],
 		"displayLogo": "logo_penguin",
 		"itemUsage": "企鹅物流职员能天使，将用铳枪为小队扫平前路。",
@@ -47306,8 +47306,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "快速弹匣",
-						"description": "攻击速度+6",
+						"name": "Rapid Magazine",
+						"description": "Attack speed +6",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -47323,8 +47323,8 @@
 						},
 						"requiredPotentialRank": 2,
 						"prefabKey": "1",
-						"name": "快速弹匣",
-						"description": "攻击速度+9<@ba.talpu>（+3）</>",
+						"name": "Rapid Magazine",
+						"description": "Attack speed +9 (+3)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -47340,8 +47340,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "快速弹匣",
-						"description": "攻击速度+12",
+						"name": "Rapid Magazine",
+						"description": "Attack speed +12",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -47357,8 +47357,8 @@
 						},
 						"requiredPotentialRank": 2,
 						"prefabKey": "1",
-						"name": "快速弹匣",
-						"description": "攻击速度+15<@ba.talpu>（+3）</>",
+						"name": "Rapid Magazine",
+						"description": "Attack speed +15 (+3)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -47378,8 +47378,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "2",
-						"name": "天使的祝福",
-						"description": "攻击力+6%，生命上限+10%。置入战场后这个效果会同样赋予给一名随机友方单位",
+						"name": "Angel's Blessings",
+						"description": "Attack +6%, Max HP +10%. When deployed, grant the same effect to a random ally",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -47399,8 +47399,8 @@
 						},
 						"requiredPotentialRank": 5,
 						"prefabKey": "2",
-						"name": "天使的祝福",
-						"description": "攻击力+8%<@ba.talpu>（+2%）</>，生命上限+13%<@ba.talpu>（+3%）</>。置入战场后这个效果会同样赋予给一名随机友方单位",
+						"name": "Angel's Blessings",
+						"description": "Attack +8% (+2%), Max HP +13% (+3%). When deployed, grant the same effect to a random ally",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -47660,7 +47660,7 @@
 	},
 	"char_112_siege": {
 		"name": "推进之王",
-		"description": "<@sizedown>Can block 2 enemies</>",
+		"description": "<size=15>Can block 2 enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_112_siege",
 		"team": 10,
@@ -47670,7 +47670,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Cost Recovery\n",
-			"DPS\n"
+			"  DPS  "
 		],
 		"displayLogo": "logo_victoria",
 		"itemUsage": "格拉斯哥帮头领推进之王，将为你辟开前路。",
@@ -48137,8 +48137,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "万兽之王",
-						"description": "所有【先锋】职业干员的攻击力和防御力各+4%",
+						"name": "King of Beasts",
+						"description": "When deployed, all 【Vanguard】 operatives gain Attack and Defense +4%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -48158,8 +48158,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "万兽之王",
-						"description": "所有【先锋】职业干员的攻击力和防御力各+6%<@ba.talpu>（+2%）</>",
+						"name": "King of Beasts",
+						"description": "When deployed, all 【Vanguard】 operatives gain Attack and Defense +6% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -48179,8 +48179,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "万兽之王",
-						"description": "所有【先锋】职业干员的攻击力和防御力各+8%",
+						"name": "King of Beasts",
+						"description": "When deployed, all 【Vanguard】 operatives gain Attack and Defense +8%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -48200,8 +48200,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "万兽之王",
-						"description": "所有【先锋】职业干员的攻击力和防御力各+10%<@ba.talpu>（+2%）</>",
+						"name": "King of Beasts",
+						"description": "When deployed, all 【Vanguard】 operatives gain Attack and Defense +10% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -48225,8 +48225,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "2",
-						"name": "粉碎",
-						"description": "周围四格内有敌人倒下时获得1点技力",
+						"name": "Obliterate",
+						"description": "Obtain 1 SP when an enemy dies within the adjacent 4 tiles",
 						"rangeId": "x-5",
 						"blackboard": [
 							{
@@ -48495,7 +48495,7 @@
 	},
 	"char_134_ifrit": {
 		"name": "伊芙利特",
-		"description": "<@sizedown>Super Long Range Splash Spell Damage</>",
+		"description": "<size=15>Super Long Range Splash Spell Damage</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_134_ifrit",
 		"team": 4,
@@ -48505,7 +48505,7 @@
 		"position": "Ranged",
 		"tagList": [
 			"Splash\n",
-			"Debuffer\n"
+			"Debuffer"
 		],
 		"displayLogo": "logo_rhine",
 		"itemUsage": "前莱茵生命医疗对象伊芙利特，想要烧尽赫默的敌人。",
@@ -48972,8 +48972,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "精神融解",
-						"description": "攻击范围内的敌军法术抗性-15%",
+						"name": "Mental Dissolution",
+						"description": "All enemies within attack range get Magic resistance -15%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -48989,8 +48989,8 @@
 						},
 						"requiredPotentialRank": 2,
 						"prefabKey": "1",
-						"name": "精神融解",
-						"description": "攻击范围内的敌军法术抗性-19%<@ba.talpu>（+4%）</>",
+						"name": "Mental Dissolution",
+						"description": "All enemies within attack range get Magic resistance -19% (+4%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -49006,8 +49006,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "精神融解",
-						"description": "攻击范围内的敌军法术抗性-27%",
+						"name": "Mental Dissolution",
+						"description": "All enemies within attack range get Magic resistance -27%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -49023,8 +49023,8 @@
 						},
 						"requiredPotentialRank": 2,
 						"prefabKey": "1",
-						"name": "精神融解",
-						"description": "攻击范围内的敌军法术抗性-31%<@ba.talpu>（+4%）</>",
+						"name": "Mental Dissolution",
+						"description": "All enemies within attack range get Magic resistance -31% (+4%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -49040,8 +49040,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "精神融解",
-						"description": "攻击范围内的敌军法术抗性-40%",
+						"name": "Mental Dissolution",
+						"description": "All enemies within attack range get Magic resistance -40%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -49057,8 +49057,8 @@
 						},
 						"requiredPotentialRank": 2,
 						"prefabKey": "1",
-						"name": "精神融解",
-						"description": "攻击范围内的敌军法术抗性-44%<@ba.talpu>（+4%）</>",
+						"name": "Mental Dissolution",
+						"description": "All enemies within attack range get Magic resistance -44% (+4%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -49078,8 +49078,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "2",
-						"name": "莱茵回路",
-						"description": "每6秒额外回复2点技力",
+						"name": "Rhine Circuitry",
+						"description": "Recover an additional 2 SP every 6 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -49099,8 +49099,8 @@
 						},
 						"requiredPotentialRank": 5,
 						"prefabKey": "2",
-						"name": "莱茵回路",
-						"description": "每5.5<@ba.talpu>（-0.5）</>秒额外回复2点技力",
+						"name": "Rhine Circuitry",
+						"description": "Recover an additional 2 SP every 5.5 (-0.5) seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -49360,7 +49360,7 @@
 	},
 	"char_180_amgoat": {
 		"name": "艾雅法拉",
-		"description": "<@sizedown>Spell damage</>",
+		"description": "<size=15>Spell damage</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_180_amgoat",
 		"team": -1,
@@ -49369,8 +49369,8 @@
 		"appellation": "Eyjafjalla",
 		"position": "Ranged",
 		"tagList": [
-			"DPS\n",
-			"Debuffer\n"
+			"  DPS  \n",
+			"Debuffer"
 		],
 		"displayLogo": "logo_Leithanien",
 		"itemUsage": "罗德岛术师干员艾雅法拉，一直想要倾尽全力为你做些什么。",
@@ -49837,8 +49837,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "炎息",
-						"description": "在场时，所有友方【术师】职业干员的攻击力+7%",
+						"name": "Inflammation",
+						"description": "When deployed, all ally 【Caster】 operatives gain Attack +7%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -49854,8 +49854,8 @@
 						},
 						"requiredPotentialRank": 5,
 						"prefabKey": "1",
-						"name": "炎息",
-						"description": "在场时，所有友方【术师】职业干员的攻击力+9%<@ba.talpu>（+2%）</>",
+						"name": "Inflammation",
+						"description": "When deployed, all ally 【Caster】 operatives gain Attack +9% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -49871,8 +49871,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "炎息",
-						"description": "在场时，所有友方【术师】职业干员的攻击力+14%",
+						"name": "Inflammation",
+						"description": "When deployed, all ally 【Caster】 operatives gain Attack +14%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -49888,8 +49888,8 @@
 						},
 						"requiredPotentialRank": 5,
 						"prefabKey": "1",
-						"name": "炎息",
-						"description": "在场时，所有友方【术师】职业干员的攻击力+16%<@ba.talpu>（+2%）</>",
+						"name": "Inflammation",
+						"description": "When deployed, all ally 【Caster】 operatives gain Attack +16% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -49909,8 +49909,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "2",
-						"name": "乱火",
-						"description": "部署后立即随机获得一定的技力",
+						"name": "Chaotic Flame",
+						"description": "After deployment, immediately gain a random amount of SP (7-16 SP)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -49930,8 +49930,8 @@
 						},
 						"requiredPotentialRank": 2,
 						"prefabKey": "2",
-						"name": "乱火",
-						"description": "部署后立即随机获得较多的技力",
+						"name": "Chaotic Flame",
+						"description": "After deployment, immediately gain a random (higher) amount of SP (10-20 SP)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -50191,7 +50191,7 @@
 	},
 	"char_291_aglina": {
 		"name": "安洁莉娜",
-		"description": "<@sizedown>Spell damage\nSlows enemy</>",
+		"description": "<size=15>Spell damage\nSlows enemy</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_291_aglina",
 		"team": -1,
@@ -50200,9 +50200,9 @@
 		"appellation": "Angelina",
 		"position": "Ranged",
 		"tagList": [
-			"Slow\n",
-			"DPS\n",
-			"Supporting\n"
+			"  Slow  \n",
+			"  DPS  \n",
+			"Supporting"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛辅助干员、信使安洁莉娜，很想用自己奇妙的源石技艺为你提供协助。",
@@ -50685,8 +50685,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "加速力场",
-						"description": "全场友方单位攻速+3",
+						"name": "Acceleration Field",
+						"description": "All allies' Attack speed +3",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -50702,8 +50702,8 @@
 						},
 						"requiredPotentialRank": 5,
 						"prefabKey": "1",
-						"name": "加速力场",
-						"description": "全场友方单位攻速+4<@ba.talpu>（+1）</>",
+						"name": "Acceleration Field",
+						"description": "All allies' Attack speed +4 (+1)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -50719,8 +50719,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "加速力场",
-						"description": "全场友方单位攻速+7",
+						"name": "Acceleration Field",
+						"description": "All allies' Attack speed +7",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -50736,8 +50736,8 @@
 						},
 						"requiredPotentialRank": 5,
 						"prefabKey": "1",
-						"name": "加速力场",
-						"description": "全场友方单位攻速+8<@ba.talpu>（+1）</>",
+						"name": "Acceleration Field",
+						"description": "All allies' Attack speed +8 (+1)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -50757,8 +50757,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "2",
-						"name": "兼职工作",
-						"description": "技能未开启时，全场友方单位每秒回复20点生命",
+						"name": "Part-time Job",
+						"description": "While skill is not active, all allies recover 20 HP every second",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -50774,8 +50774,8 @@
 						},
 						"requiredPotentialRank": 2,
 						"prefabKey": "2",
-						"name": "兼职工作",
-						"description": "技能未开启时，全场友方单位每秒回复25<@ba.talpu>（+5）</>点生命",
+						"name": "Part-time Job",
+						"description": "While skill is not active, all allies recover 25 (+5) HP every second",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -51031,7 +51031,7 @@
 	},
 	"char_147_shining": {
 		"name": "闪灵",
-		"description": "<@sizedown>Heal friendly unit</>",
+		"description": "<size=15>Heal friendly unit</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_147_shining",
 		"team": 9,
@@ -51041,7 +51041,7 @@
 		"position": "Ranged",
 		"tagList": [
 			"Healing\n",
-			"Supporting\n"
+			"Supporting"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "萨卡兹医师闪灵，竭尽所能为小队提供医疗支援。",
@@ -51508,8 +51508,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "黑恶魔的庇护",
-						"description": "攻击范围内的友方单位防御力+20",
+						"name": "Black Devil's Protection",
+						"description": "Allies within attack range gain Defense +20",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -51525,8 +51525,8 @@
 						},
 						"requiredPotentialRank": 5,
 						"prefabKey": "1",
-						"name": "黑恶魔的庇护",
-						"description": "攻击范围内的友方单位防御力+25<@ba.talpu>（+5）</>",
+						"name": "Black Devil's Protection",
+						"description": "Allies within attack range gain Defense +25 (+5)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -51542,8 +51542,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "黑恶魔的庇护",
-						"description": "攻击范围内的友方单位防御力+40",
+						"name": "Black Devil's Protection",
+						"description": "Allies within attack range gain Defense +40",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -51559,8 +51559,8 @@
 						},
 						"requiredPotentialRank": 5,
 						"prefabKey": "1",
-						"name": "黑恶魔的庇护",
-						"description": "攻击范围内的友方单位防御力+45<@ba.talpu>（+5）</>",
+						"name": "Black Devil's Protection",
+						"description": "Allies within attack range gain Defense +45 (+5)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -51576,8 +51576,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "黑恶魔的庇护",
-						"description": "攻击范围内的友方单位防御力+60",
+						"name": "Black Devil's Protection",
+						"description": "Allies within attack range gain Defense +60",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -51593,8 +51593,8 @@
 						},
 						"requiredPotentialRank": 5,
 						"prefabKey": "1",
-						"name": "黑恶魔的庇护",
-						"description": "攻击范围内的友方单位防御力+65<@ba.talpu>（+5）</>",
+						"name": "Black Devil's Protection",
+						"description": "Allies within attack range gain Defense +65 (+5)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -51614,8 +51614,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "2",
-						"name": "法典",
-						"description": "攻击速度+10",
+						"name": "Codex",
+						"description": "Attack speed +10",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -51631,8 +51631,8 @@
 						},
 						"requiredPotentialRank": 2,
 						"prefabKey": "2",
-						"name": "法典",
-						"description": "攻击速度+13<@ba.talpu>（+3）</>",
+						"name": "Codex",
+						"description": "Attack speed +13 (+3)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -51888,7 +51888,7 @@
 	},
 	"char_179_cgbird": {
 		"name": "夜莺",
-		"description": "<@sizedown>Heal up to 3 friendly unit at once</>",
+		"description": "<size=15>Heal up to 3 friendly unit at once</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_179_cgbird",
 		"team": 9,
@@ -51898,7 +51898,7 @@
 		"position": "Ranged",
 		"tagList": [
 			"Healing\n",
-			"Supporting\n"
+			"Supporting"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "萨卡兹医师夜莺，竭尽所能为小队提供医疗支援。",
@@ -52365,8 +52365,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "白恶魔的庇护",
-						"description": "攻击范围内的友方单位法术抗性+5",
+						"name": "White Devil's Protection",
+						"description": "Allies within attack range gain Magic resistance +5",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -52382,8 +52382,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "白恶魔的庇护",
-						"description": "攻击范围内的友方单位法术抗性+7<@ba.talpu>（+2）</>",
+						"name": "White Devil's Protection",
+						"description": "Allies within attack range gain Magic resistance +7 (+2)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -52399,8 +52399,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "白恶魔的庇护",
-						"description": "攻击范围内的友方单位法术抗性+10",
+						"name": "White Devil's Protection",
+						"description": "Allies within attack range gain Magic resistance +10",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -52416,8 +52416,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "白恶魔的庇护",
-						"description": "攻击范围内的友方单位法术抗性+12<@ba.talpu>（+2）</>",
+						"name": "White Devil's Protection",
+						"description": "Allies within attack range gain Magic resistance +12 (+2)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -52433,8 +52433,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "白恶魔的庇护",
-						"description": "攻击范围内的友方单位法术抗性+15",
+						"name": "White Devil's Protection",
+						"description": "Allies within attack range gain Magic resistance +15",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -52450,8 +52450,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "白恶魔的庇护",
-						"description": "攻击范围内的友方单位法术抗性+17<@ba.talpu>（+2）</>",
+						"name": "White Devil's Protection",
+						"description": "Allies within attack range gain Magic resistance +17 (+2)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -52471,8 +52471,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "2",
-						"name": "转瞬即逝的幻影",
-						"description": "可以使用幻影。幻影无法攻击和阻挡敌人，拥有75法术抗性，30%的物理闪避，并且更容易吸引敌人的攻击，同时每秒损失3%的最大生命",
+						"name": "Ephemeral Phantom",
+						"description": "Able to use phantoms. Phantoms cannot attack or block enemies. They have 75 Magic resistance, 30% physical evasion and draw enemy attacks easily. Additionally, they lose 3% Max HP every second",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -52741,7 +52741,7 @@
 	},
 	"char_136_hsguma": {
 		"name": "星熊",
-		"description": "<@sizedown>Can block 3 enemies</>",
+		"description": "<size=15>Can block 3 enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_136_hsguma",
 		"team": 12,
@@ -52751,7 +52751,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Protection\n",
-			"DPS\n"
+			"  DPS  "
 		],
 		"displayLogo": "logo_lungmen",
 		"itemUsage": "龙门近卫局特别任务组干员星熊准备完毕，等待你的指示。",
@@ -53218,8 +53218,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "战术装甲",
-						"description": "获得12%的物理抵挡和法术抵挡",
+						"name": "Tactical Armor",
+						"description": "Gain 12% physical and magical block",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -53235,8 +53235,8 @@
 						},
 						"requiredPotentialRank": 2,
 						"prefabKey": "1",
-						"name": "战术装甲",
-						"description": "获得15%<@ba.talpu>（+3%）</>的物理抵挡和法术抵挡",
+						"name": "Tactical Armor",
+						"description": "Gain 15% (+3%) physical and magical block",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -53252,8 +53252,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "战术装甲",
-						"description": "获得25%的物理抵挡和法术抵挡",
+						"name": "Tactical Armor",
+						"description": "Gain 25% physical and magical block",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -53269,8 +53269,8 @@
 						},
 						"requiredPotentialRank": 2,
 						"prefabKey": "1",
-						"name": "战术装甲",
-						"description": "获得28%<@ba.talpu>（+3%）</>的物理抵挡和法术抵挡",
+						"name": "Tactical Armor",
+						"description": "Gain 28% (+3%) physical and magical block",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -53290,8 +53290,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "2",
-						"name": "特种作战策略",
-						"description": "所有友方【重装】职业干员的防御力提升6%",
+						"name": "Special Tactics",
+						"description": "When deployed, all ally 【Defender】 operatives gain Defense +6%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -53307,8 +53307,8 @@
 						},
 						"requiredPotentialRank": 5,
 						"prefabKey": "2",
-						"name": "特种作战策略",
-						"description": "所有友方【重装】职业干员的防御力提升8%<@ba.talpu>（+2%）</>",
+						"name": "Special Tactics",
+						"description": "When deployed, all ally 【Defender】 operatives gain Defense +8% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -53564,7 +53564,7 @@
 	},
 	"char_202_demkni": {
 		"name": "塞雷娅",
-		"description": "<@sizedown>Skills heal friendly unit</>",
+		"description": "<size=15>Skills heal friendly unit</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_202_demkni",
 		"team": 4,
@@ -53575,7 +53575,7 @@
 		"tagList": [
 			"Protection\n",
 			"Healing\n",
-			"Supporting\n"
+			"Supporting"
 		],
 		"displayLogo": "logo_rhine",
 		"itemUsage": "前莱茵生命研究员塞雷娅，将是防御与治疗并重的战场核心。",
@@ -54042,8 +54042,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "莱茵充能护服",
-						"description": "每在场上停留20秒，攻击力+2%，防御力+2%，最多叠加5层",
+						"name": "Rhine Chargeable Armor",
+						"description": "Every 20 seconds after deployment, Attack +2%, Defense +2%, stacks up to 5 layers",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -54071,8 +54071,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "莱茵充能护服",
-						"description": "每在场上停留20秒，攻击力+3%<@ba.talpu>（+1%）</>，防御力+3%<@ba.talpu>（+1%）</>，最多叠加5层",
+						"name": "Rhine Chargeable Armor",
+						"description": "Every 20 seconds after deployment, Attack +3% (+1%), Defense +3% (+1%), stacks up to 5 layers",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -54100,8 +54100,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "莱茵充能护服",
-						"description": "每在场上停留20秒，攻击力+5%，防御力+4%，最多叠加5层",
+						"name": "Rhine Chargeable Armor",
+						"description": "Every 20 seconds after deployment, Attack +5%, Defense +4%, stacks up to 5 layers",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -54129,8 +54129,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "莱茵充能护服",
-						"description": "每在场上停留20秒，攻击力+6%<@ba.talpu>（+1%）</>，防御力+5%<@ba.talpu>（+1%）</>，最多叠加5层",
+						"name": "Rhine Chargeable Armor",
+						"description": "Every 20 seconds after deployment, Attack +6% (+1%), Defense +5% (+1%), stacks up to 5 layers",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -54162,8 +54162,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "2",
-						"name": "精神回复",
-						"description": "每次回复友方单位生命值时额外回复该单位1点技力",
+						"name": "Spiritual Recovery",
+						"description": "When healing an ally, grant 1 SP to the target",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -54432,7 +54432,7 @@
 	},
 	"char_172_svrash": {
 		"name": "银灰",
-		"description": "<@sizedown>Can perform ranged attack\nHowever attack power will be reduced to 80%</>",
+		"description": "<size=15>Can perform ranged attack\nHowever attack power will be reduced to 80%</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_172_svrash",
 		"team": 6,
@@ -54441,8 +54441,8 @@
 		"appellation": "SilverAsh",
 		"position": "Melee",
 		"tagList": [
-			"DPS\n",
-			"Supporting\n"
+			"  DPS  \n",
+			"Supporting"
 		],
 		"displayLogo": "logo_kjerag",
 		"itemUsage": "喀兰贸易公司董事长，已与罗德岛签订合约，随时可以介入战场。",
@@ -54925,8 +54925,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "领袖",
-						"description": "攻击力+5%，所有干员的再部署时间-5%",
+						"name": "Leader",
+						"description": "Attack +5%, All operatives' redeployment time -5%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -54946,8 +54946,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "领袖",
-						"description": "攻击力+7%<@ba.talpu>（+2%）</>，所有干员的再部署时间-7%<@ba.talpu>（+2%）</>",
+						"name": "Leader",
+						"description": "Attack +7% (+2%), All operatives' redeployment time -7% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -54967,8 +54967,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "领袖",
-						"description": "攻击力+10%，所有干员的再部署时间-10%",
+						"name": "Leader",
+						"description": "Attack +10%, All operatives' redeployment time -10%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -54988,8 +54988,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "领袖",
-						"description": "攻击力+12%<@ba.talpu>（+2%）</>，所有干员的再部署时间-12%<@ba.talpu>（+2%）</>",
+						"name": "Leader",
+						"description": "Attack +12% (+2%), All operatives' redeployment time -12% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -55013,8 +55013,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "2",
-						"name": "鹰眼视觉",
-						"description": "攻击范围内敌人的隐匿效果失效",
+						"name": "Eagle Eye",
+						"description": "Enemies within attack range lose stealth status",
 						"rangeId": null,
 						"blackboard": []
 					}
@@ -55278,7 +55278,7 @@
 	},
 	"char_010_chen": {
 		"name": "陈",
-		"description": "<@sizedown>Regular attacks deal damage twice</>",
+		"description": "<size=15>Regular attacks deal damage twice</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_010_chen",
 		"team": 12,
@@ -55288,7 +55288,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Burst\n",
-			"DPS\n"
+			"  DPS  "
 		],
 		"displayLogo": "logo_lungmen",
 		"itemUsage": "龙门近卫局特别督察组组长陈，正依合约前来协助罗德岛的任务。",
@@ -55755,8 +55755,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "呵斥",
-						"description": "在场时每5秒回复全场友方角色1点攻击/受击技力",
+						"name": "Berate",
+						"description": "When deployed, recover 1 [On attack/When attacked] SP to all allies every 5 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -55776,8 +55776,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "呵斥",
-						"description": "在场时每4秒回复全场友方角色1点攻击/受击技力",
+						"name": "Berate",
+						"description": "When deployed, recover 1 [On attack/When attacked] SP to all allies every 4 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -55801,8 +55801,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "2",
-						"name": "持刀格斗术",
-						"description": "攻击力+5%，防御力+5%，物理闪避+10%",
+						"name": "Swordplay",
+						"description": "Attack +5%, Defense +5%, Physical evasion +10%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -55826,8 +55826,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "2",
-						"name": "持刀格斗术",
-						"description": "攻击力+6%<@ba.talpu>（+1%）</>，防御力+6%<@ba.talpu>（+1%）</>，物理闪避+13%<@ba.talpu>（+3%）</>",
+						"name": "Swordplay",
+						"description": "Attack +6% (+1%), Defense +6% (+1%), Physical evasion +13% (+3%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -57973,7 +57973,7 @@
 	},
 	"char_230_savage": {
 		"name": "暴行",
-		"description": "<@sizedown>Attack multiple enemies equal to block count</>",
+		"description": "<size=15>Attack multiple enemies equal to block count</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "",
 		"team": -1,
@@ -57983,7 +57983,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Splash\n",
-			"Burst\n"
+			"Burst"
 		],
 		"displayLogo": "logo_rim",
 		"itemUsage": "雷姆必拓所属近卫干员暴行，心里总是想着为你和阿米娅做些什么。",
@@ -58369,8 +58369,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "山谷",
-						"description": "周围四格中有两格以上的高地地形时攻击力和防御力+5%",
+						"name": "Valley",
+						"description": "When there are 2 or more high tiles among the 4 adjacent tiles, Attack and Defense +5%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -58394,8 +58394,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "山谷",
-						"description": "周围四格中有两格以上的高地地形时攻击力和防御力+10%",
+						"name": "Valley",
+						"description": "When there are 2 or more high tiles among the 4 adjacent tiles, Attack and Defense +10%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -58579,7 +58579,7 @@
 	},
 	"char_282_catap": {
 		"name": "空爆",
-		"description": "<@sizedown>Physical Splash Damage</>",
+		"description": "<size=15>Physical Splash Damage</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_282_catap",
 		"team": 19,
@@ -58588,7 +58588,7 @@
 		"appellation": "Catapult",
 		"position": "Ranged",
 		"tagList": [
-			"Splash\n"
+			"Splash"
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛狙击干员空爆，作为狙击干员，十分擅长对抗大批敌人。",
@@ -58732,8 +58732,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "轻量化",
-						"description": "自身部署费用-1",
+						"name": "Lightening",
+						"description": "Self deployment cost -1",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -59000,7 +59000,7 @@
 	},
 	"char_283_midn": {
 		"name": "月见夜",
-		"description": "<@sizedown>Can perform ranged attack\nHowever attack power will be reduced to 80%</>",
+		"description": "<size=15>Can perform ranged attack\nHowever attack power will be reduced to 80%</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_283_midn",
 		"team": 19,
@@ -59009,7 +59009,7 @@
 		"appellation": "Midnight",
 		"position": "Melee",
 		"tagList": [
-			"DPS\n"
+			"  DPS  "
 		],
 		"displayLogo": "logo_rhodes",
 		"itemUsage": "罗德岛近卫干员月见夜，将凭自己的剑术，对抗罗德岛的敌人。",
@@ -59169,8 +59169,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "要害瞄准·初级",
-						"description": "攻击时，10%几率当次攻击的攻击力提升至150%",
+						"name": "Weakpoint Aiming·Beginner",
+						"description": "When attacking, 10% chance to increase Attack to 150%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -59190,8 +59190,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "要害瞄准·初级",
-						"description": "攻击时，10%几率当次攻击的攻击力提升至160%<@ba.talpu>（+10%）</>",
+						"name": "Weakpoint Aiming·Beginner",
+						"description": "When attacking, 10% chance to increase Attack to 160% (+10%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -59211,8 +59211,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "要害瞄准·初级",
-						"description": "攻击时，20%几率当次攻击的攻击力提升至150%",
+						"name": "Weakpoint Aiming·Beginner",
+						"description": "When attacking, 20% chance to increase Attack to 150%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -59232,8 +59232,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "要害瞄准·初级",
-						"description": "攻击时，20%几率当次攻击的攻击力提升至160%<@ba.talpu>（+10%）</>",
+						"name": "Weakpoint Aiming·Beginner",
+						"description": "When attacking, 20% chance to increase Attack to 160% (+10%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -59491,7 +59491,7 @@
 	},
 	"char_137_brownb": {
 		"name": "猎蜂",
-		"description": "<@sizedown>Can block single enemies</>",
+		"description": "<size=15>Can block single enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_137_brownb",
 		"team": -1,
@@ -59500,7 +59500,7 @@
 		"appellation": "Beehunter",
 		"position": "Melee",
 		"tagList": [
-			"DPS\n"
+			"  DPS  "
 		],
 		"displayLogo": "logo_ursus",
 		"itemUsage": "罗德岛近卫干员猎蜂，将活用格斗技能痛击敌人。",
@@ -59886,8 +59886,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "竞技专注",
-						"description": "攻击相同目标时每次攻击可提高自身攻击力3%，最多可叠加5层。更换目标会失去之前叠加的效果",
+						"name": "Athletics Focus",
+						"description": "When attacking the same target, every attack increases Attack by 3%, stacking up to 5 layers. Changing targets will reset the effect",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -59907,8 +59907,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "竞技专注",
-						"description": "攻击相同目标时每次攻击可提高自身攻击力4%<@ba.talpu>（+1%）</>，最多可叠加5层。更换目标会失去之前叠加的效果",
+						"name": "Athletics Focus",
+						"description": "When attacking the same target, every attack increases Attack by 4% (+1%), stacking up to 5 layers. Changing targets will reset the effect",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -59928,8 +59928,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "竞技专注",
-						"description": "攻击相同目标时每次攻击可提高自身攻击力5%，最多可叠加5层。更换目标会失去之前叠加的效果",
+						"name": "Athletics Focus",
+						"description": "When attacking the same target, every attack increases Attack by 5%, stacking up to 5 layers. Changing targets will reset the effect",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -59949,8 +59949,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "竞技专注",
-						"description": "攻击相同目标时每次攻击可提高自身攻击力6%<@ba.talpu>（+1%）</>，最多可叠加5层。更换目标会失去之前叠加的效果",
+						"name": "Athletics Focus",
+						"description": "When attacking the same target, every attack increases Attack by 6% (+1%), stacking up to 5 layers. Changing targets will reset the effect",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -60208,7 +60208,7 @@
 	},
 	"char_164_nightm": {
 		"name": "夜魔",
-		"description": "<@sizedown>Spell damage</>",
+		"description": "<size=15>Spell damage</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_164_nightm",
 		"team": -1,
@@ -60217,9 +60217,9 @@
 		"appellation": "Nightmare",
 		"position": "Ranged",
 		"tagList": [
-			"DPS\n",
+			"  DPS  \n",
 			"Healing\n",
-			"Slow\n"
+			"  Slow  "
 		],
 		"displayLogo": "logo_victoria",
 		"itemUsage": "罗德岛术师干员夜魔，两种人格都愿意使用源石技艺为你提供援助。",
@@ -60605,8 +60605,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "表里人格",
-						"description": "装备技能1时获得20%的物理和法术闪避，装备技能2时获得+9%攻击力",
+						"name": "Dual Personality",
+						"description": "When equipping Skill 1, obtain 20% physical and magic evasion. When equipping Skill 2, Attack +9%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -60626,8 +60626,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "表里人格",
-						"description": "装备技能1时获得25%<@ba.talpu>（+5%）</>的物理和法术闪避，装备技能2时获得+12%<@ba.talpu>（+3%）</>攻击力",
+						"name": "Dual Personality",
+						"description": "When equipping Skill 1, obtain 25% (+5%) physical and magic evasion. When equipping Skill 2, Attack +12% (+3%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -60647,8 +60647,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "表里人格",
-						"description": "装备技能1时获得40%的物理和法术闪避，装备技能2时获得+15%攻击力",
+						"name": "Dual Personality",
+						"description": "When equipping Skill 1, obtain 40% physical and magic evasion. When equipping Skill 2, Attack +15%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -60668,8 +60668,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "表里人格",
-						"description": "装备技能1时获得45%<@ba.talpu>（+5%）</>的物理和法术闪避，装备技能2时获得+18%<@ba.talpu>（+3%）</>攻击力",
+						"name": "Dual Personality",
+						"description": "When equipping Skill 1, obtain 45% (+5%) physical and magic evasion. When equipping Skill 2, Attack +18% (+3%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -60932,7 +60932,7 @@
 	},
 	"char_220_grani": {
 		"name": "格拉尼",
-		"description": "<@sizedown>Obtain 1 cost on every kill\nFull cost refund on retreat</>",
+		"description": "<size=15>Obtain 1 cost on every kill\nFull cost refund on retreat</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_220_grani",
 		"team": -1,
@@ -60942,7 +60942,7 @@
 		"position": "Melee",
 		"tagList": [
 			"Cost Recovery\n",
-			"Protection\n"
+			"Protection"
 		],
 		"displayLogo": "logo_victoria",
 		"itemUsage": "罗德岛先锋干员、骑警格拉尼，将凭手中长枪，扫平战场上的一切阻碍。",
@@ -61344,8 +61344,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "骑警",
-						"description": "在场时，所有【先锋】职业干员获得10%的物理闪避",
+						"name": "Mounted Police",
+						"description": "When deployed, all 【Vanguard】 operatives gain 10% physical evasion",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -61361,8 +61361,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "骑警",
-						"description": "在场时，所有【先锋】职业干员获得15%<@ba.talpu>（+5%）</>的物理闪避",
+						"name": "Mounted Police",
+						"description": "When deployed, all 【Vanguard】 operatives gain 15% (+5%) physical evasion",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -61378,8 +61378,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "骑警",
-						"description": "在场时，所有【先锋】职业干员获得20%的物理闪避",
+						"name": "Mounted Police",
+						"description": "When deployed, all 【Vanguard】 operatives gain 20% physical evasion",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -61395,8 +61395,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "骑警",
-						"description": "在场时，所有【先锋】职业干员获得25%<@ba.talpu>（+5%）</>的物理闪避",
+						"name": "Mounted Police",
+						"description": "When deployed, all 【Vanguard】 operatives gain 25% (+5%) physical evasion",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -61655,7 +61655,7 @@
 	},
 	"char_263_skadi": {
 		"name": "斯卡蒂",
-		"description": "<@sizedown>Can block single enemies</>",
+		"description": "<size=15>Can block single enemies</size>",
 		"canUseGeneralPotentialItem": true,
 		"potentialItemId": "p_char_263_skadi",
 		"team": 15,
@@ -61664,8 +61664,8 @@
 		"appellation": "Skadi",
 		"position": "Melee",
 		"tagList": [
-			"DPS\n",
-			"Survival\n"
+			"  DPS  \n",
+			"Survival"
 		],
 		"displayLogo": "logo_abyssal",
 		"itemUsage": "赏金猎人斯卡蒂，循着潮汐前来吞没你的敌人。",
@@ -62132,8 +62132,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "深海掠食者",
-						"description": "所有【深海猎人】干员的攻击力+7%",
+						"name": "Deep Sea Predators",
+						"description": "All 【Abyssal Hunters】 operatives gain Attack +7%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -62149,8 +62149,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "深海掠食者",
-						"description": "所有【深海猎人】干员的攻击力+9%<@ba.talpu>（+2%）</>",
+						"name": "Deep Sea Predators",
+						"description": "All 【Abyssal Hunters】 operatives gain Attack +9% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -62166,8 +62166,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "1",
-						"name": "深海掠食者",
-						"description": "所有【深海猎人】干员的攻击力+14%",
+						"name": "Deep Sea Predators",
+						"description": "All 【Abyssal Hunters】 operatives gain Attack +14%",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -62183,8 +62183,8 @@
 						},
 						"requiredPotentialRank": 4,
 						"prefabKey": "1",
-						"name": "深海掠食者",
-						"description": "所有【深海猎人】干员的攻击力+16%<@ba.talpu>（+2%）</>",
+						"name": "Deep Sea Predators",
+						"description": "All 【Abyssal Hunters】 operatives gain Attack +16% (+2%)",
 						"rangeId": null,
 						"blackboard": [
 							{
@@ -62204,8 +62204,8 @@
 						},
 						"requiredPotentialRank": 0,
 						"prefabKey": "2",
-						"name": "迅捷出击",
-						"description": "自身再部署时间-10秒",
+						"name": "Swift Deployment",
+						"description": "Self redeploy time -10 seconds",
 						"rangeId": null,
 						"blackboard": [
 							{
