@@ -63,7 +63,7 @@ Object.keys(skillTable).forEach(element => {
         for(i=0;i<currskill.levels.length;i++){
             console.log(currskill.levels[i].name)
             currskill.levels[i].name = tlskill.name
-            currskill.levels[i].description = "<size=15>"+tlskill.desc[i]+"</size>\n      -"
+            currskill.levels[i].description = "<size=16>"+tlskill.desc[i]+"</size>"
         }
     }
 
