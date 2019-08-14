@@ -7,6 +7,7 @@ db.tags = JSON.parse(fs.readFileSync("../json/tl-tags.json","utf8"))
 db.talents = JSON.parse(fs.readFileSync("../json/ace/tl-talents.json","utf8"))
 db.skill = JSON.parse(fs.readFileSync("../json/ace/tl-skills.json","utf8"))
 db.riic = JSON.parse(fs.readFileSync("../json/dragonjet/riic.json","utf8"))
+db.riic2 = JSON.parse(fs.readFileSync("../json/ace/riic.json","utf8"))
 // const datapath = "../json/excel/"
 
 var characterTable = JSON.parse(fs.readFileSync("../json/excel/character_table.json","utf8"))
@@ -101,9 +102,15 @@ Object.keys(skillTable).forEach(element => {
 //building
 
 Object.keys(buildingData.buffs).forEach(element=>{
-    if(riicjson[element]){
+    if(db.riic2[element]){
+        buildingData.buffs[element].buffName = db.riic2[element].name
+        buildingData.buffs[element].description = db.riic2[element].desc
+    }
+    else if(riicjson[element]){
         buildingData.buffs[element].buffName = riicjson[element].name
         buildingData.buffs[element].description = riicjson[element].desc
+    }else{
+        riicjson[element]={name : "",desc : ""}
     }
 })
 
@@ -118,6 +125,11 @@ fs.writeFile(`../converted/skill_table.json`, JSON.stringify(skillTable, null, '
     }
 })
 fs.writeFile(`../converted/building_data.json`, JSON.stringify(buildingData, null, '\t'), function (err) {
+    if (err) {
+        return console.log(err);
+    }
+})
+fs.writeFile(`../converted/riic.json`, JSON.stringify(riicjson, null, '\t'), function (err) {
     if (err) {
         return console.log(err);
     }
