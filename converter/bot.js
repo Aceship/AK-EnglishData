@@ -6,11 +6,14 @@ db.attacktype = JSON.parse(fs.readFileSync("../json/tl-attacktype.json","utf8"))
 db.tags = JSON.parse(fs.readFileSync("../json/tl-tags.json","utf8"))
 db.talents = JSON.parse(fs.readFileSync("../json/ace/tl-talents.json","utf8"))
 db.skill = JSON.parse(fs.readFileSync("../json/ace/tl-skills.json","utf8"))
+db.riic = JSON.parse(fs.readFileSync("../json/dragonjet/riic.json","utf8"))
 // const datapath = "../json/excel/"
 
 var characterTable = JSON.parse(fs.readFileSync("../json/excel/character_table.json","utf8"))
 var skillTable = JSON.parse(fs.readFileSync("../json/excel/skill_table.json","utf8"))
+var buildingData = JSON.parse(fs.readFileSync("../json/excel/building_data.json","utf8"))
 
+var riicjson = {}
 
 Object.keys(characterTable).forEach(element => {
     var currchar = characterTable[element]
@@ -54,7 +57,34 @@ Object.keys(characterTable).forEach(element => {
             }
         }
     }
+
+    var currriic = buildingData.chars[element]
+    if(currriic){
+        var riictl = db.riic[element]
+        var riiclist = []
+        if(riictl){
+            for(i=0;i<currriic.buffChar.length;i++){
+                console.log(element)
+                console.log(currriic.buffChar[i])
+                for(j=0;j<currriic.buffChar[i].buffData.length;j++){
+                    riiclist.push(currriic.buffChar[i].buffData[j])
+                }
+                // if(!riicjson[currriic.buffChar[i].buffData[0].buffId]){
+                //     riicjson[currriic.buffChar[i].buffData[0].buffId]={name:riictl[i].name,desc:riictl[i].desc}
+                // }
+            }
+        }
+        if(riiclist.length>0){
+            for(i=0;i<riiclist.length;i++){
+                if(!riicjson[riiclist[i].buffId]){
+                    riicjson[riiclist[i].buffId] = {name:riictl[i].name,desc:riictl[i].desc}
+                }
+            }
+        }
+    }
 });
+
+// console.log(riicjson)
 
 Object.keys(skillTable).forEach(element => {
     var currskill = skillTable[element]
@@ -66,7 +96,15 @@ Object.keys(skillTable).forEach(element => {
             currskill.levels[i].description = "<size=16>"+tlskill.desc[i]+"</size>"
         }
     }
+})
 
+//building
+
+Object.keys(buildingData.buffs).forEach(element=>{
+    if(riicjson[element]){
+        buildingData.buffs[element].buffName = riicjson[element].name
+        buildingData.buffs[element].description = riicjson[element].desc
+    }
 })
 
 fs.writeFile(`../converted/character_table.json`, JSON.stringify(characterTable, null, '\t'), function (err) {
@@ -74,12 +112,16 @@ fs.writeFile(`../converted/character_table.json`, JSON.stringify(characterTable,
             return console.log(err);
         }
     })
-    fs.writeFile(`../converted/skill_table.json`, JSON.stringify(skillTable, null, '\t'), function (err) {
-        if (err) {
-            return console.log(err);
-        }
-    })
-
+fs.writeFile(`../converted/skill_table.json`, JSON.stringify(skillTable, null, '\t'), function (err) {
+    if (err) {
+        return console.log(err);
+    }
+})
+fs.writeFile(`../converted/building_data.json`, JSON.stringify(buildingData, null, '\t'), function (err) {
+    if (err) {
+        return console.log(err);
+    }
+})
 
 // var jbinary = require('jbinary')
 // if (process.argv.length <= 2) {
