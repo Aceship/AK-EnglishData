@@ -454,5 +454,33 @@
 	"dorm_rec_oneself[020]": {
 		"name": "Elegy",
 		"desc": "When stationed at a Dorm, self mood recovery per hour +1"
+	},
+	"power_rec_spd[040]": {
+		"name": "",
+		"desc": ""
+	},
+	"power_rec_spd[041]": {
+		"name": "",
+		"desc": ""
+	},
+	"manu_formula_spd[220]": {
+		"name": "",
+		"desc": ""
+	},
+	"workshop_formula_probability[101]": {
+		"name": "",
+		"desc": ""
+	},
+	"workshop_formula_probability[111]": {
+		"name": "",
+		"desc": ""
+	},
+	"train_spd&profession[140]": {
+		"name": "",
+		"desc": ""
+	},
+	"dorm_rec_single_P[000]": {
+		"name": "",
+		"desc": ""
 	}
 }
